@@ -1,5 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
+from collections import defaultdict
 
 # Your selected epg.pw channel IDs
 CHANNEL_IDS = [
