@@ -22,8 +22,11 @@ def merge_epg():
     root = ET.Element("tv")
 
     for cid in CHANNEL_IDS:
-        url = f"https://epg.pw/api/epg.xml?channel_id={cid}"
-        print(f"Downloading {cid} ...")
+        url = (
+            "https://epg.pw/api/epg.xml"
+            f"?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
+        )
+        print("Downloading:", url)
 
         try:
             r = requests.get(url, timeout=20)
