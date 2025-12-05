@@ -21,7 +21,7 @@ CHANNEL_IDS = [
     368366,    # 翡翠台
     368369,    # 明珠台
     368323,    # 娛樂新聞台
-    3494,      # TVB Xing He HD
+    3493,      # TVB Xing He HD
     368325,    # 千禧經典台
     410274,    # ViuTV
     410273,    # ViuTVsix
