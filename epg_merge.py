@@ -22,7 +22,7 @@ CHANNEL_IDS = [
     368369,    # 明珠台
     368323,    # 娛樂新聞台
     3493,      # TVB Xing He HD
-    n368325,    # 千禧經典台
+    3683255,    # 千禧經典台
     410274,    # ViuTV
     410273,    # ViuTVsix
     9204,      # Cartoon Netwrk
