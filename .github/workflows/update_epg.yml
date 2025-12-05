@@ -1,4 +1,4 @@
-name: Update EPG
+name: Merge EPG
 
 permissions:
 contents: write
