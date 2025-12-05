@@ -21,8 +21,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Show repo tree (debug)
+        run: |
+          pwd
+          ls -la
+          ls -la epg || true
+
       - name: Run EPG merge script
-        run: python epg/epg_merge.py
+        working-directory: epg
+        run: python epg_merge.py
 
       - name: Commit updated epg.xml
         run: |
