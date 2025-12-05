@@ -3,19 +3,42 @@ import xml.etree.ElementTree as ET
 
 # Your selected epg.pw channel IDs
 CHANNEL_IDS = [
+    370136,    # TV1
+    370135,    # TV2
+    369690,    # TV3
+    369635,    # NTV7
+    369693,    # TV9
     1122,      # 8TV
-    369594,    # Astro AOD 311
+    2124,      # Astro AOD 311
     2226,      # Astro AEC HD
     5106,      # Astro QJ
     1951,      # Astro Hua Hee Dai HD
-    143,       # iQIYI HD
-    1298,      # Celestial Movies / 天映频道
+    3290,      # iQIYI HD
+    1298,      # 天映频道
     368361,    # TVB Plus
-    368366,    # TVB Jade / 翡翠台
-    368369,    # TVB Pearl / 明珠台
+    369701,    # TVB Jade
+    368366,    # 翡翠台
+    368369,    # 明珠台
+    368323,    # 娛樂新聞台
+    3494,      # TVB Xing He HD
+    368325,    # 千禧經典台
     410274,    # ViuTV
     410273,    # ViuTVsix
-    5982,      # 美亞電影台
+    9204,      # Cartoon Netwrk
+    368348,    # 美亞電影台
+    456568,    # 東森洋片台
+    456564,    # 東森電影台
+    457361,    # 龍華電影HD
+    457314,    # 龍華偶像HD
+    457313,    # 龍華戲劇HD
+    457364,    # 龍華洋片HD
+    456572,    # 緯來育樂台
+    370139,    # 民視
+    457211,    # 台視HD
+    457213,    # 中視HD
+    457214,    # 華視HD
+    456533,    # 東森超視
+    460895,    # momo綜合台HD
 ]
 
 def merge_epg():
