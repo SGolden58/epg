@@ -25,10 +25,8 @@ jobs:
         run: |
           pwd
           ls -la
-          ls -la epg || true
 
       - name: Run EPG merge script
-        working-directory: epg
         run: python epg_merge.py
 
       - name: Commit updated epg.xml
