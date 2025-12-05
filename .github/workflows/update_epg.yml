@@ -1,7 +1,7 @@
 name: Merge EPG
 
 permissions:
-contents: write
+  contents: write
 
 on:
   schedule:
