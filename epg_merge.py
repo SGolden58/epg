@@ -12,7 +12,7 @@ CHANNEL_IDS = [
     1122,      # 8TV
     2124,      # Astro AOD 311
     2226,      # Astro AEC HD
-    5106,      # Astro QJ
+    399519,    # Astro QJ
     1951,      # Astro Hua Hee Dai HD
     3290,      # iQIYI HD
     1298,      # 天映频道
