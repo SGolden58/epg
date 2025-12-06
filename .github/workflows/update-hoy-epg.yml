@@ -2,7 +2,7 @@ name: Update HOY EPG
 
 on:
   schedule:
-    - cron: "0 16 * * 0"   # update every Monday
+    - cron: "0 16 * * 1"   # every hour
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
         run: pip install requests
 
       - name: Generate HOY EPG
-        run: python epg/hoy.py
+        run: python epg/hoy.py    # <--- FIXED!!!
 
       - name: Commit & Push
         run: |
