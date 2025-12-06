@@ -24,30 +24,27 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Show repo tree (debug)
-        run: |
-          pwd
-          ls -la
+      - name: List repo for debug
+        run: ls -la
 
       - name: Generate HOY EPG
         run: python hoy.py
 
-- name: Commit & push updated HOY EPG
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  run: |
-    git config user.name "github-actions"
-    git config user.email "github-actions@github.com"
+      - name: Commit & push updated HOY EPG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-    # Find hoy.xml anywhere in the repo
-    FILE=$(find . -name "hoy.xml" | head -n 1)
-    
-    if [ -z "$FILE" ]; then
-      echo "❌ hoy.xml not found, skipping commit"
-      exit 0
-    fi
+          FILE=$(find . -name "hoy.xml" | head -n 1)
 
-    echo "✅ Found hoy.xml at $FILE, adding to git"
-    git add "$FILE"
-    git commit -m "Auto-update HOY EPG" || echo "No changes to commit"
-    git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:refs/heads/main
+          if [ -z "$FILE" ]; then
+            echo "❌ hoy.xml not found, skipping commit"
+            exit 0
+          fi
+
+          echo "✅ Found hoy.xml at $FILE, adding to git"
+          git add "$FILE"
+          git commit -m "Auto-update HOY EPG" || echo "No changes to commit"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:refs/heads/main
