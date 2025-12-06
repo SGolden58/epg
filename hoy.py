@@ -1,101 +1,66 @@
-import asyncio
-from playwright.async_api import async_playwright
-from bs4 import BeautifulSoup
+import requests
 import datetime
+import json
+import re
+from datetime import timedelta, timezone
 
-KL_OFFSET = "+0800"
-
-CHANNELS = {
-    "HOY TV": "hoytv",
-    "HOY INFO": "hoyinfor",
-    "HOY NEWS": "hoynews"
-}
-
+# ---------- CONFIG ----------
+TZ = timezone(timedelta(hours=8))  # Kuala Lumpur timezone
 URL = "https://hoy.tv/program_guide"
 
-async def fetch_schedule():
-    print("Loading HOY website…")
+# Only these 3 channels with assigned numbers
+CHANNELS = {
+    "HOY INFO": {"id": "hoyinfor", "number": 76},
+    "HOY TV": {"id": "hoytv", "number": 77},
+    "HOY NEWS": {"id": "hoynews", "number": 78}
+}
 
-    async with async_playwright() as pw:
-        browser = await pw.chromium.launch(headless=True)
-        page = await browser.new_page()
-        await page.goto(URL, timeout=90000)
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "zh-HK,zh;q=0.9,en;q=0.8",
+    "Referer": "https://hoy.tv/"
+}
 
-        await page.wait_for_timeout(5000)  # allow JS to load
+OUTPUT_FILE = "hoy.xml"
+# ----------------------------
 
-        html = await page.content()
-        await browser.close()
-        return html
+def to_xml_time(timestr):
+    # Parse ISO datetime from HOY JSON
+    dt = datetime.datetime.fromisoformat(timestr)
+    # Convert to Kuala Lumpur timezone (UTC+8)
+    dt = dt.astimezone(TZ)
+    return dt.strftime("%Y%m%d%H%M%S %z")
 
+def extract_json(html):
+    pattern = r"programGuide\s*=\s*(\{.*?\});"
+    match = re.search(pattern, html, re.DOTALL)
+    if not match:
+        open("debug.html", "w", encoding="utf-8").write(html)
+        raise Exception("JSON NOT FOUND IN PAGE — debug.html saved")
+    return json.loads(match.group(1))
 
-def parse_schedule(html):
-    soup = BeautifulSoup(html, "html.parser")
+def build_epg():
+    r = requests.get(URL, headers=HEADERS, timeout=20)
+    r.raise_for_status()
+    data = extract_json(r.text)
 
-    xml = []
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<tv>']
 
-    for channel_name, channel_id in CHANNELS.items():
-        xml.append(f'''
-  <channel id="{channel_id}">
-    <display-name>{channel_name}</display-name>
-  </channel>
-''')
+    # Channels only: HOY INFO, HOY TV, HOY NEWS
+    for name, info in CHANNELS.items():
+        xml.append(f'  <channel id="{info["id"]}">')
+        xml.append(f'    <display-name>{name}</display-name>')
+        xml.append(f'    <number>{info["number"]}</number>')  # optional for Televizo
+        xml.append('  </channel>')
+        xml.append('')
 
-    tables = soup.select(".program-guide-table")
-
-    today = datetime.datetime.now()
-
-    for i, table in enumerate(tables):
-        day = today + datetime.timedelta(days=i)
-        date_str = day.strftime("%Y%m%d")
-
-        rows = table.select("tr")
-
-        for row in rows:
-            time_cell = row.select_one(".time")
-            title_cell = row.select_one(".title")
-
-            if not time_cell or not title_cell:
-                continue
-
-            start_time = time_cell.text.strip()
-            title = title_cell.text.strip()
-
-            try:
-                hour, minute = start_time.split(":")
-            except:
-                continue
-
-            start_dt = day.replace(hour=int(hour), minute=int(minute), second=0)
-            stop_dt = start_dt + datetime.timedelta(minutes=30)
-
-            start_str = start_dt.strftime("%Y%m%d%H%M%S") + " " + KL_OFFSET
-            stop_str = stop_dt.strftime("%Y%m%d%H%M%S") + " " + KL_OFFSET
-
-            channel_list = list(CHANNELS.values())
-            channel_id = channel_list[i % len(channel_list)]
-
-            xml.append(f'''
-  <programme start="{start_str}" stop="{stop_str}" channel="{channel_id}">
-    <title>{title}</title>
-  </programme>
-''')
-
-    return xml
-
-
-async def main():
-    html = await fetch_schedule()
-    xml_data = parse_schedule(html)
-
-    final = ['<?xml version="1.0" encoding="UTF-8"?>', '<tv>']
-    final.extend(xml_data)
-    final.append('</tv>')
-
-    with open("hoy.xml", "w", encoding="utf-8") as f:
-        f.write("\n".join(final))
-
-    print("EPG generated → hoy.xml")
-
-
-if __name__ == "__main__":
-    asyncio.run(main())
+    # Programs
+    for day in data.get("days", []):
+        for channel in day.get("channels", []):
+            cname = channel.get("name")
+            if cname not in CHANNELS:
+                continue  # skip all other channels
