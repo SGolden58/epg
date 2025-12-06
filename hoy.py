@@ -1,101 +1,64 @@
-import asyncio
-from playwright.async_api import async_playwright
-from bs4 import BeautifulSoup
+import requests
 import datetime
+from datetime import timedelta, timezone
 
-KL_OFFSET = "+0800"
+TZ = timezone(timedelta(hours=8))   # Kuala Lumpur timezone
+BASE_URL = "https://hoy.tv/api/program-guide?date="
 
-CHANNELS = {
+CHANNEL_MAP = {
     "HOY TV": "hoytv",
     "HOY INFO": "hoyinfor",
     "HOY NEWS": "hoynews"
 }
 
-URL = "https://hoy.tv/program_guide"
+def fetch_day(date_str):
+    url = BASE_URL + date_str
+    r = requests.get(url, timeout=20)
+    r.raise_for_status()
+    return r.json()
 
-async def fetch_schedule():
-    print("Loading HOY website…")
+def to_xml_time(dt_str):
+    # dt_str: "2024-12-01T08:00:00+08:00"
+    dt = datetime.datetime.fromisoformat(dt_str)
+    return dt.strftime("%Y%m%d%H%M%S %z")
 
-    async with async_playwright() as pw:
-        browser = await pw.chromium.launch(headless=True)
-        page = await browser.new_page()
-        await page.goto(URL, timeout=90000)
-
-        await page.wait_for_timeout(5000)  # allow JS to load
-
-        html = await page.content()
-        await browser.close()
-        return html
-
-
-def parse_schedule(html):
-    soup = BeautifulSoup(html, "html.parser")
+def build_epg():
+    today = datetime.datetime.now(TZ).date()
+    days = [(today + timedelta(days=i)).isoformat() for i in range(7)]
 
     xml = []
+    xml.append('<?xml version="1.0" encoding="UTF-8"?>')
+    xml.append('<tv>')
 
-    for channel_name, channel_id in CHANNELS.items():
-        xml.append(f'''
-  <channel id="{channel_id}">
-    <display-name>{channel_name}</display-name>
-  </channel>
-''')
+    # channels
+    for name, cid in CHANNEL_MAP.items():
+        xml.append(f'  <channel id="{cid}">')
+        xml.append(f'    <display-name>{name}</display-name>')
+        xml.append(f'  </channel>')
+        xml.append("")
 
-    tables = soup.select(".program-guide-table")
-
-    today = datetime.datetime.now()
-
-    for i, table in enumerate(tables):
-        day = today + datetime.timedelta(days=i)
-        date_str = day.strftime("%Y%m%d")
-
-        rows = table.select("tr")
-
-        for row in rows:
-            time_cell = row.select_one(".time")
-            title_cell = row.select_one(".title")
-
-            if not time_cell or not title_cell:
+    # programmes
+    for d in days:
+        data = fetch_day(d)
+        for ch in data.get("channels", []):
+            ch_name = ch.get("name")
+            ch_id = CHANNEL_MAP.get(ch_name)
+            if not ch_id:
                 continue
 
-            start_time = time_cell.text.strip()
-            title = title_cell.text.strip()
+            for item in ch.get("programme", []):
+                start = to_xml_time(item["start"])
+                end = to_xml_time(item["end"])
+                title = item["title"].replace("&", "&amp;")
 
-            try:
-                hour, minute = start_time.split(":")
-            except:
-                continue
+                xml.append(f'  <programme start="{start}" stop="{end}" channel="{ch_id}">')
+                xml.append(f'    <title>{title}</title>')
+                xml.append("  </programme>")
 
-            start_dt = day.replace(hour=int(hour), minute=int(minute), second=0)
-            stop_dt = start_dt + datetime.timedelta(minutes=30)
+    xml.append("</tv>")
 
-            start_str = start_dt.strftime("%Y%m%d%H%M%S") + " " + KL_OFFSET
-            stop_str = stop_dt.strftime("%Y%m%d%H%M%S") + " " + KL_OFFSET
-
-            channel_list = list(CHANNELS.values())
-            channel_id = channel_list[i % len(channel_list)]
-
-            xml.append(f'''
-  <programme start="{start_str}" stop="{stop_str}" channel="{channel_id}">
-    <title>{title}</title>
-  </programme>
-''')
-
-    return xml
-
-
-async def main():
-    html = await fetch_schedule()
-    xml_data = parse_schedule(html)
-
-    final = ['<?xml version="1.0" encoding="UTF-8"?>', '<tv>']
-    final.extend(xml_data)
-    final.append('</tv>')
-
-    with open("hoy.xml", "w", encoding="utf-8") as f:
-        f.write("\n".join(final))
-
-    print("EPG generated → hoy.xml")
-
+    with open("epg/hoy.xml", "w", encoding="utf-8") as f:
+        f.write("\n".join(xml))
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    build_epg()
