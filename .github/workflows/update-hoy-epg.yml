@@ -22,7 +22,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests
+        run: 
+          pip install requests playwright
+          playwright install chromium
 
       - name: List repo for debug
         run: ls -la
