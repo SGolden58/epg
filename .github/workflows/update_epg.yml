@@ -44,7 +44,7 @@ jobs:
 
   cleanup:
     runs-on: ubuntu-latest
-    needs: build
+    needs: update
     steps:
       - name: Delete old workflow runs (keep latest 3)
         env:
