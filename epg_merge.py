@@ -22,7 +22,7 @@ CHANNEL_IDS = [
     368369,    # 明珠台
     368323,    # 娛樂新聞台
     3493,      # TVB Xing He HD
-    368325,    # 千
+    368325,    # 千禧經典台
     410274,    # ViuTV
     410273,    # ViuTVsix
     9204,      # Cartoon Netwrk
@@ -40,6 +40,7 @@ CHANNEL_IDS = [
     457214,    # 華視HD
     456533,    # 東森超視
     460895,    # momo綜合台HD
+    369718,    # TVBS Asia
 ]
 
 def merge_epg():
