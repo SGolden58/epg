@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 */6 * * *"    # update every 6 hours
+    - cron: "1 16 * * *"    # every day at 00:01 MYT (16:01 UTC)
   workflow_dispatch:
 
 jobs:
