@@ -2,7 +2,7 @@ name: Update HOY EPG
 
 on:
   schedule:
-    - cron: "0 16 * * 1"   # every hour
+    - cron: '1 16 * * 0'  # Every Monday 0:01am
   workflow_dispatch:
 
 jobs:
