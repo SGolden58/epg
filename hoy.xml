@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+
+  <channel id="hoytv">
+    <display-name>HOY TV</display-name>
+  </channel>
+
+
+  <channel id="hoyinfor">
+    <display-name>HOY INFO</display-name>
+  </channel>
+
+
+  <channel id="hoynews">
+    <display-name>HOY NEWS</display-name>
+  </channel>
+
+</tv>
