@@ -5,12 +5,14 @@
     <display-name>HOY TV</display-name>
   </channel>
 
+
   <channel id="hoyinfor">
-    <display-name>HOY Info</display-name>
+    <display-name>HOY INFO</display-name>
   </channel>
 
+
   <channel id="hoynews">
-    <display-name>HOY News</display-name>
+    <display-name>HOY NEWS</display-name>
   </channel>
 
 </tv>
