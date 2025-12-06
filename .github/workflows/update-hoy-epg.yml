@@ -22,12 +22,12 @@ jobs:
         run: pip install requests
 
       - name: Generate HOY EPG
-        run: python epg/hoy.py    # <--- FIXED!!!
+        run: python hoy.py    # <--- FIXED (NO epg/)
 
       - name: Commit & Push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add epg/hoy.xml
+          git add hoy.xml
           git commit -m "Update HOY EPG" || echo "No changes"
           git push
