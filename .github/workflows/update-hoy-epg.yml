@@ -36,15 +36,11 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
-          FILE=$(find . -name "hoy.xml" | head -n 1)
-
+          FILE=$(find . -maxdepth 2 -type f -name "hoy.xml" | head -n 1)
           if [ -z "$FILE" ]; then
-            echo "❌ hoy.xml not found, skipping commit"
+            echo "❌ hoy.xml not found — skip commit"
             exit 0
           fi
-
-          echo "✅ Found hoy.xml at $FILE, adding to git"
           git add "$FILE"
-          git commit -m "Auto-update HOY EPG" || echo "No changes to commit"
+          git commit -m "Auto‑update HOY EPG" || echo "No changes"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:refs/heads/main
