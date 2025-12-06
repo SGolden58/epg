@@ -1,11 +1,8 @@
 name: Update HOY EPG
 
-permissions:
-  contents: write
-
 on:
   schedule:
-    - cron: '1 16 * * 0'  # Every Monday 0:01am
+    - cron: "0 16 * * 0"   # update every Monday
   workflow_dispatch:
 
 jobs:
@@ -13,24 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Install Python
-        uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Install Playwright
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate HOY EPG
+        run: python epg/hoy.py
+
+      - name: Commit & Push
         run: |
-          pip install playwright bs4
-          playwright install chromium
-
-      - name: Generate EPG
-        run: python3 hoy.py
-
-      - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Auto update HOY EPG"
-          file_pattern: hoy.xml
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add epg/hoy.xml
+          git commit -m "Update HOY EPG" || echo "No changes"
+          git push
