@@ -10,24 +10,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install requests
+      - name: Install Python deps
+        run: pip install requests playwright
 
-      - name: Generate HOY EPG
-        run: python hoy.py    # <--- FIXED (NO epg/)
+      - name: Install Playwright browsers
+        run: |
+          python -c "import playwright, sys; print('playwright', playwright)"
+          playwright install chromium
 
-      - name: Commit & Push
+      - name: Run HOY EPG generator
+        run: python hoy.py
+
+      - name: Commit & push updated EPG
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add hoy.xml
-          git commit -m "Update HOY EPG" || echo "No changes"
-          git push
+          git add hoy.xml || true
+          git commit -m "Auto update HOY EPG" || echo "No changes to commit"
+          git push || echo "Push failed"
