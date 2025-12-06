@@ -1,9 +1,12 @@
 import requests
 import datetime
+import json
+import re
 from datetime import timedelta, timezone
 
-TZ = timezone(timedelta(hours=8))   # Kuala Lumpur timezone
-BASE_URL = "https://hoy.tv/api/program-guide?date="
+TZ = timezone(timedelta(hours=8))
+
+URL = "https://hoy.tv/program_guide"
 
 CHANNEL_MAP = {
     "HOY TV": "hoytv",
@@ -11,20 +14,26 @@ CHANNEL_MAP = {
     "HOY NEWS": "hoynews"
 }
 
-def fetch_day(date_str):
-    url = BASE_URL + date_str
-    r = requests.get(url, timeout=20)
-    r.raise_for_status()
-    return r.json()
+def extract_json(html):
+    """
+    Extract embedded programGuide JSON from the page.
+    """
+    pattern = r"programGuide\s*=\s*(\{.*?\});"
+    match = re.search(pattern, html, re.DOTALL)
+    if not match:
+        raise Exception("JSON NOT FOUND IN PAGE")
+    return json.loads(match.group(1))
 
-def to_xml_time(dt_str):
-    # dt_str: "2024-12-01T08:00:00+08:00"
-    dt = datetime.datetime.fromisoformat(dt_str)
+def to_xml_time(timestr):
+    # timestr format: 2025-12-07T08:00:00+08:00
+    dt = datetime.datetime.fromisoformat(timestr)
     return dt.strftime("%Y%m%d%H%M%S %z")
 
 def build_epg():
-    today = datetime.datetime.now(TZ).date()
-    days = [(today + timedelta(days=i)).isoformat() for i in range(7)]
+    r = requests.get(URL, timeout=20)
+    r.raise_for_status()
+
+    data = extract_json(r.text)
 
     xml = []
     xml.append('<?xml version="1.0" encoding="UTF-8"?>')
@@ -34,30 +43,29 @@ def build_epg():
     for name, cid in CHANNEL_MAP.items():
         xml.append(f'  <channel id="{cid}">')
         xml.append(f'    <display-name>{name}</display-name>')
-        xml.append(f'  </channel>')
-        xml.append("")
+        xml.append('  </channel>')
+        xml.append('')
 
-    # programmes
-    for d in days:
-        data = fetch_day(d)
-        for ch in data.get("channels", []):
-            ch_name = ch.get("name")
-            ch_id = CHANNEL_MAP.get(ch_name)
-            if not ch_id:
+    # schedule
+    for day in data.get("days", []):
+        for channel in day.get("channels", []):
+            cname = channel.get("name")
+            cid = CHANNEL_MAP.get(cname)
+            if not cid:
                 continue
 
-            for item in ch.get("programme", []):
+            for item in channel.get("programme", []):
                 start = to_xml_time(item["start"])
-                end = to_xml_time(item["end"])
+                stop = to_xml_time(item["end"])
                 title = item["title"].replace("&", "&amp;")
 
-                xml.append(f'  <programme start="{start}" stop="{end}" channel="{ch_id}">')
+                xml.append(f'  <programme start="{start}" stop="{stop}" channel="{cid}">')
                 xml.append(f'    <title>{title}</title>')
-                xml.append("  </programme>")
+                xml.append('  </programme>')
 
     xml.append("</tv>")
 
-    with open("epg/hoy.xml", "w", encoding="utf-8") as f:
+    with open("hoy.xml", "w", encoding="utf-8") as f:
         f.write("\n".join(xml))
 
 if __name__ == "__main__":
