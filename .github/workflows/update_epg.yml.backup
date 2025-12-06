@@ -41,3 +41,26 @@ jobs:
           git add -A
           git commit -m "EPG auto-update" || exit 0
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+
+  cleanup:
+    runs-on: ubuntu-latest
+    needs: update
+    steps:
+      - name: Delete old workflow runs (keep latest 3)
+        env:
+          GH_TOKEN: ${{ secrets.EPG_CLEANUP }}
+          OWNER: SGolden58
+          REPO: epg
+        run: |
+          echo "Fetching all workflow runs..."
+          runs=$(gh api --paginate "/repos/$OWNER/$REPO/actions/runs" --jq '.workflow_runs | sort_by(.created_at) | reverse | .[].id')
+          count=0
+          for run_id in $runs; do
+            count=$((count+1))
+            if [ $count -gt 3 ]; then
+              echo "🗑️ Deleting workflow run ID: $run_id"
+              gh api -X DELETE "/repos/$OWNER/$REPO/actions/runs/$run_id"
+              sleep 1
+            fi
+          done
+          echo "✅ Deleted all but latest 3 runs."
