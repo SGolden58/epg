@@ -57,10 +57,10 @@ jobs:
           count=0
           for run_id in $runs; do
             count=$((count+1))
-            if [ $count -gt 3 ]; then
+            if [ $count -gt 6 ]; then
               echo "🗑️ Deleting workflow run ID: $run_id"
               gh api -X DELETE "/repos/$OWNER/$REPO/actions/runs/$run_id"
               sleep 1
             fi
           done
-          echo "✅ Deleted all but latest 3 runs."
+          echo "✅ Deleted all but latest 6 runs."
