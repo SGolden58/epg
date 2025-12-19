@@ -15,7 +15,7 @@ CHANNEL_IDS = [
     399519,    # Astro QJ
     1951,      # Astro Hua Hee Dai HD
     3290,      # iQIYI HD
-    171999,    # 天映频道
+    1298,    # 天映频道
     368361,    # TVB Plus
     369701,    # TVB Jade
     369805,    # TVB Jade(SG)
