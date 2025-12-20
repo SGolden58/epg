@@ -44,6 +44,11 @@ CHANNEL_IDS = [
     456533,    # 東森超視
     456578,    # momo綜合台
     369718,    # TVBS Asia
+    456566,    # 龍祥時代電影台
+    456574,    # CINEMAX
+    456570,    # 好萊塢電影台
+    457372,    # Catchplay HD電影台
+    456569,    # AXN台灣台
 ]
 
 def merge_epg():
