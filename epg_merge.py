@@ -15,7 +15,7 @@ CHANNEL_IDS = [
     399519,    # Astro QJ
     1951,      # Astro Hua Hee Dai HD
     3290,      # iQIYI HD
-    1298,    # 天映频道
+    1298,      # 天映频道
     368361,    # TVB Plus
     369701,    # TVB Jade
     369805,    # TVB Jade(SG)
@@ -27,7 +27,7 @@ CHANNEL_IDS = [
     368325,    # 千禧經典台
     410274,    # ViuTV
     410273,    # ViuTVsix
-    9204,      # Cartoon Netwrk
+    486843,    # Cartoon Netwrk
     368348,    # 美亞電影台
     456568,    # 東森洋片台
     456564,    # 東森電影台
