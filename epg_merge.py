@@ -27,7 +27,8 @@ CHANNEL_IDS = [
     368325,    # 千禧經典台
     410274,    # ViuTV
     410273,    # ViuTVsix
-    486843,    # Cartoon Netwrk
+    486843,    # Cartoon Netwrk (UK)
+    3403,      # Cartoon Netwrk (Astro)
     368348,    # 美亞電影台
     456567,    # HBO
     456568,    # 東森洋片台
