@@ -15,17 +15,10 @@ class HOYPlatform:
             channels = []
             for raw in data.get('data', []):
                 api_id = str(raw.get('id'))
-                
-                # Corrected Mapping as requested:
-                if api_id == "1":
-                    m3u_id = "76"
-                elif api_id == "2":
-                    m3u_id = "77"
-                elif api_id == "3":
-                    m3u_id = "78"
-                else:
-                    m3u_id = api_id
-
+                if api_id == "1": m3u_id = "76"
+                elif api_id == "2": m3u_id = "77"
+                elif api_id == "3": m3u_id = "78"
+                else: m3u_id = api_id
                 channels.append({"id": m3u_id, "epg": raw.get('epg')})
             return channels
         except:
@@ -42,12 +35,24 @@ class HOYPlatform:
                 for item in root.findall('.//EpgItem'):
                     start_str = item.findtext('EpgStartDateTime')
                     end_str = item.findtext('EpgEndDateTime')
-                    title = item.find('EpisodeInfo').findtext('EpisodeShortDescription')
+                    
+                    # Get Title and Description
+                    ep_info = item.find('EpisodeInfo')
+                    title = ep_info.findtext('EpisodeShortDescription')
+                    desc = ep_info.findtext('EpisodeLongDescription')
                     
                     start = kl_tz.localize(datetime.strptime(start_str, "%Y-%m-%d %H:%M:%S"))
                     end = kl_tz.localize(datetime.strptime(end_str, "%Y-%m-%d %H:%M:%S"))
+                    prog_date = start.strftime("%Y-%m-%d")
                     
-                    prog = type('Prog', (), {'channel_id': ch['id'], 'title': title, 'start_time': start, 'end_time': end})
+                    prog = type('Prog', (), {
+                        'channel_id': ch['id'], 
+                        'title': title, 
+                        'desc': desc,
+                        'date': prog_date,
+                        'start_time': start, 
+                        'end_time': end
+                    })
                     all_progs.append(prog)
             except: continue
         return all_progs
