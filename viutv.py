@@ -11,11 +11,11 @@ class ViuTVPlatform:
 
     async def fetch_all_programs(self, days=2):
         all_programs = []
-        # Mapping Open-EPG IDs to your IDs
-        # Open-EPG uses 'ViuTV' and 'ViuTVsix'
+        # Mapping Open-EPG numeric IDs to your IDs
+        # In hongkong4.xml: ViuTV is "99", ViuTVsix is "96"
         target_map = {
-            "ViuTV": "099",
-            "ViuTVsix": "096"
+            "99": "099",
+            "96": "096"
         }
         
         try:
@@ -24,18 +24,19 @@ class ViuTVPlatform:
             if response.status_code == 200:
                 root = ET.fromstring(response.content)
                 
+                found_count = 0
                 for prog in root.findall('programme'):
                     channel_attr = prog.get('channel', '')
                     
                     if channel_attr in target_map:
                         ch_id = target_map[channel_attr]
+                        found_count += 1
                         
-                        # Parse times: 20240520103000 +0800
+                        # Parse times: 20260718053000 +0800
                         start_attr = prog.get('start')
                         stop_attr = prog.get('stop')
                         
                         if start_attr and stop_attr:
-                            # Extract YYYYMMDDHHMMSS
                             s_match = re.search(r'(\d{14})', start_attr)
                             e_match = re.search(r'(\d{14})', stop_attr)
                             
@@ -44,7 +45,6 @@ class ViuTVPlatform:
                                 # Open-EPG is in HK time (+0800)
                                 hk_tz = pytz.timezone('Asia/Hong_Kong')
                                 
-                                # Parse as HK time then convert to UTC
                                 start_dt = hk_tz.localize(datetime.strptime(s_match.group(1), fmt))
                                 end_dt = hk_tz.localize(datetime.strptime(e_match.group(1), fmt))
 
@@ -56,18 +56,18 @@ class ViuTVPlatform:
                                     'end': end_dt.astimezone(pytz.UTC)
                                 })
                 
-                print(f"Successfully found {len(all_programs)} programs from Open-EPG.")
+                print(f"Successfully found {found_count} programs from Open-EPG.")
         except Exception as e:
             print(f"Open-EPG fetch failed: {e}")
 
-        # Final Fallback
+        # Final Fallback - Only if the list is still empty
         if not all_programs:
             now = datetime.now(pytz.UTC)
             for cid in ["099", "096"]:
                 all_programs.append({
                     'channel_id': cid,
                     'title': "ViuTV Schedule",
-                    'desc': "Loading from Open-EPG...",
+                    'desc': "Check Open-EPG source",
                     'start': now,
                     'end': now + timedelta(hours=12)
                 })
