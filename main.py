@@ -20,8 +20,8 @@ CUSTOM_CHANNELS = {
     "76": {"name": "HOY 76", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
     "77": {"name": "HOY 77", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
     "78": {"name": "HOY 78", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
-    "099": {"name": "ViuTV 99", "logo": "https://m3u.hk/logo/viutv.png"},
-    "096": {"name": "ViuTVsix 96", "logo": "https://m3u.hk/logo/viutvsix.png"}
+    "099": {"name": "ViuTV", "logo": "https://m3u.hk/logo/viutv.png"},
+    "096": {"name": "ViuTVsix", "logo": "https://m3u.hk/logo/viutvsix.png"}
 }
 
 def add_custom_section(root, ch_id, progs):
