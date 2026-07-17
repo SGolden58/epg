@@ -10999,18 +10999,18 @@
     <display-name lang="Malaysia">ViuTV 99</display-name>
     <icon src="https://m3u.hk/logo/viutv.png" />
   </channel>
-  <programme channel="099" start="20260717215034 +0000" stop="20260718095034 +0000">
+  <programme channel="099" start="20260717215434 +0000" stop="20260718095434 +0000">
     <title lang="zh">ViuTV Schedule</title>
-    <desc lang="zh">Schedule currently being synchronized</desc>
+    <desc lang="zh">Loading from Open-EPG...</desc>
     <date>2026-07-17</date>
   </programme>
   <channel id="096">
     <display-name lang="Malaysia">ViuTVsix 96</display-name>
     <icon src="https://m3u.hk/logo/viutvsix.png" />
   </channel>
-  <programme channel="096" start="20260717215034 +0000" stop="20260718095034 +0000">
+  <programme channel="096" start="20260717215434 +0000" stop="20260718095434 +0000">
     <title lang="zh">ViuTV Schedule</title>
-    <desc lang="zh">Schedule currently being synchronized</desc>
+    <desc lang="zh">Loading from Open-EPG...</desc>
     <date>2026-07-17</date>
   </programme>
   <channel id="370136">
