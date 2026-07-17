@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as ET
 import requests
 import asyncio
-from datetime import datetime
 from hoy import HOYPlatform 
 from viutv import ViuTVPlatform
 
@@ -23,12 +22,37 @@ def create_xml_element(root, channel_id, title, start, end, desc=""):
         "channel": str(channel_id)
     })
     ET.SubElement(prog, "title", {"lang": "zh"}).text = title
-    ET.SubElement(prog, "desc", {"lang": "zh"}).text = desc
+    if desc:
+        ET.SubElement(prog, "desc", {"lang": "zh"}).text = desc
 
-async def main():
+async def run_all():
     root = ET.Element("tv")
 
-    # 1. epg.pw
+    # 1. HOY TV (ID: 77)
+    print("Starting HOY TV...")
+    try:
+        hoy = HOYPlatform()
+        ch_list = await hoy.fetch_channels()
+        progs = await hoy.fetch_programs(ch_list)
+        for p in progs:
+            create_xml_element(root, p.channel_id, p.title, p.start_time, p.end_time)
+        print(f"Added HOY programs.")
+    except Exception as e:
+        print(f"HOY Error: {e}")
+
+    # 2. ViuTV (IDs: 099, 096)
+    print("Starting ViuTV...")
+    try:
+        viu = ViuTVPlatform()
+        viu_progs = await viu.fetch_all_programs(days=2)
+        for p in viu_progs:
+            create_xml_element(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'])
+        print(f"Added ViuTV programs.")
+    except Exception as e:
+        print(f"ViuTV Error: {e}")
+
+    # 3. epg.pw (The others)
+    print("Starting epg.pw...")
     for cid in CHANNEL_IDS:
         url = f"https://epg.pw/api/epg.xml?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
         try:
@@ -37,28 +61,12 @@ async def main():
                 temp_xml = ET.fromstring(r.content)
                 for child in temp_xml:
                     root.append(child)
-        except: pass
-
-    # 2. HOY TV
-    try:
-        hoy = HOYPlatform()
-        hoy_ch = await hoy.fetch_channels()
-        hoy_pr = await hoy.fetch_programs(hoy_ch)
-        for p in hoy_pr:
-            create_xml_element(root, p.channel_id, p.title, p.start_time, p.end_time)
-    except: pass
-
-    # 3. ViuTV
-    try:
-        viu = ViuTVPlatform()
-        viu_pr = await viu.fetch_all_programs(days=2)
-        for p in viu_pr:
-            create_xml_element(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'])
-    except: pass
+        except:
+            continue
 
     tree = ET.ElementTree(root)
     tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
-    print("DONE: epg.xml created with IDs 77, 099, 096 included.")
+    print("epg.xml successfully written.")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(run_all())
