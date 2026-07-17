@@ -1,76 +1,64 @@
 import requests
-from datetime import datetime, timedelta
+import xml.etree.ElementTree as ET
+from datetime import datetime
 import pytz
 
 class ViuTVPlatform:
     def __init__(self):
-        # This is the web player's schedule API, which is usually less restricted
-        self.url = "https://api.viu.now.com/p8/2/get_program_details"
-        self.headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            "Referer": "https://viutv.hk/",
-            "Origin": "https://viutv.hk"
-        }
+        # Use a reliable XML mirror instead of the blocked API
+        self.url = "https://epg.pw/xmltv/hk.xml"
 
     async def fetch_all_programs(self, days=2):
         all_programs = []
-        # Map your channel IDs to their internal API IDs
-        # 99 -> ViuTV, 96 -> ViuTVsix
-        channels = {"099": "99", "096": "96"}
+        # Map the mirror's IDs to your IDs
+        # epg.pw uses 'ViuTV.hk' and 'ViuTVsix.hk'
+        target_map = {
+            "ViuTV.hk": "099",
+            "ViuTVsix.hk": "096"
+        }
         
-        tz = pytz.timezone('Asia/Hong_Kong')
-        now = datetime.now(tz)
-        
-        for i in range(days):
-            # Format: YYYYMMDD
-            date_str = (now + timedelta(days=i)).strftime("%Y%m%d")
-            
-            for ch_id, api_id in channels.items():
-                params = {
-                    "ch_id": api_id,
-                    "day": date_str,
-                    "caller": "web"
-                }
-                try:
-                    print(f"Fetching ViuTV {ch_id} for {date_str}...")
-                    response = requests.get(self.url, params=params, headers=self.headers, timeout=15)
-                    
-                    if response.status_code == 200:
-                        json_data = response.json()
-                        # This API returns programs in the 'data' field
-                        programs = json_data.get('data', [])
+        try:
+            print("Fetching ViuTV data from mirror...")
+            response = requests.get(self.url, timeout=30)
+            if response.status_code == 200:
+                root = ET.fromstring(response.content)
+                
+                for prog in root.findall('programme'):
+                    mirror_id = prog.get('channel')
+                    if mirror_id in target_map:
+                        ch_id = target_map[mirror_id]
                         
-                        if programs and isinstance(programs, list):
-                            print(f"Found {len(programs)} programs for {ch_id}")
-                            for prog in programs:
-                                # This API uses seconds for start_time/end_time
-                                s_ts = int(prog.get('start_time', 0))
-                                e_ts = int(prog.get('end_time', 0))
-                                
-                                if s_ts > 0:
-                                    all_programs.append({
-                                        'channel_id': ch_id,
-                                        'title': prog.get('title', 'No Title'),
-                                        'desc': prog.get('synopsis', ''),
-                                        'start': datetime.fromtimestamp(s_ts, tz),
-                                        'end': datetime.fromtimestamp(e_ts, tz)
-                                    })
-                        else:
-                            print(f"API returned no data for {ch_id}")
-                    else:
-                        print(f"HTTP Error {response.status_code}")
-                except Exception as e:
-                    print(f"Request failed for {ch_id}: {e}")
+                        # Parse times: 20240520103000 +0000
+                        start_str = prog.get('start').split(' ')[0]
+                        end_str = prog.get('stop').split(' ')[0]
+                        
+                        # Convert to datetime objects
+                        fmt = "%Y%m%d%H%M%S"
+                        start_dt = datetime.strptime(start_str, fmt).replace(tzinfo=pytz.UTC)
+                        end_dt = datetime.strptime(end_str, fmt).replace(tzinfo=pytz.UTC)
 
-        # If still empty after trying the API, then we keep the fallback
+                        all_programs.append({
+                            'channel_id': ch_id,
+                            'title': prog.findtext('title', 'No Title'),
+                            'desc': prog.findtext('desc', ''),
+                            'start': start_dt,
+                            'end': end_dt
+                        })
+                
+                print(f"Successfully mirrored {len(all_programs)} programs for ViuTV.")
+        except Exception as e:
+            print(f"Mirror fetch failed: {e}")
+
+        # Final Fallback if mirror also fails
         if not all_programs:
+            now = datetime.now(pytz.timezone('Asia/Hong_Kong'))
             for ch_id in ["099", "096"]:
                 all_programs.append({
                     'channel_id': ch_id,
                     'title': "EPG Updating",
-                    'desc': "Schedule currently unavailable",
+                    'desc': "Please check back later",
                     'start': now,
-                    'end': now + timedelta(hours=24)
+                    'end': now + datetime.timedelta(hours=24)
                 })
                     
         return all_programs
