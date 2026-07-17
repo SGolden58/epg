@@ -10996,7 +10996,7 @@
     <date>2026-07-25</date>
   </programme>
   <channel id="099">
-    <display-name lang="Malaysia">ViuTV 99</display-name>
+    <display-name lang="Malaysia">ViuTV</display-name>
     <icon src="https://m3u.hk/logo/viutv.png" />
   </channel>
   <programme channel="099" start="20260717000000 +0000" stop="20260717003000 +0000">
@@ -11444,7 +11444,7 @@
     <date>2026-07-19</date>
   </programme>
   <channel id="096">
-    <display-name lang="Malaysia">ViuTVsix 96</display-name>
+    <display-name lang="Malaysia">ViuTVsix</display-name>
     <icon src="https://m3u.hk/logo/viutvsix.png" />
   </channel>
   <programme channel="096" start="20260717000000 +0000" stop="20260717003000 +0000">
