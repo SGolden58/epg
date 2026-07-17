@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="SGolden58-EPG">
+<tv>
   <channel id="76">
     <display-name lang="Malaysia">HOY 76</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
