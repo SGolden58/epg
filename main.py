@@ -3,7 +3,6 @@ import requests
 import asyncio
 from hoy import HOYPlatform 
 from viutv import ViuTVPlatform
-from xml.dom import minidom
 
 CHANNEL_IDS = [
     370136, 370135, 369690, 369635, 369693, 1122, 2124, 2226, 
@@ -22,14 +21,17 @@ def create_xml_element(root, channel_id, title, start, end, desc=""):
         "stop": end_str,
         "channel": str(channel_id)
     })
+    # Add newline after each program to prevent the "long line" issue
+    prog.tail = "\n" 
     ET.SubElement(prog, "title", {"lang": "zh"}).text = title
     if desc:
         ET.SubElement(prog, "desc", {"lang": "zh"}).text = desc
 
 async def run_all():
     root = ET.Element("tv", {"generator-info-name": "SGolden58-EPG"})
+    root.text = "\n" # Start first child on new line
 
-    # 1. HOY TV (77, 78, 76)
+    # 1. HOY TV
     try:
         hoy = HOYPlatform()
         ch_list = await hoy.fetch_channels()
@@ -38,7 +40,7 @@ async def run_all():
             create_xml_element(root, p.channel_id, p.title, p.start_time, p.end_time)
     except: pass
 
-    # 2. ViuTV (099, 096)
+    # 2. ViuTV
     try:
         viu = ViuTVPlatform()
         viu_progs = await viu.fetch_all_programs(days=2)
@@ -46,7 +48,7 @@ async def run_all():
             create_xml_element(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'])
     except: pass
 
-    # 3. epg.pw
+    # 3. epg.pw (Keep existing structure)
     for cid in CHANNEL_IDS:
         url = f"https://epg.pw/api/epg.xml?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
         try:
@@ -58,12 +60,8 @@ async def run_all():
                         root.append(child)
         except: continue
 
-    # Save with Pretty Print
-    xml_str = ET.tostring(root, encoding='utf-8')
-    pretty_xml = minidom.parseString(xml_str).toprettyxml(indent="  ")
-    
-    with open("epg.xml", "w", encoding="utf-8") as f:
-        f.write(pretty_xml)
+    tree = ET.ElementTree(root)
+    tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
 
 if __name__ == "__main__":
     asyncio.run(run_all())
