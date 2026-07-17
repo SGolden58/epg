@@ -3,6 +3,7 @@ import requests
 import asyncio
 from hoy import HOYPlatform 
 from viutv import ViuTVPlatform
+import pytz
 
 CHANNEL_IDS = [
     370136, 370135, 369690, 369635, 369693, 1122, 2124, 2226, 
@@ -13,7 +14,6 @@ CHANNEL_IDS = [
     456578, 369718, 456566, 456574, 456570, 457372, 456569
 ]
 
-# Metadata matching your M3U
 CHANNEL_METADATA = {
     "76": {"name": "HOY 76", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
     "77": {"name": "HOY 77", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
@@ -27,7 +27,7 @@ def add_formatted_channel(root, ch_id):
     meta = CHANNEL_METADATA[ch_id]
     ch = ET.SubElement(root, "channel", {"id": str(ch_id)})
     ch.text = "\n    "
-    name = ET.SubElement(ch, "display-name", {"lang": "zh"})
+    name = ET.SubElement(ch, "display-name", {"lang": "Malaysia"})
     name.text = meta["name"]
     name.tail = "\n    "
     icon = ET.SubElement(ch, "icon", {"src": meta["logo"]})
@@ -35,10 +35,14 @@ def add_formatted_channel(root, ch_id):
     ch.tail = "\n  "
 
 def add_formatted_prog(root, channel_id, title, start, end, desc="", date_val=""):
+    # Convert to UTC (+0000) as per your working example
+    utc_start = start.astimezone(pytz.utc)
+    utc_end = end.astimezone(pytz.utc)
+    
     prog = ET.SubElement(root, "programme", {
         "channel": str(channel_id),
-        "start": start.strftime("%Y%m%d%H%M%S +0800"),
-        "stop": end.strftime("%Y%m%d%H%M%S +0800")
+        "start": utc_start.strftime("%Y%m%d%H%M%S +0000"),
+        "stop": utc_end.strftime("%Y%m%d%H%M%S +0000")
     })
     prog.text = "\n    "
     t = ET.SubElement(prog, "title", {"lang": "zh"})
@@ -58,7 +62,6 @@ async def run_all():
     root = ET.Element("tv", {"generator-info-name": "SGolden58-EPG"})
     root.text = "\n  "
 
-    # 1. Fetch all data first
     hoy = HOYPlatform()
     ch_list = await hoy.fetch_channels()
     hoy_progs = await hoy.fetch_programs(ch_list)
@@ -66,19 +69,21 @@ async def run_all():
     viu = ViuTVPlatform()
     viu_progs = await viu.fetch_all_programs(days=2)
 
-    # 2. MANDATORY: Put ALL <channel> tags at the top for Televizo
-    for ch_id in ["76", "77", "78", "099", "096"]:
+    # Process HOY Channels one by one: Header then Programmes
+    for ch_id in ["76", "77", "78"]:
         add_formatted_channel(root, ch_id)
+        for p in hoy_progs:
+            if p.channel_id == ch_id:
+                add_formatted_prog(root, p.channel_id, p.title, p.start_time, p.end_time, p.desc, p.date)
 
-    # 3. Add HOY Programmes
-    for p in hoy_progs:
-        add_formatted_prog(root, p.channel_id, p.title, p.start_time, p.end_time, p.desc, p.date)
+    # Process ViuTV Channels one by one: Header then Programmes
+    for ch_id in ["099", "096"]:
+        add_formatted_channel(root, ch_id)
+        for p in viu_progs:
+            if p['channel_id'] == ch_id:
+                add_formatted_prog(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'], p['start'].strftime("%Y-%m-%d"))
 
-    # 4. Add ViuTV Programmes
-    for p in viu_progs:
-        add_formatted_prog(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'], p['start'].strftime("%Y-%m-%d"))
-
-    # 5. Add epg.pw Data (Appends their channels and programmes)
+    # Process epg.pw Data
     for cid in CHANNEL_IDS:
         url = f"https://epg.pw/api/epg.xml?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
         try:
