@@ -6,7 +6,6 @@ class ViuTVPlatform:
     def __init__(self, logger=None):
         self.api_url = "https://api.viu.now.com/p8/2/getProgramList"
         self.timezone = pytz.timezone('Asia/Kuala_Lumpur')
-        # MATCHING YOUR M3U IDs
         self.target_channels = [
             {"api_id": "099", "m3u_id": "099", "name": "ViuTV"},
             {"api_id": "096", "m3u_id": "096", "name": "ViuTVsix"}
@@ -25,7 +24,7 @@ class ViuTVPlatform:
                             start = datetime.fromtimestamp(int(item['start'])/1000, self.timezone)
                             end = datetime.fromtimestamp(int(item['end'])/1000, self.timezone)
                             all_programs.append({
-                                "channel_id": ch["m3u_id"], # Use the M3U ID here
+                                "channel_id": ch["m3u_id"],
                                 "title": item['title'],
                                 "desc": item.get('synopsis', ''),
                                 "start": start,
