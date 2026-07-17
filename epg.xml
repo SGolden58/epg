@@ -12035,6 +12035,11 @@
     <desc>Rancangan interaktif secara langsung ini bakal membincangkan soal jawab agama berkaitan feqah, akidah, munakahat, tasawuf, sirah, hadis dan tafsir Al-Quran.</desc>
     <date>2026-07-18</date>
   </programme>
+  <programme channel="369690" start="20260719000000 +0000" stop="20260720000000 +0000">
+    <title lang="zh">Wow Shop</title>
+    <desc>Rangkaian membeli-belah dari rumah yang inovatif, yang boleh diakses di platform televisyen, dalam talian dan aplikasi mudah alih, pengalaman visual, interaktif dan menyeluruh yang unik.</desc>
+    <date>2026-07-19</date>
+  </programme>
   <channel id="369635">
     <display-name lang="Malaysia">NTV7</display-name>
     <icon src="" />
@@ -12293,6 +12298,11 @@
     <title lang="zh">Kelab Kraft Didik</title>
     <desc>Kelab Kraf Didik merupakan sebuah program yang menampilkan guru-guru berpengalaman yang terpilih bagi mengajar secara 'Hands On' dan santai mengenai seni kraf dan lukisan bagi sekolah rendah dan menengah.</desc>
     <date>2026-07-18</date>
+  </programme>
+  <programme channel="369635" start="20260719000000 +0000" stop="20260720000000 +0000">
+    <title lang="zh">Sukses Spm</title>
+    <desc>Episod ini menyediakan perkongsian teknik menjawab soalan bagi kertas peperiksaan Sijil Pelajaran Malaysia (SPM).</desc>
+    <date>2026-07-19</date>
   </programme>
   <channel id="369693">
     <display-name lang="Malaysia">TV9</display-name>
@@ -17666,7 +17676,12 @@
     <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure.</desc>
     <date>2026-07-18</date>
   </programme>
-  <programme channel="486843" start="20260718220000 +0000" stop="20260719000000 +0000">
+  <programme channel="486843" start="20260718220000 +0000" stop="20260718230000 +0000">
+    <title lang="zh">The Amazing World of Gumball</title>
+    <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure.</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="486843" start="20260718230000 +0000" stop="20260719000000 +0000">
     <title lang="zh">The Amazing World of Gumball</title>
     <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure.</desc>
     <date>2026-07-18</date>
