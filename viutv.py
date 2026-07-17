@@ -4,18 +4,16 @@ import pytz
 
 class ViuTVPlatform:
     def __init__(self):
-        # Using the direct ViuTV web helper API
-        self.url = "https://api.viu.now.com/p8/2/get_program_details"
+        # Mobile API endpoint - usually more stable
+        self.url = "https://api.nowtv.now.com/pub/v1/epg/guide"
         self.headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Referer": "https://viutv.hk/",
-            "Origin": "https://viutv.hk"
+            "User-Agent": "ViuTV/4.5.1 (iPhone; iOS 15.0; Scale/3.00)",
+            "Referer": "https://viutv.hk/"
         }
 
     async def fetch_all_programs(self, days=2):
         all_programs = []
-        # 99 is ViuTV, 96 is ViuTVsix
-        channels = {"099": "99", "096": "96"}
+        channels = ["099", "096"]
         
         tz = pytz.timezone('Asia/Hong_Kong')
         now = datetime.now(tz)
@@ -23,41 +21,42 @@ class ViuTVPlatform:
         for i in range(days):
             date_str = (now + timedelta(days=i)).strftime("%Y%m%d")
             
-            for ch_id, api_id in channels.items():
-                # This endpoint uses a different structure
+            for ch_id in channels:
                 params = {
-                    "ch_id": api_id,
-                    "day": date_str,
-                    "caller": "web"
+                    "channelId": ch_id,
+                    "day": date_str
                 }
                 try:
-                    print(f"Fetching ViuTV {ch_id} for {date_str}...")
                     response = requests.get(self.url, params=params, headers=self.headers, timeout=15)
-                    
                     if response.status_code == 200:
-                        json_data = response.json()
-                        # The web API returns programs in a list under 'data'
-                        programs = json_data.get('data', [])
-                        
-                        if not programs:
-                            print(f"No programs found for {ch_id} on {date_str}")
-                            continue
-
-                        print(f"Successfully found {len(programs)} programs for {ch_id}")
-                        for prog in programs:
-                            # Web API uses 'start_time' and 'end_time' in seconds
-                            s_ts = int(prog.get('start_time', 0))
-                            e_ts = int(prog.get('end_time', 0))
-                            
-                            if s_ts > 0:
-                                all_programs.append({
-                                    'channel_id': ch_id,
-                                    'title': prog.get('title', 'No Title'),
-                                    'desc': prog.get('synopsis', ''),
-                                    'start': datetime.fromtimestamp(s_ts, tz),
-                                    'end': datetime.fromtimestamp(e_ts, tz)
-                                })
+                        data = response.json().get('data', [])
+                        # If data is a list, find the one with the matching channelId
+                        if isinstance(data, list):
+                            for entry in data:
+                                if str(entry.get('channelId')) == ch_id:
+                                    programs = entry.get('programs', [])
+                                    for prog in programs:
+                                        start_ts = int(prog.get('start')) / 1000
+                                        end_ts = int(prog.get('end')) / 1000
+                                        all_programs.append({
+                                            'channel_id': ch_id,
+                                            'title': prog.get('title', 'No Title'),
+                                            'desc': prog.get('synopsis', ''),
+                                            'start': datetime.fromtimestamp(start_ts, tz),
+                                            'end': datetime.fromtimestamp(end_ts, tz)
+                                        })
                 except Exception as e:
-                    print(f"Error fetching ViuTV {ch_id}: {e}")
+                    print(f"Error: {e}")
+
+        # DEBUG: If list is still empty, add a fake program to see if main.py is working
+        if not all_programs:
+            for ch_id in channels:
+                all_programs.append({
+                    'channel_id': ch_id,
+                    'title': "EPG Updating",
+                    'desc': "Schedule currently unavailable",
+                    'start': now,
+                    'end': now + timedelta(hours=24)
+                })
                     
         return all_programs
