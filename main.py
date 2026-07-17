@@ -13,59 +13,73 @@ CHANNEL_IDS = [
     456578, 369718, 456566, 456574, 456570, 457372, 456569
 ]
 
+# Metadata with exact names as requested
+CHANNEL_METADATA = {
+    "76": {"name": "HOY 76", "logo": "https://m3u.hk/logo/hoy76.png"},
+    "77": {"name": "HOY 77", "logo": "https://m3u.hk/logo/hoy77.png"},
+    "78": {"name": "HOY 78", "logo": "https://m3u.hk/logo/hoy78.png"},
+    "099": {"name": "ViuTV 99", "logo": "https://m3u.hk/logo/viutv.png"},
+    "096": {"name": "ViuTVsix 96", "logo": "https://m3u.hk/logo/viutvsix.png"}
+}
+
+def add_formatted_channel(root, ch_id):
+    if ch_id not in CHANNEL_METADATA: return
+    meta = CHANNEL_METADATA[ch_id]
+    ch = ET.SubElement(root, "channel", {"id": str(ch_id)})
+    ch.text = "\n    "
+    name = ET.SubElement(ch, "display-name", {"lang": "zh"})
+    name.text = meta["name"]
+    name.tail = "\n    "
+    icon = ET.SubElement(ch, "icon", {"src": meta["logo"]})
+    icon.tail = "\n  "
+    ch.tail = "\n  "
+
 def add_formatted_prog(root, channel_id, title, start, end, desc="", date_val=""):
-    """Creates a programme element with exact paragraph formatting."""
     prog = ET.SubElement(root, "programme", {
         "channel": str(channel_id),
         "start": start.strftime("%Y%m%d%H%M%S +0800"),
         "stop": end.strftime("%Y%m%d%H%M%S +0800")
     })
     prog.text = "\n    "
-    
     t = ET.SubElement(prog, "title", {"lang": "zh"})
     t.text = title
     t.tail = "\n    "
-    
     if desc:
         d = ET.SubElement(prog, "desc", {"lang": "zh"})
         d.text = desc
         d.tail = "\n    "
-        
     if date_val:
         dt = ET.SubElement(prog, "date")
         dt.text = date_val
         dt.tail = "\n  "
-    
     prog.tail = "\n  "
 
 async def run_all():
     root = ET.Element("tv", {"generator-info-name": "SGolden58-EPG"})
     root.text = "\n  "
 
-    # 1. Fetch Data
+    # 1. Fetch HOY Data
     hoy = HOYPlatform()
     ch_list = await hoy.fetch_channels()
     hoy_progs = await hoy.fetch_programs(ch_list)
     
+    # 2. Add HOY (Channel then its Programmes)
+    for ch_id in ["76", "77", "78"]:
+        add_formatted_channel(root, ch_id)
+        for p in hoy_progs:
+            if p.channel_id == ch_id:
+                add_formatted_prog(root, p.channel_id, p.title, p.start_time, p.end_time, p.desc, p.date)
+
+    # 3. Fetch & Add ViuTV (Channel then its Programmes)
     viu = ViuTVPlatform()
     viu_progs = await viu.fetch_all_programs(days=2)
+    for ch_id in ["099", "096"]:
+        add_formatted_channel(root, ch_id)
+        for p in viu_progs:
+            if p['channel_id'] == ch_id:
+                add_formatted_prog(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'], p['start'].strftime("%Y-%m-%d"))
 
-    # 2. Add Channel Tags for HOY and ViuTV
-    for ch in ch_list:
-        c = ET.SubElement(root, "channel", {"id": ch['id']})
-        c.text = "\n    "
-        ET.SubElement(c, "display-name", {"lang": "zh"}).text = ch['name']
-        c.tail = "\n  "
-
-    # 3. Add Programme Tags for HOY
-    for p in hoy_progs:
-        add_formatted_prog(root, p.channel_id, p.title, p.start_time, p.end_time, p.desc, p.date)
-
-    # 4. Add Programme Tags for ViuTV
-    for p in viu_progs:
-        add_formatted_prog(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'], p['start'].strftime("%Y-%m-%d"))
-
-    # 5. Add epg.pw Data (Preserving its original formatting)
+    # 4. Add epg.pw Data (Appends as they come from API)
     for cid in CHANNEL_IDS:
         url = f"https://epg.pw/api/epg.xml?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
         try:
