@@ -15,11 +15,17 @@ class HOYPlatform:
             channels = []
             for raw in data.get('data', []):
                 api_id = str(raw.get('id'))
-                if api_id == "1": m3u_id = "76"
-                elif api_id == "2": m3u_id = "77"
-                elif api_id == "3": m3u_id = "78"
-                else: m3u_id = api_id
-                channels.append({"id": m3u_id, "epg": raw.get('epg')})
+                # Mapping as requested
+                if api_id == "1": 
+                    m3u_id, name = "76", "HOY International"
+                elif api_id == "2": 
+                    m3u_id, name = "77", "HOY TV"
+                elif api_id == "3": 
+                    m3u_id, name = "78", "HOY Infotainment"
+                else: 
+                    m3u_id, name = api_id, "HOY"
+                
+                channels.append({"id": m3u_id, "name": name, "epg": raw.get('epg')})
             return channels
         except:
             return []
@@ -36,20 +42,19 @@ class HOYPlatform:
                     start_str = item.findtext('EpgStartDateTime')
                     end_str = item.findtext('EpgEndDateTime')
                     
-                    # Get Title and Description
                     ep_info = item.find('EpisodeInfo')
                     title = ep_info.findtext('EpisodeShortDescription')
+                    # Ensure we get the long description
                     desc = ep_info.findtext('EpisodeLongDescription')
                     
                     start = kl_tz.localize(datetime.strptime(start_str, "%Y-%m-%d %H:%M:%S"))
                     end = kl_tz.localize(datetime.strptime(end_str, "%Y-%m-%d %H:%M:%S"))
-                    prog_date = start.strftime("%Y-%m-%d")
                     
                     prog = type('Prog', (), {
                         'channel_id': ch['id'], 
                         'title': title, 
-                        'desc': desc,
-                        'date': prog_date,
+                        'desc': desc if desc else "",
+                        'date': start.strftime("%Y-%m-%d"),
                         'start_time': start, 
                         'end_time': end
                     })
