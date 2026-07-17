@@ -4,6 +4,7 @@ import asyncio
 from hoy import HOYPlatform 
 from viutv import ViuTVPlatform
 
+# Your epg.pw IDs
 CHANNEL_IDS = [
     370136, 370135, 369690, 369635, 369693, 1122, 2124, 2226, 
     399519, 1951, 3290, 1298, 368361, 369701, 369805, 368366, 
@@ -26,33 +27,33 @@ def create_xml_element(root, channel_id, title, start, end, desc=""):
         ET.SubElement(prog, "desc", {"lang": "zh"}).text = desc
 
 async def run_all():
-    root = ET.Element("tv")
+    root = ET.Element("tv", {"generator-info-name": "SGolden58-EPG"})
 
-    # 1. HOY TV (ID: 77)
-    print("Starting HOY TV...")
+    # 1. HOY TV
+    print("--- Starting HOY TV Fetch ---")
     try:
         hoy = HOYPlatform()
         ch_list = await hoy.fetch_channels()
         progs = await hoy.fetch_programs(ch_list)
+        print(f"DEBUG: Found {len(progs)} HOY programs")
         for p in progs:
             create_xml_element(root, p.channel_id, p.title, p.start_time, p.end_time)
-        print(f"Added HOY programs.")
     except Exception as e:
-        print(f"HOY Error: {e}")
+        print(f"!!! HOY CRITICAL ERROR: {e}")
 
-    # 2. ViuTV (IDs: 099, 096)
-    print("Starting ViuTV...")
+    # 2. ViuTV
+    print("--- Starting ViuTV Fetch ---")
     try:
         viu = ViuTVPlatform()
         viu_progs = await viu.fetch_all_programs(days=2)
+        print(f"DEBUG: Found {len(viu_progs)} ViuTV programs")
         for p in viu_progs:
             create_xml_element(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'])
-        print(f"Added ViuTV programs.")
     except Exception as e:
-        print(f"ViuTV Error: {e}")
+        print(f"!!! ViuTV CRITICAL ERROR: {e}")
 
-    # 3. epg.pw (The others)
-    print("Starting epg.pw...")
+    # 3. epg.pw
+    print("--- Starting epg.pw Fetch ---")
     for cid in CHANNEL_IDS:
         url = f"https://epg.pw/api/epg.xml?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
         try:
@@ -64,9 +65,10 @@ async def run_all():
         except:
             continue
 
+    # Save
     tree = ET.ElementTree(root)
     tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
-    print("epg.xml successfully written.")
+    print("--- DONE: epg.xml saved ---")
 
 if __name__ == "__main__":
     asyncio.run(run_all())
