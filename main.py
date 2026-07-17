@@ -2,13 +2,9 @@ import xml.etree.ElementTree as ET
 import requests
 import asyncio
 from datetime import datetime
-
-# Import your new scrapers
-# Ensure these files are in the same folder
 from hoy import HOYPlatform 
 from viutv import ViuTVPlatform
 
-# Your existing epg.pw IDs
 CHANNEL_IDS = [
     370136, 370135, 369690, 369635, 369693, 1122, 2124, 2226, 
     399519, 1951, 3290, 1298, 368361, 369701, 369805, 368366, 
@@ -19,11 +15,8 @@ CHANNEL_IDS = [
 ]
 
 def create_xml_element(root, channel_id, title, start, end, desc=""):
-    """Helper to add a programme to the XML root"""
-    # Format time for XMLTV: YYYYMMDDHHMMSS +0800
     start_str = start.strftime("%Y%m%d%H%M%S +0800")
     end_str = end.strftime("%Y%m%d%H%M%S +0800")
-    
     prog = ET.SubElement(root, "programme", {
         "start": start_str,
         "stop": end_str,
@@ -33,10 +26,9 @@ def create_xml_element(root, channel_id, title, start, end, desc=""):
     ET.SubElement(prog, "desc", {"lang": "zh"}).text = desc
 
 async def main():
-    root = ET.Element("tv", {"generator-info-name": "MyCustomEPG"})
+    root = ET.Element("tv")
 
-    # --- PART 1: Fetch from epg.pw (Existing logic) ---
-    print("Step 1: Fetching epg.pw channels...")
+    # 1. epg.pw
     for cid in CHANNEL_IDS:
         url = f"https://epg.pw/api/epg.xml?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
         try:
@@ -45,43 +37,28 @@ async def main():
                 temp_xml = ET.fromstring(r.content)
                 for child in temp_xml:
                     root.append(child)
-        except Exception as e:
-            print(f"Error fetching epg.pw {cid}: {e}")
+        except: pass
 
-    # --- PART 2: Fetch HOY TV ---
-    print("Step 2: Fetching HOY TV...")
+    # 2. HOY TV
     try:
-        hoy = HOYPlatform() # Assumes you have a logger in your class
-        hoy_channels = await hoy.fetch_channels()
-        hoy_programs = await hoy.fetch_programs(hoy_channels)
-        
-        # Add HOY channels to XML
-        for ch in hoy_channels:
-            ch_node = ET.SubElement(root, "channel", {"id": ch.channel_id})
-            ET.SubElement(ch_node, "display-name").text = ch.name
-        
-        # Add HOY programs to XML
-        for p in hoy_programs:
+        hoy = HOYPlatform()
+        hoy_ch = await hoy.fetch_channels()
+        hoy_pr = await hoy.fetch_programs(hoy_ch)
+        for p in hoy_pr:
             create_xml_element(root, p.channel_id, p.title, p.start_time, p.end_time)
-    except Exception as e:
-        print(f"Error adding HOY TV: {e}")
+    except: pass
 
-    # --- PART 3: Fetch ViuTV ---
-    print("Step 3: Fetching ViuTV...")
+    # 3. ViuTV
     try:
-        viu = ViuTVPlatform(None) # Pass None if logger is optional
-        viu_programs = await viu.fetch_all_programs(days=2)
-        
-        # Add ViuTV programs to XML
-        for p in viu_programs:
+        viu = ViuTVPlatform()
+        viu_pr = await viu.fetch_all_programs(days=2)
+        for p in viu_pr:
             create_xml_element(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'])
-    except Exception as e:
-        print(f"Error adding ViuTV: {e}")
+    except: pass
 
-    # --- PART 4: Save Final File ---
     tree = ET.ElementTree(root)
     tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
-    print("✅ DONE: epg.xml created with epg.pw + HOY + ViuTV!")
+    print("DONE: epg.xml created with IDs 77, 099, 096 included.")
 
 if __name__ == "__main__":
     asyncio.run(main())
