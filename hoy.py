@@ -2,59 +2,45 @@ import requests
 import xml.etree.ElementTree as ET
 import pytz
 from datetime import datetime
-from typing import List
-
-class Channel:
-    def __init__(self, channel_id, name, extra_data=None):
-        self.channel_id = channel_id
-        self.name = name
-        self.extra_data = extra_data or {}
-
-class Program:
-    def __init__(self, channel_id, title, start_time, end_time):
-        self.channel_id = channel_id
-        self.title = title
-        self.start_time = start_time
-        self.end_time = end_time
 
 class HOYPlatform:
     def __init__(self):
         self.channel_list_url = "https://api2.hoy.tv/api/v3/a/channel"
-        self.session = requests.Session()
+        self.headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
-    async def fetch_channels(self) -> List[Channel]:
+    async def fetch_channels(self):
         try:
-            response = self.session.get(self.channel_list_url)
-            data = response.json()
+            r = requests.get(self.channel_list_url, headers=self.headers, timeout=10)
+            data = r.json()
             channels = []
-            if data.get('code') == 200:
-                for raw in data.get('data', []):
-                    api_id = str(raw.get('id'))
-                    # Force ID to 77 for the main channel
-                    m3u_id = "77" if api_id == "1" else api_id
-                    
-                    channels.append(Channel(
-                        channel_id=m3u_id, 
-                        name=raw.get('name', {}).get('zh_hk', 'HOY TV'),
-                        extra_data={'epg_url': raw.get('epg')}
-                    ))
+            for raw in data.get('data', []):
+                api_id = str(raw.get('id'))
+                # Force ID to 77 for your M3U
+                m3u_id = "77" if api_id == "1" else api_id
+                channels.append({"id": m3u_id, "epg": raw.get('epg'), "name": "HOY"})
             return channels
-        except:
+        except Exception as e:
+            print(f"HOY API Error: {e}")
             return []
 
-    async def fetch_programs(self, channels: List[Channel]) -> List[Program]:
+    async def fetch_programs(self, channels):
         all_progs = []
+        kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
         for ch in channels:
-            if not ch.extra_data.get('epg_url'): continue
+            if not ch['epg']: continue
             try:
-                res = self.session.get(ch.extra_data['epg_url'])
-                root = ET.fromstring(res.text.encode('utf-8'))
-                kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
+                r = requests.get(ch['epg'], headers=self.headers, timeout=10)
+                root = ET.fromstring(r.content)
                 for item in root.findall('.//EpgItem'):
-                    start = kl_tz.localize(datetime.strptime(item.findtext('EpgStartDateTime'), "%Y-%m-%d %H:%M:%S"))
-                    end = kl_tz.localize(datetime.strptime(item.findtext('EpgEndDateTime'), "%Y-%m-%d %H:%M:%S"))
+                    start_str = item.findtext('EpgStartDateTime')
+                    end_str = item.findtext('EpgEndDateTime')
                     title = item.find('EpisodeInfo').findtext('EpisodeShortDescription')
-                    all_progs.append(Program(ch.channel_id, title, start, end))
-            except:
-                continue
+                    
+                    start = kl_tz.localize(datetime.strptime(start_str, "%Y-%m-%d %H:%M:%S"))
+                    end = kl_tz.localize(datetime.strptime(end_str, "%Y-%m-%d %H:%M:%S"))
+                    
+                    # Create a simple object that main.py expects
+                    prog = type('Prog', (), {'channel_id': ch['id'], 'title': title, 'start_time': start, 'end_time': end})
+                    all_progs.append(prog)
+            except: continue
         return all_progs
