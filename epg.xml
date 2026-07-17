@@ -4,6 +4,22 @@
     <display-name lang="zh">HOY 76</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
   </channel>
+  <channel id="77">
+    <display-name lang="zh">HOY 77</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
+  </channel>
+  <channel id="78">
+    <display-name lang="zh">HOY 78</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
+  </channel>
+  <channel id="099">
+    <display-name lang="zh">ViuTV 99</display-name>
+    <icon src="https://m3u.hk/logo/viutv.png" />
+  </channel>
+  <channel id="096">
+    <display-name lang="zh">ViuTVsix 96</display-name>
+    <icon src="https://m3u.hk/logo/viutvsix.png" />
+  </channel>
   <programme channel="76" start="20260704005500 +0800" stop="20260704030000 +0800">
     <title lang="zh">瑞典超級足球聯賽-天狼星  對  米贊比</title>
     <date>2026-07-04</date>
@@ -2724,10 +2740,6 @@
     <title lang="zh">Green Touch</title>
     <date>2026-07-25</date>
   </programme>
-  <channel id="77">
-    <display-name lang="zh">HOY 77</display-name>
-    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
-  </channel>
   <programme channel="77" start="20260704004500 +0800" stop="20260704011500 +0800">
     <title lang="zh">煮題COOK4 大食四方</title>
     <desc lang="zh">來到最後一集, Ricky、Jacky帶大家去南澳島活捉海鮮及在魚排享受海鮮大餐, 二人跟當地漁民出海撒網, 不知有多少收穫。上到魚排, Ricky忍不住要大顯身手, 即場煮了一道薑蔥蟹, 在毫無準備下, 他隨手找了幾隻雞蛋, 教大家怎樣令炒蟹變得更</desc>
@@ -6394,10 +6406,6 @@
     <title lang="zh">HOY娛樂一周</title>
     <date>2026-07-25</date>
   </programme>
-  <channel id="78">
-    <display-name lang="zh">HOY 78</display-name>
-    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
-  </channel>
   <programme channel="78" start="20260704000000 +0800" stop="20260704003000 +0800">
     <title lang="zh">有線新聞</title>
     <date>2026-07-04</date>
@@ -10995,14 +11003,6 @@
     <title lang="zh">有線新聞</title>
     <date>2026-07-25</date>
   </programme>
-  <channel id="099">
-    <display-name lang="zh">ViuTV 99</display-name>
-    <icon src="https://m3u.hk/logo/viutv.png" />
-  </channel>
-  <channel id="096">
-    <display-name lang="zh">ViuTVsix 96</display-name>
-    <icon src="https://m3u.hk/logo/viutvsix.png" />
-  </channel>
   <channel id="370136">
     <display-name lang="Malaysia">TV1</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612105904271177_79.png" />
