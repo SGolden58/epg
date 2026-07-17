@@ -24,10 +24,12 @@ CUSTOM_CHANNELS = {
     "096": {"name": "ViuTVsix", "logo": "https://m3u.hk/logo/viutvsix.png"}
 }
 
-def add_custom_channel_tag(root, ch_id):
-    """Adds ONLY the channel tag."""
+def add_custom_section(root, ch_id, progs):
+    """Adds channel and its programmes in the exact epg.pw style."""
     meta = CUSTOM_CHANNELS.get(ch_id)
     if not meta: return
+
+    # 1. Add Channel Tag
     ch = ET.SubElement(root, "channel", {"id": str(ch_id)})
     ch.text = "\n    "
     dn = ET.SubElement(ch, "display-name", {"lang": "Malaysia"})
@@ -37,9 +39,9 @@ def add_custom_channel_tag(root, ch_id):
     ic.tail = "\n  "
     ch.tail = "\n  "
 
-def add_custom_programme_tags(root, ch_id, progs):
-    """Adds ONLY the programme tags."""
+    # 2. Add Programme Tags
     for p in progs:
+        # Handle different data structures for HOY and ViuTV
         p_id = p.channel_id if hasattr(p, 'channel_id') else p['channel_id']
         if str(p_id) != str(ch_id): continue
 
@@ -48,6 +50,7 @@ def add_custom_programme_tags(root, ch_id, progs):
         start = p.start_time if hasattr(p, 'start_time') else p['start']
         end = p.end_time if hasattr(p, 'end_time') else p['end']
         
+        # Convert to UTC +0000 to match epg.pw
         utc_start = start.astimezone(pytz.utc).strftime("%Y%m%d%H%M%S +0000")
         utc_end = end.astimezone(pytz.utc).strftime("%Y%m%d%H%M%S +0000")
         date_val = start.strftime("%Y-%m-%d")
@@ -82,11 +85,15 @@ async def run_all():
     viu = ViuTVPlatform()
     viu_progs = await viu.fetch_all_programs(days=2)
 
-    # --- STEP 1: ADD ALL CHANNELS FIRST ---
-    for cid in ["76", "77", "78", "099", "096"]:
-        add_custom_channel_tag(root, cid)
+    # 1. Add HOY Channels (76, 77, 78)
+    for cid in ["76", "77", "78"]:
+        add_custom_section(root, cid, hoy_progs)
 
-    epg_pw_programmes = []
+    # 2. Add ViuTV Channels (099, 096)
+    for cid in ["099", "096"]:
+        add_custom_section(root, cid, viu_progs)
+
+    # 3. Add epg.pw Channels
     for cid in CHANNEL_IDS:
         url = f"https://epg.pw/api/epg.xml?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
         try:
@@ -94,23 +101,10 @@ async def run_all():
             if r.status_code == 200:
                 temp_xml = ET.fromstring(r.content)
                 for child in temp_xml:
-                    if child.tag == "channel":
+                    if child.tag in ["programme", "channel"]:
                         child.tail = "\n  "
                         root.append(child)
-                    elif child.tag == "programme":
-                        epg_pw_programmes.append(child)
         except: continue
-
-    # --- STEP 2: ADD ALL PROGRAMMES SECOND ---
-    for cid in ["76", "77", "78"]:
-        add_custom_programme_tags(root, cid, hoy_progs)
-    
-    for cid in ["099", "096"]:
-        add_custom_programme_tags(root, cid, viu_progs)
-
-    for p_node in epg_pw_programmes:
-        p_node.tail = "\n  "
-        root.append(p_node)
 
     tree = ET.ElementTree(root)
     tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
