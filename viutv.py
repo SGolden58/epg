@@ -2,92 +2,79 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import pytz
+import re
 
 class ViuTVPlatform:
     def __init__(self):
-        # Try the NowTV direct linear schedule API (different from the guide API)
-        self.url = "https://api.nowtv.now.com/pub/v1/node/get_linear_schedule"
-        self.headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            "Referer": "https://nowplayer.now.com/"
-        }
+        # Using BeeVip as a reliable third-party source for HK EPG
+        self.url = "http://epg.beevip.com/hk.xml"
 
     async def fetch_all_programs(self, days=2):
         all_programs = []
-        channels = {"099": "099", "096": "096"}
-        tz = pytz.timezone('Asia/Hong_Kong')
+        # Map BeeVip IDs to your IDs
+        # BeeVip usually uses 'ViuTV' and 'ViuTVsix'
+        target_map = {
+            "ViuTV": "099",
+            "ViuTVsix": "096"
+        }
         
-        for ch_id, api_id in channels.items():
-            try:
-                # Fetching 24 hours of data starting from now
-                params = {
-                    "channelId": api_id,
-                    "hours": 48
-                }
-                print(f"Attempting API fetch for {ch_id}...")
-                response = requests.get(self.url, params=params, headers=self.headers, timeout=15)
+        try:
+            print(f"Fetching ViuTV data from BeeVip Mirror...")
+            response = requests.get(self.url, timeout=30)
+            if response.status_code == 200:
+                root = ET.fromstring(response.content)
                 
-                if response.status_code == 200:
-                    data = response.json().get('data', {})
-                    # This API returns a list of programs directly in 'schedule'
-                    schedule = data.get('schedule', [])
+                for prog in root.findall('programme'):
+                    channel_attr = prog.get('channel', '')
                     
-                    if schedule:
-                        print(f"Found {len(schedule)} programs for {ch_id} via Linear API")
-                        for prog in schedule:
-                            # Timestamps are in milliseconds
-                            s_ts = int(prog.get('startTime')) / 1000
-                            e_ts = int(prog.get('endTime')) / 1000
+                    # Match channel ID
+                    ch_id = None
+                    if channel_attr == "ViuTV" or "99" in channel_attr:
+                        ch_id = "099"
+                    elif "ViuTVsix" in channel_attr or "96" in channel_attr:
+                        ch_id = "096"
+                        
+                    if ch_id:
+                        # Parse times: 20240520103000 +0800
+                        start_attr = prog.get('start')
+                        stop_attr = prog.get('stop')
+                        
+                        if start_attr and stop_attr:
+                            # Extract the first 14 digits (YYYYMMDDHHMMSS)
+                            s_match = re.search(r'(\d{14})', start_attr)
+                            e_match = re.search(r'(\d{14})', stop_attr)
                             
-                            all_programs.append({
-                                'channel_id': ch_id,
-                                'title': prog.get('title', 'No Title'),
-                                'desc': prog.get('synopsis', ''),
-                                'start': datetime.fromtimestamp(s_ts, tz),
-                                'end': datetime.fromtimestamp(e_ts, tz)
-                            })
-                        continue # Success for this channel
-            except Exception as e:
-                print(f"Linear API failed for {ch_id}: {e}")
+                            if s_match and e_match:
+                                fmt = "%Y%m%d%H%M%S"
+                                # BeeVip is usually in HK time (+0800)
+                                # We convert it to UTC for your epg.xml consistency
+                                hk_tz = pytz.timezone('Asia/Hong_Kong')
+                                
+                                start_dt = hk_tz.localize(datetime.strptime(s_match.group(1), fmt))
+                                end_dt = hk_tz.localize(datetime.strptime(e_match.group(1), fmt))
 
-        # EMERGENCY FALLBACK: If API failed, try the mirror again with broader ID matching
-        if not all_programs:
-            try:
-                print("API failed. Trying Mirror with broad matching...")
-                mirror_res = requests.get("https://epg.pw/xmltv/hk.xml", timeout=20)
-                if mirror_res.status_code == 200:
-                    root = ET.fromstring(mirror_res.content)
-                    for prog in root.findall('programme'):
-                        m_id = prog.get('channel', '').lower()
-                        target_id = None
-                        
-                        if "viutv" in m_id and "six" not in m_id: target_id = "099"
-                        elif "viutvsix" in m_id or "viu" in m_id and "six" in m_id: target_id = "096"
-                        
-                        if target_id:
-                            s_str = prog.get('start').split(' ')[0]
-                            e_str = prog.get('stop').split(' ')[0]
-                            fmt = "%Y%m%d%H%M%S"
-                            all_programs.append({
-                                'channel_id': target_id,
-                                'title': prog.findtext('title', 'No Title'),
-                                'desc': prog.findtext('desc', ''),
-                                'start': datetime.strptime(s_str, fmt).replace(tzinfo=pytz.UTC),
-                                'end': datetime.strptime(e_str, fmt).replace(tzinfo=pytz.UTC)
-                            })
-            except Exception as e:
-                print(f"Mirror fallback failed: {e}")
+                                all_programs.append({
+                                    'channel_id': ch_id,
+                                    'title': prog.findtext('title', 'No Title'),
+                                    'desc': prog.findtext('desc', ''),
+                                    'start': start_dt.astimezone(pytz.UTC),
+                                    'end': end_dt.astimezone(pytz.UTC)
+                                })
+                
+                print(f"Successfully found {len(all_programs)} programs for ViuTV.")
+        except Exception as e:
+            print(f"BeeVip Mirror fetch failed: {e}")
 
-        # FINAL FAILSAFE
+        # Final Fallback if all else fails
         if not all_programs:
             now = datetime.now(pytz.UTC)
             for cid in ["099", "096"]:
                 all_programs.append({
                     'channel_id': cid,
-                    'title': "EPG Maintenance",
-                    'desc': "Schedule temporary unavailable",
+                    'title': "ViuTV Schedule",
+                    'desc': "Schedule currently being synchronized",
                     'start': now,
-                    'end': now + timedelta(hours=6)
+                    'end': now + timedelta(hours=12)
                 })
-
+                    
         return all_programs
