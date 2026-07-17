@@ -29,10 +29,9 @@ class HOYPlatform:
             channels = []
             if data.get('code') == 200:
                 for raw in data.get('data', []):
-                    # We force the ID to match your M3U "HOY 77"
-                    # Usually HOY 77 is ID "77" in their API
                     api_id = str(raw.get('id'))
-                    m3u_id = "HOY 77" if api_id == "77" else f"HOY {api_id}"
+                    # Force ID to 77 for the main channel
+                    m3u_id = "77" if api_id == "1" else api_id
                     
                     channels.append(Channel(
                         channel_id=m3u_id, 
@@ -47,12 +46,15 @@ class HOYPlatform:
         all_progs = []
         for ch in channels:
             if not ch.extra_data.get('epg_url'): continue
-            res = self.session.get(ch.extra_data['epg_url'])
-            root = ET.fromstring(res.text.encode('utf-8'))
-            kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
-            for item in root.findall('.//EpgItem'):
-                start = kl_tz.localize(datetime.strptime(item.findtext('EpgStartDateTime'), "%Y-%m-%d %H:%M:%S"))
-                end = kl_tz.localize(datetime.strptime(item.findtext('EpgEndDateTime'), "%Y-%m-%d %H:%M:%S"))
-                title = item.find('EpisodeInfo').findtext('EpisodeShortDescription')
-                all_progs.append(Program(ch.channel_id, title, start, end))
+            try:
+                res = self.session.get(ch.extra_data['epg_url'])
+                root = ET.fromstring(res.text.encode('utf-8'))
+                kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
+                for item in root.findall('.//EpgItem'):
+                    start = kl_tz.localize(datetime.strptime(item.findtext('EpgStartDateTime'), "%Y-%m-%d %H:%M:%S"))
+                    end = kl_tz.localize(datetime.strptime(item.findtext('EpgEndDateTime'), "%Y-%m-%d %H:%M:%S"))
+                    title = item.find('EpisodeInfo').findtext('EpisodeShortDescription')
+                    all_progs.append(Program(ch.channel_id, title, start, end))
+            except:
+                continue
         return all_progs
