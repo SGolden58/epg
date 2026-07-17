@@ -13,20 +13,44 @@ CHANNEL_IDS = [
     456578, 369718, 456566, 456574, 456570, 457372, 456569
 ]
 
+def indent_element(elem, level=1):
+    """Manually adds newlines and spaces to make HOY data look like the example."""
+    i = "\n" + level * "  "
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "  "
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+        for subelem in elem:
+            indent_element(subelem, level + 1)
+        if not subelem.tail or not subelem.tail.strip():
+            subelem.tail = i
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = i
+
 def create_xml_element(root, channel_id, title, start, end, desc="", date_val=""):
     start_str = start.strftime("%Y%m%d%H%M%S +0800")
     end_str = end.strftime("%Y%m%d%H%M%S +0800")
     prog = ET.SubElement(root, "programme", {
+        "channel": str(channel_id),
         "start": start_str,
-        "stop": end_str,
-        "channel": str(channel_id)
+        "stop": end_str
     })
-    prog.tail = "\n" 
-    ET.SubElement(prog, "title", {"lang": "zh"}).text = title
+    
+    t = ET.SubElement(prog, "title", {"lang": "zh"})
+    t.text = title
+    
     if desc:
-        ET.SubElement(prog, "desc", {"lang": "zh"}).text = desc
+        d = ET.SubElement(prog, "desc", {"lang": "zh"})
+        d.text = desc
+        
     if date_val:
-        ET.SubElement(prog, "date").text = date_val
+        dt = ET.SubElement(prog, "date")
+        dt.text = date_val
+    
+    # Apply the multi-line indentation to this specific programme
+    indent_element(prog)
 
 async def run_all():
     root = ET.Element("tv", {"generator-info-name": "SGolden58-EPG"})
@@ -46,12 +70,11 @@ async def run_all():
         viu = ViuTVPlatform()
         viu_progs = await viu.fetch_all_programs(days=2)
         for p in viu_progs:
-            # ViuTV date can be extracted from start time
             d_str = p['start'].strftime("%Y-%m-%d")
             create_xml_element(root, p['channel_id'], p['title'], p['start'], p['end'], p['desc'], d_str)
     except: pass
 
-    # 3. epg.pw (Keep existing structure)
+    # 3. epg.pw (Append as-is to preserve its own formatting)
     for cid in CHANNEL_IDS:
         url = f"https://epg.pw/api/epg.xml?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
         try:
