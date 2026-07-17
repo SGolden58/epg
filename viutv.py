@@ -6,43 +6,47 @@ import re
 
 class ViuTVPlatform:
     def __init__(self):
-        # Using the source you provided
+        # The source you provided
         self.url = "https://www.open-epg.com/files/hongkong4.xml"
 
     async def fetch_all_programs(self, days=2):
         all_programs = []
-        # Mapping Open-EPG numeric IDs to your IDs
-        # In hongkong4.xml: ViuTV is "99", ViuTVsix is "96"
+        # EXACT IDs from hongkong4.xml:
+        # <channel id="ViuTV.hk">
+        # <channel id="ViuTVsix.hk">
         target_map = {
-            "99": "099",
-            "96": "096"
+            "ViuTV.hk": "099",
+            "ViuTVsix.hk": "096"
         }
         
         try:
             print(f"Fetching ViuTV data from Open-EPG...")
-            response = requests.get(self.url, timeout=30)
+            # Added headers to look like a browser just in case
+            headers = {"User-Agent": "Mozilla/5.0"}
+            response = requests.get(self.url, headers=headers, timeout=30)
+            
             if response.status_code == 200:
                 root = ET.fromstring(response.content)
                 
-                found_count = 0
+                count = 0
                 for prog in root.findall('programme'):
                     channel_attr = prog.get('channel', '')
                     
                     if channel_attr in target_map:
                         ch_id = target_map[channel_attr]
-                        found_count += 1
                         
-                        # Parse times: 20260718053000 +0800
+                        # Parse times: e.g., 20260718060000 +0800
                         start_attr = prog.get('start')
                         stop_attr = prog.get('stop')
                         
                         if start_attr and stop_attr:
+                            # Extract the 14 digits
                             s_match = re.search(r'(\d{14})', start_attr)
                             e_match = re.search(r'(\d{14})', stop_attr)
                             
                             if s_match and e_match:
                                 fmt = "%Y%m%d%H%M%S"
-                                # Open-EPG is in HK time (+0800)
+                                # This file uses +0800 (HK Time)
                                 hk_tz = pytz.timezone('Asia/Hong_Kong')
                                 
                                 start_dt = hk_tz.localize(datetime.strptime(s_match.group(1), fmt))
@@ -55,21 +59,23 @@ class ViuTVPlatform:
                                     'start': start_dt.astimezone(pytz.UTC),
                                     'end': end_dt.astimezone(pytz.UTC)
                                 })
+                                count += 1
                 
-                print(f"Successfully found {found_count} programs from Open-EPG.")
+                print(f"Successfully matched {count} programs for ViuTV.")
         except Exception as e:
             print(f"Open-EPG fetch failed: {e}")
 
-        # Final Fallback - Only if the list is still empty
+        # Only show fallback if absolutely no programs were found
         if not all_programs:
+            print("No programs found in XML. Check channel IDs.")
             now = datetime.now(pytz.UTC)
             for cid in ["099", "096"]:
                 all_programs.append({
                     'channel_id': cid,
                     'title': "ViuTV Schedule",
-                    'desc': "Check Open-EPG source",
+                    'desc': "Data Syncing...",
                     'start': now,
-                    'end': now + timedelta(hours=12)
+                    'end': now + timedelta(hours=6)
                 })
                     
         return all_programs
