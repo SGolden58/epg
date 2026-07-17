@@ -1,39 +1,53 @@
 import requests
-import pytz
 from datetime import datetime, timedelta
+import pytz
 
 class ViuTVPlatform:
     def __init__(self):
-        self.api_url = "https://api.viu.now.com/p8/2/getProgramList"
+        self.url = "https://api.nowtv.now.com/pub/v1/epg/guide"
         self.headers = {
-            "User-Agent": "Mozilla/5.0",
-            "Referer": "https://viu.tv/"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://viutv.hk/"
         }
-        self.timezone = pytz.timezone('Asia/Kuala_Lumpur')
-        self.target_channels = [
-            {"api_id": "099", "m3u_id": "099"},
-            {"api_id": "096", "m3u_id": "096"}
-        ]
 
     async def fetch_all_programs(self, days=2):
         all_programs = []
-        for ch in self.target_channels:
-            for i in range(days):
-                date_str = (datetime.now(self.timezone) + timedelta(days=i)).strftime("%Y%m%d")
-                payload = {"channelNo": ch["api_id"], "day": date_str, "callerReferenceNo": "1"}
+        # ViuTV 99 and ViuTVsix 96
+        channels = ["099", "096"]
+        
+        # Calculate dates in HK/KL time
+        tz = pytz.timezone('Asia/Hong_Kong')
+        now = datetime.now(tz)
+        
+        for i in range(days):
+            date_str = (now + timedelta(days=i)).strftime("%Y%m%d")
+            
+            for ch_id in channels:
+                params = {
+                    "channelId": ch_id,
+                    "day": date_str
+                }
                 try:
-                    r = requests.post(self.api_url, json=payload, headers=self.headers, timeout=10)
-                    res = r.json()
-                    if res.get('responseCode') == "000":
-                        for item in res['data']['programList']:
-                            start = datetime.fromtimestamp(int(item['start'])/1000, self.timezone)
-                            end = datetime.fromtimestamp(int(item['end'])/1000, self.timezone)
+                    # Using requests directly for simplicity, similar to your merge_epg.py
+                    response = requests.get(self.url, params=params, headers=self.headers, timeout=15)
+                    if response.status_code == 200:
+                        data = response.json()
+                        # The API returns a list of programs under 'data'
+                        programs = data.get('data', [])
+                        
+                        for prog in programs:
+                            # API uses milliseconds timestamp
+                            start_ts = int(prog.get('start')) / 1000
+                            end_ts = int(prog.get('end')) / 1000
+                            
                             all_programs.append({
-                                "channel_id": ch["m3u_id"],
-                                "title": item['title'],
-                                "desc": item.get('synopsis', ''),
-                                "start": start,
-                                "end": end
+                                'channel_id': ch_id,
+                                'title': prog.get('title', 'No Title'),
+                                'desc': prog.get('synopsis', ''),
+                                'start': datetime.fromtimestamp(start_ts, tz),
+                                'end': datetime.fromtimestamp(end_ts, tz)
                             })
-                except: continue
+                except Exception as e:
+                    print(f"Error fetching ViuTV {ch_id} for {date_str}: {e}")
+                    
         return all_programs
