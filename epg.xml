@@ -4,194 +4,6 @@
     <display-name lang="Malaysia">HOY 76</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
   </channel>
-  <channel id="77">
-    <display-name lang="Malaysia">HOY 77</display-name>
-    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
-  </channel>
-  <channel id="78">
-    <display-name lang="Malaysia">HOY 78</display-name>
-    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
-  </channel>
-  <channel id="099">
-    <display-name lang="Malaysia">ViuTV</display-name>
-    <icon src="https://m3u.hk/logo/viutv.png" />
-  </channel>
-  <channel id="096">
-    <display-name lang="Malaysia">ViuTVsix</display-name>
-    <icon src="https://m3u.hk/logo/viutvsix.png" />
-  </channel>
-  <channel id="370136">
-    <display-name lang="Malaysia">TV1</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612105904271177_79.png" />
-  </channel>
-  <channel id="370135">
-    <display-name lang="Malaysia">TV2</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612105858041931_48.png" />
-  </channel>
-  <channel id="369690">
-    <display-name lang="Malaysia">TV3</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="369635">
-    <display-name lang="Malaysia">NTV7</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="369693">
-    <display-name lang="Malaysia">TV9</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="1122">
-    <display-name lang="Malaysia">8TV</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609080801480404_37.png" />
-  </channel>
-  <channel id="2124">
-    <display-name lang="Malaysia">Astro AOD 311</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609081008343330_76.png" />
-  </channel>
-  <channel id="2226">
-    <display-name lang="Malaysia">Astro AEC HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609081026946415_83.png" />
-  </channel>
-  <channel id="399519">
-    <display-name lang="Malaysia">Astro QJ</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="1951">
-    <display-name lang="Malaysia">Astro Hua Hee Dai HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609080949070325_14.png" />
-  </channel>
-  <channel id="3290">
-    <display-name lang="Malaysia">iQIYI HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609085652963165_85.png" />
-  </channel>
-  <channel id="1298">
-    <display-name lang="Malaysia">Celestial Movies HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609080826681228_80.png" />
-  </channel>
-  <channel id="368361">
-    <display-name lang="Hong Kong">TVB Plus</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="369701">
-    <display-name lang="Malaysia">TVB Jade</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="369805">
-    <display-name lang="Singapore">TVB Jade (HD)</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="368366">
-    <display-name lang="Hong Kong">翡翠台</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="368369">
-    <display-name lang="Hong Kong">明珠台</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="368323">
-    <display-name lang="Hong Kong">娛樂新聞台</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="3493">
-    <display-name lang="Malaysia">TVB Xing He HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609093104731072_47.png" />
-  </channel>
-  <channel id="369796">
-    <display-name lang="Singapore">TVB Xing He (HD)</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="368325">
-    <display-name lang="Hong Kong">千禧經典台</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="486843">
-    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Cartoon Netwrk</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="3403">
-    <display-name lang="Malaysia">Cartoon Network HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609091749240561_71.png" />
-  </channel>
-  <channel id="368348">
-    <display-name lang="Hong Kong">美亞電影台</display-name>
-    <icon src="" />
-  </channel>
-  <channel id="456567">
-    <display-name lang="Taiwan">HBO</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032812693754_68.png" />
-  </channel>
-  <channel id="456568">
-    <display-name lang="Taiwan">東森洋片台</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032827405129_96.jpg" />
-  </channel>
-  <channel id="456564">
-    <display-name lang="Taiwan">東森電影台</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032728478839_83.jpg" />
-  </channel>
-  <channel id="457361">
-    <display-name lang="Taiwan">龍華電影HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919173121682426_53.png" />
-  </channel>
-  <channel id="457314">
-    <display-name lang="Taiwan">龍華偶像HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919171708780431_98.png" />
-  </channel>
-  <channel id="457313">
-    <display-name lang="Taiwan">龍華戲劇HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919171656153616_95.png" />
-  </channel>
-  <channel id="457364">
-    <display-name lang="Taiwan">龍華洋片HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919173210969684_85.png" />
-  </channel>
-  <channel id="456572">
-    <display-name lang="Taiwan">緯來育樂台</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032931686009_60.png" />
-  </channel>
-  <channel id="370139">
-    <display-name lang="Taiwan">民視</display-name>
-    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612110150198707_96.png" />
-  </channel>
-  <channel id="457211">
-    <display-name lang="Taiwan">台視HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919165016546996_93.png" />
-  </channel>
-  <channel id="457213">
-    <display-name lang="Taiwan">中視HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919165051870108_56.png" />
-  </channel>
-  <channel id="457214">
-    <display-name lang="Taiwan">華視HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919165105718020_68.png" />
-  </channel>
-  <channel id="456533">
-    <display-name lang="Taiwan">東森超視</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917031857898940_26.jpg" />
-  </channel>
-  <channel id="456578">
-    <display-name lang="Taiwan">MOMO綜合台</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917033051797362_34.jpg" />
-  </channel>
-  <channel id="456566">
-    <display-name lang="Taiwan">LS Time電影台</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032757847192_64.png" />
-  </channel>
-  <channel id="456574">
-    <display-name lang="Taiwan">CINEMAX</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032947726943_49.png" />
-  </channel>
-  <channel id="456570">
-    <display-name lang="Taiwan">好萊塢電影台</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032858976728_21.png" />
-  </channel>
-  <channel id="457372">
-    <display-name lang="Taiwan">CatchPlay HD</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919173359629273_50.png" />
-  </channel>
-  <channel id="456569">
-    <display-name lang="Taiwan">AXN</display-name>
-    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032844221558_23.jpg" />
-  </channel>
   <programme channel="76" start="20260703165500 +0000" stop="20260703190000 +0000">
     <title lang="zh">瑞典超級足球聯賽-天狼星  對  米贊比</title>
     <date>2026-07-04</date>
@@ -2912,6 +2724,10 @@
     <title lang="zh">Green Touch</title>
     <date>2026-07-25</date>
   </programme>
+  <channel id="77">
+    <display-name lang="Malaysia">HOY 77</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
+  </channel>
   <programme channel="77" start="20260703164500 +0000" stop="20260703171500 +0000">
     <title lang="zh">煮題COOK4 大食四方</title>
     <desc lang="zh">來到最後一集, Ricky、Jacky帶大家去南澳島活捉海鮮及在魚排享受海鮮大餐, 二人跟當地漁民出海撒網, 不知有多少收穫。上到魚排, Ricky忍不住要大顯身手, 即場煮了一道薑蔥蟹, 在毫無準備下, 他隨手找了幾隻雞蛋, 教大家怎樣令炒蟹變得更</desc>
@@ -6578,6 +6394,10 @@
     <title lang="zh">HOY娛樂一周</title>
     <date>2026-07-25</date>
   </programme>
+  <channel id="78">
+    <display-name lang="Malaysia">HOY 78</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
+  </channel>
   <programme channel="78" start="20260703160000 +0000" stop="20260703163000 +0000">
     <title lang="zh">有線新聞</title>
     <date>2026-07-04</date>
@@ -11175,6 +10995,10 @@
     <title lang="zh">有線新聞</title>
     <date>2026-07-25</date>
   </programme>
+  <channel id="099">
+    <display-name lang="Malaysia">ViuTV</display-name>
+    <icon src="https://m3u.hk/logo/viutv.png" />
+  </channel>
   <programme channel="099" start="20260717000000 +0000" stop="20260717003000 +0000">
     <title lang="zh">Yo-Kai Watch</title>
     <date>2026-07-17</date>
@@ -11619,6 +11443,10 @@
     <desc lang="zh">決賽 - 西班牙 對 阿根廷</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="096">
+    <display-name lang="Malaysia">ViuTVsix</display-name>
+    <icon src="https://m3u.hk/logo/viutvsix.png" />
+  </channel>
   <programme channel="096" start="20260717000000 +0000" stop="20260717003000 +0000">
     <title lang="zh">DW News</title>
     <desc lang="zh">Latest news headlines, current events, photos, and exclusive stories from eyewitnesses in Asia, Middle East, and Africa.</desc>
@@ -12002,6 +11830,10 @@
     <title lang="zh">ViuTVsix Station Closing Slate</title>
     <date>2026-07-19</date>
   </programme>
+  <channel id="370136">
+    <display-name lang="Malaysia">TV1</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612105904271177_79.png" />
+  </channel>
   <programme channel="370136" start="20260717000000 +0000" stop="20260717020000 +0000">
     <title lang="zh">SIARAN LANGSUNG: Selamat Pagi Malaysia</title>
     <desc>Memaparkan perkembangan isu-isu semasa, sains, teknologi, perundangan, kerohanian, inisiatif kerajaan, kemasyarakatan, aktiviti seni, desa dan aktiviti jabatan, kementerian, negeri-negeri serta pertubuhan bukan kerajaan (NGO).</desc>
@@ -12412,6 +12244,10 @@
     <desc>Memaparkan perkembangan isu-isu semasa, sains, teknologi, perundangan, kerohanian, inisiatif kerajaan, kemasyarakatan, aktiviti seni, desa dan aktiviti jabatan, kementerian, negeri-negeri serta pertubuhan bukan kerajaan (NGO).</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="370135">
+    <display-name lang="Malaysia">TV2</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612105858041931_48.png" />
+  </channel>
   <programme channel="370135" start="20260717000000 +0000" stop="20260717003000 +0000">
     <title lang="zh">Pendekar Cilik</title>
     <desc>Animasi yang mengisahkan Hang Tuah bersama 4 sahabatnya yang hidup dalam dunia siber. Mereka berganding bersama Noni dan Habib untuk menentang Daning, penjahat zalim yang berdendam dengan Hang Tuah.</desc>
@@ -12722,6 +12558,10 @@
     <desc>Animasi yang mengisahkan Hang Tuah bersama 4 sahabatnya yang hidup dalam dunia siber. Mereka berganding bersama Noni dan Habib untuk menentang Daning, penjahat zalim yang berdendam dengan Hang Tuah.</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="369690">
+    <display-name lang="Malaysia">TV3</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="369690" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">Seadanya Aku</title>
     <desc>Zarul sangat terkejut dengan kemunculan Taufiq setelah tiga minggu menghilangkan diri. Taufiq menyatakan dia telah melakukan kesilapan besar apabila meninggalkan Fiya.</desc>
@@ -13027,6 +12867,10 @@
     <desc>Rangkaian membeli-belah dari rumah yang inovatif, yang boleh diakses di platform televisyen, dalam talian dan aplikasi mudah alih, pengalaman visual, interaktif dan menyeluruh yang unik.</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="369635">
+    <display-name lang="Malaysia">NTV7</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="369635" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">Sukses Spm</title>
     <desc>Episod ini menyediakan perkongsian teknik menjawab soalan bagi kertas peperiksaan Sijil Pelajaran Malaysia (SPM).</desc>
@@ -13287,6 +13131,10 @@
     <desc>Episod ini menyediakan perkongsian teknik menjawab soalan bagi kertas peperiksaan Sijil Pelajaran Malaysia (SPM).</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="369693">
+    <display-name lang="Malaysia">TV9</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="369693" start="20260717003000 +0000" stop="20260717023000 +0000">
     <title lang="zh">Wow Shop</title>
     <desc>Rangkaian membeli-belah dari rumah yang inovatif, yang boleh diakses di platform televisyen, dalam talian dan aplikasi mudah alih, pengalaman visual, interaktif dan menyeluruh yang unik.</desc>
@@ -13537,6 +13385,10 @@
     <desc>Rancangan interaktif secara langsung ini bakal membincangkan soal jawab agama berkaitan feqah, akidah, munakahat, tasawuf, sirah, hadis dan tafsir Al-Quran.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="1122">
+    <display-name lang="Malaysia">8TV</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609080801480404_37.png" />
+  </channel>
   <programme channel="1122" start="20260717000000 +0000" stop="20260717003000 +0000">
     <title lang="zh">Ho Chak! Ep07</title>
     <desc>Rickman Chia mengunjungi 3 buah restoran di sekitar Bandaraya Kuala Lumpur. Antaranya di Restoran Ker Yuan Kitchen di Taman Overseas Union, KL dan Restoran Teow Chew Meng di SS2/30.</desc>
@@ -13732,6 +13584,10 @@
     <desc>Shanhe semakin berang apabila Vincent mengarahkan Kuang Zhong untuk menyembunyikan Min Foong. Shanhe hilang sabar dan mendedahkan Vincent sebenarnya anak kepada Lei.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="2124">
+    <display-name lang="Malaysia">Astro AOD 311</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609081008343330_76.png" />
+  </channel>
   <programme channel="2124" start="20260717000000 +0000" stop="20260717005000 +0000">
     <title lang="zh">Deadly Sins Ep14</title>
     <desc>After a series of mysterious murders, including the "faceless female corpse" &amp; the "sealed stone coffin case", detectives work to unveil hidden links between the cases &amp; a complex network of crimes.</desc>
@@ -14012,6 +13868,10 @@
     <desc>After a series of mysterious murders, including the "faceless female corpse" &amp; the "sealed stone coffin case", detectives work to unveil hidden links between the cases &amp; a complex network of crimes.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="2226">
+    <display-name lang="Malaysia">Astro AEC HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609081026946415_83.png" />
+  </channel>
   <programme channel="2226" start="20260717003000 +0000" stop="20260717013000 +0000">
     <title lang="zh">The Spirit Hunter Ep01</title>
     <desc>After kind-hearted Nana was rescued by Gou Li Ge, she was compelled to embark on a journey to exorcise evil, slaying demons and monsters as strange events began to unfold.</desc>
@@ -14352,6 +14212,10 @@
     <desc>This flagship dating show hosted by Meng Fei has gotten a new upgrade! 'Xiao Ling' continues to participate in matchmaking, opening a new chapter in technology driven connections.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="399519">
+    <display-name lang="Malaysia">Astro QJ</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="399519" start="20260717003000 +0000" stop="20260717013000 +0000">
     <title lang="zh">Light To The Night</title>
     <desc>A father and daughter vanish in 1997. Years later, a hardened detective and his rookie partner are pulled back into a haunting, generational mystery that shatters certainty and uncovers buried truths.</desc>
@@ -14547,6 +14411,10 @@
     <desc>The Journey begins in China across Southeast Asia on a vibrant culinary adventure. From Chongqing hotpot to Malaysia bak kut teh and more, each dish tells a unique story of flavor and craftsmanship.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="1951">
+    <display-name lang="Malaysia">Astro Hua Hee Dai HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609080949070325_14.png" />
+  </channel>
   <programme channel="1951" start="20260717010000 +0000" stop="20260717020000 +0000">
     <title lang="zh">New Style Ep24</title>
     <desc>Taiwan's favourite host duo unite to take on various challenges against experts from a broad spectrum of fields in a showdown after intense down-to-earth training.</desc>
@@ -14747,6 +14615,10 @@
     <desc>Hosted Peng Chia Chia, Hsu Hsiao Shun  &amp; Miao Ke Li, this outdoor singing show travels across Taiwan recapturing the golden age of nightclubs with the best of classic melodies.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="3290">
+    <display-name lang="Malaysia">iQIYI HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609085652963165_85.png" />
+  </channel>
   <programme channel="3290" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">The Punishment Ep07</title>
     <desc>Estranged siblings Qin Feng, Liu Tian Ye &amp; Wen Jiang Yan reunite in a crisis, forced to choose between family, trust and truth. As Director Ye Tian You arrives, a final battle of good and evil erupts.</desc>
@@ -14957,6 +14829,10 @@
     <desc>After losing its family to humans, a young deer joins a bear-led alliance seeking revenge. But a chance meeting with a kind human changes its heart, leading it to bridge both sides and bring peace.</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="1298">
+    <display-name lang="Malaysia">Celestial Movies HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609080826681228_80.png" />
+  </channel>
   <programme channel="1298" start="20260717005500 +0000" stop="20260717025000 +0000">
     <title lang="zh">8 Bucks Tycoon</title>
     <desc>When a struggling painter receives a magical wallet that endlessly produces RM8 notes, his life transforms from hardship to luxury. However, is this miracle truly a blessing or a hidden curse?</desc>
@@ -15082,6 +14958,10 @@
     <desc>In this Hong Kong comedy, three Chang brothers learn love needs care, not haste or selfishness. This extended cut adds a shootout scene missing from the 2016 Lunar New Year release</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="368361">
+    <display-name lang="Hong Kong">TVB Plus</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="368361" start="20260717000000 +0000" stop="20260717003000 +0000">
     <title lang="zh">美食新聞報道[粵]</title>
     <desc>香港匯聚環球美食！黃嘉雯、倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；又會相約居港的外國人，到訪經他們認證的家鄉風味食肆。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
@@ -15472,6 +15352,10 @@
     <desc>零晨時分，曾比特高唱&lt;初戀&gt;、&lt;跳舞街&gt;。餘下九隊瞓鬥師聽得甚為興奮，現場猶如小型音樂會，除了握手環節之外，更有「瘋狂粉絲」擁抱曾比特不放。聽過好歌，團體遊戲又再展開。大家先從上述兩首歌曲二揀一，然後記住歌詞接力唱出。二十分鐘速記歌詞時間後，挑戰啟動。各隊要於五次輪住唱機會內過關，全體才可免除扣錢。期間，有隊伍唱錯歌詞不自知；也有組別在首次唱對自己的部份，怎料當別隊失誤要由頭再來時，竟然唱錯？</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="369701">
+    <display-name lang="Malaysia">TVB Jade</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="369701" start="20260717001000 +0000" stop="20260717011000 +0000">
     <title lang="zh">Another Era</title>
     <desc>Roger Kwok, Frankie Lam, Tavia Yeung &amp; Niki Chow star in this new TVB blockbuster that spans ten years &amp; depicts a business war triggered by a sly Hong Kong entrepreneur who wants revenge.</desc>
@@ -15852,6 +15736,10 @@
     <desc>This news bulletin keeps you ahead with breaking HK and international news, current affairs, finance, sports, weather and traffic updates.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="369805">
+    <display-name lang="Singapore">TVB Jade (HD)</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="369805" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">再创世纪 / Another Era</title>
     <desc>第三集\n高哲接受採訪解釋迷你債券，卻被賀天生嘲諷是迷債發明者，高哲指責賀天生是推廣迷債的罪魁禍首，二人話不投機。迷債苦主靜坐時，亦是迷債受害者的思妤父母在現場跳樓自殺。高哲趕到溫哥華安慰思妤，但思妤得知高哲發明迷債憤而分手。天蔭股價大跌，天生與明晞趁低吸納，高哲動用傲堂資金搶貨，並向啟堂直言陳救天蔭等於救香港。高哲卻被街坊認出是迷債黑手，被小慧痛罵。學禮以天生挪用乾坤城資金為由，要求分好處。這時突然傳出，孝聰突然死去的消息。.</desc>
@@ -16222,6 +16110,10 @@
     <desc>《奖门人系列》踏入25周年，「奖门人」曾志伟宣布节目载誉归来！奖门人带领钱嘉乐、阮兆祥，以及新加入的「奖老」麦美恩、程浩骏、吴嘉仪，每集广邀最好玩的嘉宾好友，参与多个爆笑游戏，送上无穷无尽的欢乐笑弹，务求为全港观众带来最愉快的星期日晚上，继续发放开心正能量！.</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="368366">
+    <display-name lang="Hong Kong">翡翠台</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="368366" start="20260717001000 +0000" stop="20260717004000 +0000">
     <title lang="zh">香港早晨[粵] 及 交通消息[粵]</title>
     <desc />
@@ -16667,6 +16559,10 @@
     <desc>一連六集，歷史學家Bettany Hughes將帶領觀眾踏上另一段令人難忘的人類文明史之旅。</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="368369">
+    <display-name lang="Hong Kong">明珠台</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="368369" start="20260717010000 +0000" stop="20260717011500 +0000">
     <title lang="zh">金融行情[英]</title>
     <desc />
@@ -17007,6 +16903,10 @@
     <desc />
     <date>2026-07-19</date>
   </programme>
+  <channel id="368323">
+    <display-name lang="Hong Kong">娛樂新聞台</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="368323" start="20260717000000 +0000" stop="20260717003000 +0000">
     <title lang="zh">娛樂新聞報道[粵]</title>
     <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
@@ -17492,6 +17392,10 @@
     <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="3493">
+    <display-name lang="Malaysia">TVB Xing He HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609093104731072_47.png" />
+  </channel>
   <programme channel="3493" start="20260717001000 +0000" stop="20260717011000 +0000">
     <title lang="zh">The Airport Diary Ep04</title>
     <desc>In conjunction with the 25th Anniversary of HK International Airport, TVB presents a new drama aimed to authentically portray airport operations and how situations during extreme weather are handled.</desc>
@@ -17732,6 +17636,10 @@
     <desc>This romantic comedy captures how a rich heiress and a geek, both who have been labeled unrealistic, begin to like each other - and finally fall in love.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="369796">
+    <display-name lang="Singapore">TVB Xing He (HD)</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="369796" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">飞常日志 / The Airport Diary</title>
     <desc>Moses Chan , Kenneth Ma, Sisley Choi ,Samantha Ko.</desc>
@@ -17977,6 +17885,10 @@
     <desc>Bosco Wong,Vincent Wong,Louise Lee,Ha Yu.</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="368325">
+    <display-name lang="Hong Kong">千禧經典台</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="368325" start="20260717003000 +0000" stop="20260717012000 +0000">
     <title lang="zh">女拳 #22 [粵]</title>
     <desc>飛鴻成婚當天，三水送上「縮頭烏龜」恭賀飛鴻結婚。當飛鴻向莫平奉茶時，莫平竟打傷飛鴻的左手。莫平說飛鴻受傷，因此由他代替與雷剛打擂台。帶傷上陣的莫平被雷剛擊斃。添福向乙鳳說出當年雷剛敗給飛鴻的真相。</desc>
@@ -18287,6 +18199,10 @@
     <desc>純熙受傷，王蓁一力承擔責任……龍武軍調查後，認為是有人蓄意縱火，置純熙於死地。何離、三恕發現藏書閣薰香有異，對負責換香的南宮琹展開審訊，並懷疑縱火案與王蓁有關。太平對縱火案緊咬不放，逼使隆基務必交出真兇。何離、三恕率眾逮捕縱火犯人之際，成恭突然出現並自稱真兇。元玥到牢房探望成恭，恍然明白成恭的用心。成恭將被發配邊疆，臨別前成恭對三恕的一席話，令三恕醍醐灌頂。瓊香繼續調查何離身世，終得到明確答案……</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="486843">
+    <display-name lang="United Kingdom of Great Britain and Northern Ireland">Cartoon Netwrk</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="486843" start="20260717003000 +0000" stop="20260717014000 +0000">
     <title lang="zh">The Amazing World of Gumball</title>
     <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball... the 12-year-old cat with a flair for misadventure.</desc>
@@ -18597,6 +18513,10 @@
     <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="3403">
+    <display-name lang="Malaysia">Cartoon Network HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609091749240561_71.png" />
+  </channel>
   <programme channel="3403" start="20260717001800 +0000" stop="20260717011800 +0000">
     <title lang="zh">Looney Tunes Cartoons Ep133</title>
     <desc>Tweety spies a puddy from his perch.</desc>
@@ -18912,6 +18832,10 @@
     <desc>Ginger brings home a kitten that she will foster.</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="368348">
+    <display-name lang="Hong Kong">美亞電影台</display-name>
+    <icon src="" />
+  </channel>
   <programme channel="368348" start="20260717005000 +0000" stop="20260717023000 +0000">
     <title lang="zh">天才與白痴[粵/普]</title>
     <desc>白痴仔心地善良,活得無憂無慮,但命運要他變成神童,名與利滾滾而來,金錢物慾的背後卻活得空虛.命運又再一次向他開玩笑,神童即將變回白痴,得與失只有他自己心知.</desc>
@@ -19072,6 +18996,10 @@
     <desc>細妹年近三十仍在街市賣魚且單身,身旁親友都望她能嫁得金龜婿.在一次機遇中,細妹偶遇富家公子CHRIS,CHRIS驚覺細妹與其失蹤了的前女友LINDA外貌極似,故向她展開追求,並有意娶她進門...</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="456567">
+    <display-name lang="Taiwan">HBO</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032812693754_68.png" />
+  </channel>
   <programme channel="456567" start="20260717012000 +0000" stop="20260717014500 +0000">
     <title lang="zh">好萊塢好好看第1季:1178</title>
     <desc>本節目每週深入幕後與片場，介紹三部強檔電影的製作過程，內含動作片段與演員及製作人的採訪</desc>
@@ -19207,6 +19135,10 @@
     <desc>阿波即將面臨兩大威脅：一個神力猛獸，另一個則與攸關家鄉</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="456568">
+    <display-name lang="Taiwan">東森洋片台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032827405129_96.jpg" />
+  </channel>
   <programme channel="456568" start="20260717004000 +0000" stop="20260717030500 +0000">
     <title lang="zh">雙面特務</title>
     <desc>「在這裡，說謊是人們的第二天性。」 故事發生在21世紀初，國際情勢爾虞我詐，戰爭隨時一觸即發。瑞秋（黛安克魯格 飾）因為優異的天分及語言能力，被以色列特務組織相中，送往伊朗進行臥底，佯裝成無害的英文老師，接近神秘的目標法哈德（凱斯安凡 飾），以了解更多核武計畫的內容。然而，就在任務即將宣告終結的關鍵時刻，瑞秋卻離奇失蹤了，除了一通打給搭檔湯瑪士（馬丁費里曼 飾）的神秘電話，什麼也沒留下。湯瑪士必須想盡辦法找出瑞秋的下落，還要設法保護組織、甚至國家的安全不受到牽連…</desc>
@@ -19322,6 +19254,10 @@
     <desc>洋片幕後趣</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="456564">
+    <display-name lang="Taiwan">東森電影台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032728478839_83.jpg" />
+  </channel>
   <programme channel="456564" start="20260717011500 +0000" stop="20260717041500 +0000">
     <title lang="zh">歲月風雲之上海皇帝</title>
     <desc>目不識丁的上海市場小販陸雲生為人急公好義重面子，常為人強出頭弄得自己滿身傷，但也博得能幹任俠的好名聲。一次遇見了遭追殺的革命黨人古羽，資助他，並帶他成功勒索賭場後離開上海。</desc>
@@ -19462,6 +19398,10 @@
     <desc>故事描述國際販毒集團的毒梟康素差一直帶著手下張建行從事毒品交易，新加入集團的成員歐志遠也因一次意外，與兩人有了過命交情，三人情同手足。康素差在香港的販毒生意被警方破獲後，帶著團隊逃到金三角發展，企圖東山再起，卻意外發現身邊藏有臥底。此刻，誰是敵？誰是友？一片茫然...</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="457361">
+    <display-name lang="Taiwan">龍華電影HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919173121682426_53.png" />
+  </channel>
   <programme channel="457361" start="20260717002500 +0000" stop="20260717022500 +0000">
     <title lang="zh">女醫明妃傳(25,26) (首)(普)</title>
     <desc />
@@ -19577,6 +19517,10 @@
     <desc />
     <date>2026-07-18</date>
   </programme>
+  <channel id="457314">
+    <display-name lang="Taiwan">龍華偶像HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919171708780431_98.png" />
+  </channel>
   <programme channel="457314" start="20260717000000 +0000" stop="20260717020000 +0000">
     <title lang="zh">我把社長解鎖了(13-14)(普)</title>
     <desc />
@@ -19727,6 +19671,10 @@
     <desc />
     <date>2026-07-19</date>
   </programme>
+  <channel id="457313">
+    <display-name lang="Taiwan">龍華戲劇HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919171656153616_95.png" />
+  </channel>
   <programme channel="457313" start="20260717000000 +0000" stop="20260717020000 +0000">
     <title lang="zh">民初風雲：一代匠師(23-24)(普)</title>
     <desc />
@@ -19852,6 +19800,10 @@
     <desc />
     <date>2026-07-19</date>
   </programme>
+  <channel id="457364">
+    <display-name lang="Taiwan">龍華洋片HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919173210969684_85.png" />
+  </channel>
   <programme channel="457364" start="20260717003000 +0000" stop="20260717021500 +0000">
     <title lang="zh">時間守護者(護)</title>
     <desc />
@@ -19987,6 +19939,10 @@
     <desc />
     <date>2026-07-18</date>
   </programme>
+  <channel id="456572">
+    <display-name lang="Taiwan">緯來育樂台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032931686009_60.png" />
+  </channel>
   <programme channel="456572" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">驚天岳雷</title>
     <desc>岳飛次子岳雷生性叛逆，玩世不恭。父兄風波亭罹難後，岳雷隻身踏上復仇之路。但刺殺秦檜不成反被利用。武痴皇子阿琮和忠良義士的幫助下，岳雷努力查找秦檜叛國證據，遊走於皇城與江湖，經歷百姓的艱苦，他不再是當初的怒目少年。南宋上層官鬥正濃，君臣情感糾葛複雜，為父平反費盡艱辛。當乾坤匡正，塵埃落定，岳雷決定帶?被他一再辜負的民女夏雲飛浪跡天涯，可命運又給他出了…</desc>
@@ -20217,6 +20173,10 @@
     <desc>細膩的視野里觀察記錄中國美食的流變，以及從美食作為觸角深入討論國人骨子裡藏匿於食物背後的情感，最終勾勒出發端于唇齒間，攪動于口舌深處，流動於心頭之上的百轉千回的“家”的味道</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="370139">
+    <display-name lang="Taiwan">民視</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612110150198707_96.png" />
+  </channel>
   <programme channel="370139" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">姊妹亮起來【普】(E366)</title>
     <desc />
@@ -20542,6 +20502,10 @@
     <desc />
     <date>2026-07-19</date>
   </programme>
+  <channel id="457211">
+    <display-name lang="Taiwan">台視HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919165016546996_93.png" />
+  </channel>
   <programme channel="457211" start="20260717000000 +0000" stop="20260717005800 +0000">
     <title lang="zh">早安台灣台語新聞(2812)(普)</title>
     <desc />
@@ -20787,6 +20751,10 @@
     <desc />
     <date>2026-07-18</date>
   </programme>
+  <channel id="457213">
+    <display-name lang="Taiwan">中視HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919165051870108_56.png" />
+  </channel>
   <programme channel="457213" start="20260717000000 +0000" stop="20260717003000 +0000">
     <title lang="zh">財經早點名(17)(普)</title>
     <desc />
@@ -21017,6 +20985,10 @@
     <desc />
     <date>2026-07-19</date>
   </programme>
+  <channel id="457214">
+    <display-name lang="Taiwan">華視HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919165105718020_68.png" />
+  </channel>
   <programme channel="457214" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">土地公傳奇(45)(普)</title>
     <desc />
@@ -21232,6 +21204,10 @@
     <desc />
     <date>2026-07-19</date>
   </programme>
+  <channel id="456533">
+    <display-name lang="Taiwan">東森超視</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917031857898940_26.jpg" />
+  </channel>
   <programme channel="456533" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">醫師好辣:1652</title>
     <desc>「好辣軍團」挑戰醫界麻辣話題，對上帥哥美女醫師團，不一樣的白色旋風即將登場！以前不敢說的，現在說給你聽，只要你想聽，我們就敢問！沒有不能聊，就怕不夠辣！絕對讓您耳目一新！打破傳統，跳脫框架！挖掘麻辣秘辛！</desc>
@@ -21457,6 +21433,10 @@
     <desc>透過世代差異，激盪出觀眾意想不到的旅行火花！全台唯一全明星跨世代旅遊實境節目，紀錄跨世代的藝人們難忘的友情之旅！</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="456578">
+    <display-name lang="Taiwan">MOMO綜合台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917033051797362_34.jpg" />
+  </channel>
   <programme channel="456578" start="20260717000000 +0000" stop="20260717030000 +0000">
     <title lang="zh">2026溫布頓網球錦標賽 DAY10 八強賽</title>
     <desc>2026溫布頓網球錦標賽 DAY10 八強賽</desc>
@@ -21642,6 +21622,10 @@
     <desc>中華職棒37年例行賽#208 0715 富邦悍將VS台鋼雄鷹</desc>
     <date>2026-07-19</date>
   </programme>
+  <channel id="456566">
+    <display-name lang="Taiwan">LS Time電影台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032757847192_64.png" />
+  </channel>
   <programme channel="456566" start="20260717010500 +0000" stop="20260717033500 +0000">
     <title lang="zh">再戰江湖</title>
     <desc>講述黑幫首領龍哥出獄後，回港找尋失散女兒未獲，反結識了鳳姐與小龍女，二人一起助龍哥尋女，後鳳姐被黑幫洪爺手下李明強暴，小龍女亦因撞破李買賣被追殺，龍哥為幫二女報仇，出於無奈，再出江湖與李明決一死戰…</desc>
@@ -21742,6 +21726,10 @@
     <desc>五、六十年代香港治安狀況不佳，警察貪污情形十分普遍，直至廉政公署在七十年代初期成立才改善了這種現象。李修賢、任達華、李子雄、鄭則仕演當時對橫跨黑白兩道的四大華人探長。導演林德祿手法流暢，雖…</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="456574">
+    <display-name lang="Taiwan">CINEMAX</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032947726943_49.png" />
+  </channel>
   <programme channel="456574" start="20260717001000 +0000" stop="20260717013000 +0000">
     <title lang="zh">護送錢斯</title>
     <desc>本片是榮獲艾美獎肯定的HBO自製電影,根據真人真事改編,全片紀錄中校麥可負責將不幸戰死於伊拉克的年輕海軍陸戰隊隊員遺體，安全運送回死者位於美國俄懷明州的家鄉之間的漫長旅程。</desc>
@@ -21882,6 +21870,10 @@
     <desc>在好萊塢的黃金年代，頂尖編劇家艾沙考夫曼與銀幕偶像克利佛拜恩原本是一對好朋友。但是1950年代一個名為「HUAC」的組織，在參議員麥卡錫的領導下，展開所謂「政治迫害」的行動，好萊塢開始瀰漫著白色恐怖，人人自危…</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="456570">
+    <display-name lang="Taiwan">好萊塢電影台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032858976728_21.png" />
+  </channel>
   <programme channel="456570" start="20260717010000 +0000" stop="20260717030000 +0000">
     <title lang="zh">小鬼也摩登</title>
     <desc>一個魔法面具讓一個溫和的好好先生變成一個無所不能、無往不利的泡妞高手。這次魔法面具落入一位年輕父親的手中，泡製出一部爆笑的家庭喜劇。當年輕的卡通畫家提姆艾佛瑞在兒子出生後，好不容易才克服了當菜鳥爸爸的恐懼，他卻很快發現他的小寶寶，竟然擁有魔法面具的超能力！更慘的是，他家養的小狗也覬覦魔法面具，於是和小寶寶展開一場面具爭奪大戰，把他家搞得天翻地覆、雞飛狗跳。但是他們都不知道，愛搞怪的挪威天神洛奇也跑來尋找他的魔法面具，而且願意不擇手段把它搶回來。</desc>
@@ -22002,6 +21994,10 @@
     <desc>為父報仇，她化身女殺神，槍林彈雨，殺出重圍！年幼目睹父母慘遭惡徒入侵殺害的安琪，隨後在叔叔撫養下長大成人，為了替父母報仇，她在叔叔嚴格訓練下，成為一名女殺手。某日循線調查，她為完成任務，妝扮成應召女郎，設法搶奪詹姆士皮夾內的晶片，卻意外發現同行女子妮娜，貌似多年失散的妹妹…。命案接二連三發生，反恐特警山姆循線調查，經調閱監視器發現，殺人兇手是安琪，而她竟是二十年前被謀殺的外交部長之女…。</desc>
     <date>2026-07-18</date>
   </programme>
+  <channel id="457372">
+    <display-name lang="Taiwan">CatchPlay HD</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/19/20250919173359629273_50.png" />
+  </channel>
   <programme channel="457372" start="20260717000000 +0000" stop="20260717010000 +0000">
     <title lang="zh">潮與虎(雙語)(37-38)(護)</title>
     <desc />
@@ -22147,6 +22143,10 @@
     <desc />
     <date>2026-07-19</date>
   </programme>
+  <channel id="456569">
+    <display-name lang="Taiwan">AXN</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917032844221558_23.jpg" />
+  </channel>
   <programme channel="456569" start="20260717000000 +0000" stop="20260717020000 +0000">
     <title lang="zh">大武當之天地密碼</title>
     <desc>以民國初年的一場武術大賽為背景，講述了各路高手齊赴武當山，名為參賽實為爭奪隱藏在山中的寶物的故事。</desc>
