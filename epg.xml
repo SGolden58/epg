@@ -10997,13 +10997,13 @@
   </programme>
   <channel id="099">
     <display-name lang="Malaysia">ViuTV</display-name>
-    <icon src="https://m3u.hk/logo/viutv.png" />
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/ViuTV.png" />
   </channel>
   <channel id="096">
     <display-name lang="Malaysia">ViuTVsix</display-name>
-    <icon src="https://m3u.hk/logo/viutvsix.png" />
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo//ViuTVsix.png" />
   </channel>
-  <channel tvg="ViuTV"><display-name>ViuTV</display-name></channel><channel tvg="ViuTVsix"><display-name>ViuTVsix</display-name></channel><channel id="370136">
+  <channel id="370136">
     <display-name lang="Malaysia">TV1</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612105904271177_79.png" />
   </channel>
