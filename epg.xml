@@ -17425,7 +17425,12 @@
     <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure.</desc>
     <date>2026-07-19</date>
   </programme>
-  <programme channel="486843" start="20260719220000 +0000" stop="20260720000000 +0000">
+  <programme channel="486843" start="20260719220000 +0000" stop="20260719230000 +0000">
+    <title lang="zh">The Amazing World of Gumball</title>
+    <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="486843" start="20260719230000 +0000" stop="20260720000000 +0000">
     <title lang="zh">The Amazing World of Gumball</title>
     <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure.</desc>
     <date>2026-07-19</date>
