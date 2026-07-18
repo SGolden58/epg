@@ -12,8 +12,8 @@ class ViuTVPlatform:
     async def fetch_all_programs(self, days=2):
         all_programs = []
         target_map = {
-            "ViuTV.hk": "099",
-            "ViuTVsix.hk": "096"
+            "ViuTV.hk": "99",
+            "ViuTVsix.hk": "96"
         }
         
         try:
@@ -67,7 +67,7 @@ class ViuTVPlatform:
 
         if not all_programs:
             now = datetime.now(self.kl_tz)
-            for cid in ["099", "096"]:
+            for cid in ["99", "96"]:
                 all_programs.append({
                     'channel_id': cid,
                     'title': "ViuTV Schedule",
