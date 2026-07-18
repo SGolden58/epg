@@ -90,7 +90,7 @@ async def run_all():
         add_custom_section(root, cid, hoy_progs)
 
     # 2. Add ViuTV Channels (099, 096)
-    for cid in ["099", "096"]:
+    for cid in ["ViuTV", "ViuTVsix"]:
         add_custom_section(root, cid, viu_progs)
 
     # 3. Add epg.pw Channels
