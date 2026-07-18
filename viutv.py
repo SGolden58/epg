@@ -5,7 +5,12 @@ from datetime import datetime, timedelta
 class ViuTVPlatform:
     def __init__(self):
         # Updated to v3 API which is currently used by the web player
-        self.url = "https://api.viu.now.com/p8/3/getChannelSchedule"
+        self.url =  {
+                   "https://api.viu.now.com/p8/3/getChannelSchedule",
+                   "https://api.viu.now.com/p8/2/getChannelSchedule",
+                   "https://api.viu.now.com/p8/1/getChannelSchedule"
+        }
+        
         self.headers = {
             "Content-Type": "application/json",
             "Origin": "https://viutv.hk",
