@@ -47,10 +47,10 @@ class ViuTVPlatform:
                             if s_match and e_match:
                                 fmt = "%Y%m%d%H%M%S"
                                 # This file uses +0800 (HK Time)
-                                hk_tz = pytz.timezone('Asia/Hong_Kong')
+                                kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
                                 
-                                start_dt = hk_tz.localize(datetime.strptime(s_match.group(1), fmt))
-                                end_dt = hk_tz.localize(datetime.strptime(e_match.group(1), fmt))
+                                start_dt = kl_tz.localize(datetime.strptime(s_match.group(1), fmt))
+                                end_dt = kl_tz.localize(datetime.strptime(e_match.group(1), fmt))
 
                                 all_programs.append({
                                     'channel_id': ch_id,
