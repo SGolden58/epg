@@ -5,19 +5,18 @@ from datetime import datetime, timedelta
 
 class ViuTVPlatform:
     def __init__(self):
-        self.schedule_url = "https://api.viu.now.com/p8/2/getChannelSchedule"
-        self.headers = {
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-            "Origin": "https://viutv.hk",
-            "Referer": "https://viutv.hk/",
-            "User-Agent": "Mozilla/5.0"
+        # The source you provided
+        self.url = "https://www.open-epg.com/files/hongkong4.xml"
+
+    async def fetch_all_programs(self, days=2):
+        all_programs = []
+        # EXACT IDs from hongkong4.xml:
+        # <channel id="ViuTV.hk">
+        # <channel id="ViuTVsix.hk">
+        target_map = {
+            "ViuTV.hk": "099",
+            "ViuTVsix.hk": "096"
         }
-        # ViuTV uses specific channel numbers in their backend API
-        self.target_channels = [
-            {"api_id": "099", "m3u_id": "099", "name": "ViuTV"},
-            {"api_id": "096", "m3u_id": "096", "name": "ViuTVsix"}
-        ]
 
     async def fetch_channels(self):
         # Returns the core channel mapping structured exactly like your HOY code
