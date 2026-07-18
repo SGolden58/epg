@@ -20,8 +20,8 @@ CUSTOM_CHANNELS = {
     "76": {"name": "HOY 76", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
     "77": {"name": "HOY 77", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
     "78": {"name": "HOY 78", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
-    "099": {"name": "ViuTV", "logo": "https://m3u.hk/logo/viutv.png"},
-    "096": {"name": "ViuTVsix", "logo": "https://m3u.hk/logo/viutvsix.png"}
+    "099": {"name": "ViuTV", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/ViuTV.png"},
+    "096": {"name": "ViuTVsix", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo//ViuTVsix.png"}
 }
 
 def add_custom_section(root, ch_id, progs):
@@ -93,13 +93,8 @@ async def run_all():
     for cid in ["099", "096"]:
         add_custom_section(root, cid, viu_progs)
 
-    viu = ViuTVPlatform()
-    viu_progs = await viu.fetch_all_programs(days=2)
-
     # We use the Display Names as the ID for ViuTV
     for display_name in ["ViuTV", "ViuTVsix"]:
-        # CRITICAL: Create the <channel> tag for ViuTV
-        ch = ET.SubElement(root, "channel", tvg=display_name)
         ET.SubElement(ch, "display-name").text = display_name
         
         # Add the programs matching this display_name
