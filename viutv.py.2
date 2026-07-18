@@ -6,14 +6,11 @@ import re
 
 class ViuTVPlatform:
     def __init__(self):
-        # The source you provided
         self.url = "https://www.open-epg.com/files/hongkong4.xml"
+        self.kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
 
     async def fetch_all_programs(self, days=2):
         all_programs = []
-        # EXACT IDs from hongkong4.xml:
-        # <channel id="ViuTV.hk">
-        # <channel id="ViuTVsix.hk">
         target_map = {
             "ViuTV.hk": "099",
             "ViuTVsix.hk": "096"
@@ -21,9 +18,8 @@ class ViuTVPlatform:
         
         try:
             print(f"Fetching ViuTV data from Open-EPG...")
-            # Added headers to look like a browser just in case
             headers = {"User-Agent": "Mozilla/5.0"}
-            response = requests.get(self.url, headers=headers, timeout=30)
+            response = requests.get(self.url, headers=headers, timeout=45)
             
             if response.status_code == 200:
                 root = ET.fromstring(response.content)
@@ -35,40 +31,42 @@ class ViuTVPlatform:
                     if channel_attr in target_map:
                         ch_id = target_map[channel_attr]
                         
-                        # Parse times: e.g., 20260718060000 +0800
-                        start_attr = prog.get('start')
+                        start_attr = prog.get('start') # e.g., "20260718070000 +0000"
                         stop_attr = prog.get('stop')
                         
                         if start_attr and stop_attr:
-                            # Extract the 14 digits
-                            s_match = re.search(r'(\d{14})', start_attr)
-                            e_match = re.search(r'(\d{14})', stop_attr)
+                            # 1. Extract the 14 digits (YYYYMMDDHHMMSS)
+                            s_digits = re.search(r'(\d{14})', start_attr).group(1)
+                            e_digits = re.search(r'(\d{14})', stop_attr).group(1)
                             
-                            if s_match and e_match:
-                                fmt = "%Y%m%d%H%M%S"
-                                # This file uses +0800 (HK Time)
-                                kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
-                                
-                                start_dt = kl_tz.localize(datetime.strptime(s_match.group(1), fmt))
-                                end_dt = kl_tz.localize(datetime.strptime(e_match.group(1), fmt))
+                            fmt = "%Y%m%d%H%M%S"
+                            
+                            # 2. Parse as UTC (the source XML is usually stored in UTC internally)
+                            # If the XML says 07:00 and it's actually 15:00 KL time, 
+                            # we treat 07:00 as UTC.
+                            s_dt = pytz.utc.localize(datetime.strptime(s_digits, fmt))
+                            e_dt = pytz.utc.localize(datetime.strptime(e_digits, fmt))
+                            
+                            # 3. Convert to Kuala Lumpur Time (UTC+8)
+                            # This will turn 07:00 UTC into 15:00 KL
+                            start_kl = s_dt.astimezone(self.kl_tz)
+                            end_kl = e_dt.astimezone(self.kl_tz)
 
-                                all_programs.append({
-                                    'channel_id': ch_id,
-                                    'title': prog.findtext('title', 'No Title'),
-                                    'desc': prog.findtext('desc', ''),
-                                    'start': start_dt.astimezone(pytz.UTC),
-                                    'end': end_dt.astimezone(pytz.UTC)
-                                })
-                                count += 1
+                            all_programs.append({
+                                'channel_id': ch_id,
+                                'title': prog.findtext('title', 'No Title'),
+                                'desc': prog.findtext('desc', ''),
+                                'start': start_kl, 
+                                'end': end_kl
+                            })
+                            count += 1
                 
                 print(f"Successfully matched {count} programs for ViuTV.")
         except Exception as e:
             print(f"Open-EPG fetch failed: {e}")
 
-        # Only show fallback if absolutely no programs were found
         if not all_programs:
-            print("No programs found in XML. Check channel IDs.")
-            now = datetime.now(pytz.UTC)
+            now = datetime.now(self.kl_tz)
             for cid in ["099", "096"]:
                 all_programs.append({
                     'channel_id': cid,
