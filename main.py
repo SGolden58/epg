@@ -96,9 +96,6 @@ async def run_all():
     # We use the Display Names as the ID for ViuTV
     for display_name in ["ViuTV", "ViuTVsix"]:
         ET.SubElement(ch, "display-name").text = display_name
-        
-        # Add the programs matching this display_name
-        add_custom_section(root, display_name, viu_progs)
 
     # 3. Add epg.pw Channels
     for cid in CHANNEL_IDS:
