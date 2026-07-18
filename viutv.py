@@ -12,8 +12,8 @@ class ViuTVPlatform:
     async def fetch_all_programs(self, days=2):
         all_programs = []
         target_map = {
-            "ViuTV.hk": "099",
-            "ViuTVsix.hk": "096"
+            "ViuTV.hk": "ViuTV",
+            "ViuTVsix.hk": "ViuTVsix"
         }
         
         try:
