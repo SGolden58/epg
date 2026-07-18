@@ -1,7 +1,8 @@
 import requests
-import pytz
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-
+import pytz
+import re
 
 class ViuTVPlatform:
     def __init__(self):
@@ -17,61 +18,64 @@ class ViuTVPlatform:
             "ViuTV.hk": "099",
             "ViuTVsix.hk": "096"
         }
-
-    async def fetch_channels(self):
-        return [{"id": ch["m3u_id"], "api_id": ch["api_id"], "name": ch["name"]} for ch in self.target_channels]
-
-    async def fetch_programs(self, channels):
-        all_progs = []
-        kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
         
-        async with httpx.AsyncClient(headers=self.headers, timeout=10) as client:
-            tasks = []
-            for ch in channels:
-                for day_offset in ["0", "1", "2"]:
-                    payload = {
-                        "channelNo": ch["api_id"],
-                        "dayOffset": day_offset,
-                        "deviceId": "anonymous",
-                        "callerReferenceNo": "web"
-                    }
-                    tasks.append(self._fetch_day(client, payload, ch, kl_tz))
-            
-            results = await asyncio.gather(*tasks)
-            for res in results:
-                all_progs.extend(res)
-                
-        return all_progs
-
-    async def _fetch_day(self, client, payload, ch, tz):
-        day_progs = []
         try:
-            r = await client.post(self.schedule_url, json=payload)
-            data = r.json()
-            listings = data.get("data", {}).get("scheduleList", [])
+            print(f"Fetching ViuTV data from Open-EPG...")
+            # Added headers to look like a browser just in case
+            headers = {"User-Agent": "Mozilla/5.0"}
+            response = requests.get(self.url, headers=headers, timeout=30)
             
-            for item in listings:
-                start_ms = int(item.get("startMilliSec", 0))
-                duration_ms = int(item.get("duration", 0))
+            if response.status_code == 200:
+                root = ET.fromstring(response.content)
                 
-                start = datetime.fromtimestamp(start_ms / 1000.0, tz=tz)
-                end = datetime.fromtimestamp((start_ms + duration_ms) / 1000.0, tz=tz)
-                
-                # Using a dictionary or a NamedTuple is often cleaner than type('Prog', ...)
-                prog = {
-                    'channel_id': ch['id'],
-                    'title': item.get("progTitle", "No Title"),
-                    'desc': item.get("progDesc", ""),
-                    'date': start.strftime("%Y-%m-%d"),
-                    'start_time': start,
-                    'end_time': end
-                }
-                day_progs.append(prog)
-        except Exception as e:
-            print(f"Error fetching {ch['name']}: {e}")
-        return day_progs
+                count = 0
+                for prog in root.findall('programme'):
+                    channel_attr = prog.get('channel', '')
+                    
+                    if channel_attr in target_map:
+                        ch_id = target_map[channel_attr]
+                        
+                        # Parse times: e.g., 20260718060000 +0800
+                        start_attr = prog.get('start')
+                        stop_attr = prog.get('stop')
+                        
+                        if start_attr and stop_attr:
+                            # Extract the 14 digits
+                            s_match = re.search(r'(\d{14})', start_attr)
+                            e_match = re.search(r'(\d{14})', stop_attr)
+                            
+                            if s_match and e_match:
+                                fmt = "%Y%m%d%H%M%S"
+                                # This file uses +0800 (HK Time)
+                                hk_tz = pytz.timezone('Asia/Hong_Kong')
+                                
+                                start_dt = hk_tz.localize(datetime.strptime(s_match.group(1), fmt))
+                                end_dt = hk_tz.localize(datetime.strptime(e_match.group(1), fmt))
 
-# Usage example:
-# platform = ViuTVPlatform()
-# channels = await platform.fetch_channels()
-# programs = await platform.fetch_programs(channels)
+                                all_programs.append({
+                                    'channel_id': ch_id,
+                                    'title': prog.findtext('title', 'No Title'),
+                                    'desc': prog.findtext('desc', ''),
+                                    'start': start_dt.astimezone(pytz.UTC),
+                                    'end': end_dt.astimezone(pytz.UTC)
+                                })
+                                count += 1
+                
+                print(f"Successfully matched {count} programs for ViuTV.")
+        except Exception as e:
+            print(f"Open-EPG fetch failed: {e}")
+
+        # Only show fallback if absolutely no programs were found
+        if not all_programs:
+            print("No programs found in XML. Check channel IDs.")
+            now = datetime.now(pytz.UTC)
+            for cid in ["099", "096"]:
+                all_programs.append({
+                    'channel_id': cid,
+                    'title': "ViuTV Schedule",
+                    'desc': "Data Syncing...",
+                    'start': now,
+                    'end': now + timedelta(hours=6)
+                })
+                    
+        return all_programs
