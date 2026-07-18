@@ -10997,7 +10997,7 @@
   </programme>
   <channel id="099">
     <display-name lang="Malaysia">ViuTV</display-name>
-    <icon src="https://m3u.hk/logo/viutv.png" />
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/ViuTV.png" />
   </channel>
   <programme channel="099" start="20260717080000 +0000" stop="20260717083000 +0000">
     <title lang="zh">Yo-Kai Watch</title>
@@ -11445,7 +11445,7 @@
   </programme>
   <channel id="096">
     <display-name lang="Malaysia">ViuTVsix</display-name>
-    <icon src="https://m3u.hk/logo/viutvsix.png" />
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/ViuTVsix.png" />
   </channel>
   <programme channel="096" start="20260717080000 +0000" stop="20260717083000 +0000">
     <title lang="zh">DW News</title>
