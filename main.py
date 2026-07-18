@@ -89,12 +89,17 @@ async def run_all():
     for cid in ["76", "77", "78"]:
         add_custom_section(root, cid, hoy_progs)
 
-    # 2. Fetch ViuTV Data (Using Display Names)
+    # --- 2. Fetch ViuTV Data ---
     viu = ViuTVPlatform()
     viu_progs = await viu.fetch_all_programs(days=2)
 
-    # Use the Display Names as the 'cid' to match viu_progs
+    # We use the Display Names as the ID for ViuTV
     for display_name in ["ViuTV", "ViuTVsix"]:
+        # CRITICAL: Create the <channel> tag for ViuTV
+        ch = ET.SubElement(root, "channel", id=display_name)
+        ET.SubElement(ch, "display-name").text = display_name
+        
+        # Add the programs matching this display_name
         add_custom_section(root, display_name, viu_progs)
 
     # 3. Add epg.pw Channels
