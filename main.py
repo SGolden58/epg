@@ -89,10 +89,13 @@ async def run_all():
     for cid in ["76", "77", "78"]:
         add_custom_section(root, cid, hoy_progs)
 
-    # 2. Add ViuTV Channels using Display Names
-    # These must match the 'channel_id' strings returned by ViuTVPlatform
-    for cid in ["ViuTV", "ViuTVsix"]:
-        add_custom_section(root, cid, viu_progs)
+    # 2. Fetch ViuTV Data (Using Display Names)
+    viu = ViuTVPlatform()
+    viu_progs = await viu.fetch_all_programs(days=2)
+
+    # Use the Display Names as the 'cid' to match viu_progs
+    for display_name in ["ViuTV", "ViuTVsix"]:
+        add_custom_section(root, display_name, viu_progs)
 
     # 3. Add epg.pw Channels
     for cid in CHANNEL_IDS:
