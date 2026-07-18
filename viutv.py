@@ -67,7 +67,7 @@ class ViuTVPlatform:
 
         if not all_programs:
             now = datetime.now(self.kl_tz)
-            for cid in ["099", "096"]:
+            for cid in ["99", "96"]:
                 all_programs.append({
                     'channel_id': cid,
                     'title': "ViuTV Schedule",
