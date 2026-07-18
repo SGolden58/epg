@@ -6,14 +6,13 @@ import re
 
 class ViuTVPlatform:
     def __init__(self):
-        # The source you provided
+        # Open-EPG source
         self.url = "https://www.open-epg.com/files/hongkong4.xml"
+        self.kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
 
     async def fetch_all_programs(self, days=2):
         all_programs = []
-        # EXACT IDs from hongkong4.xml:
-        # <channel id="ViuTV.hk">
-        # <channel id="ViuTVsix.hk">
+        # Mapping Open-EPG IDs to your preferred IDs
         target_map = {
             "ViuTV.hk": "099",
             "ViuTVsix.hk": "096"
@@ -21,9 +20,9 @@ class ViuTVPlatform:
         
         try:
             print(f"Fetching ViuTV data from Open-EPG...")
-            # Added headers to look like a browser just in case
             headers = {"User-Agent": "Mozilla/5.0"}
-            response = requests.get(self.url, headers=headers, timeout=30)
+            # Using a timeout as XML files can be large
+            response = requests.get(self.url, headers=headers, timeout=45)
             
             if response.status_code == 200:
                 root = ET.fromstring(response.content)
@@ -35,32 +34,35 @@ class ViuTVPlatform:
                     if channel_attr in target_map:
                         ch_id = target_map[channel_attr]
                         
-                        # Parse times: e.g., 20260718060000 +0800
-        all_progs = []
-        kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
-        for ch in channels:
-            if not ch['epg']: continue
-            try:
-                r = requests.get(ch['epg'], headers=self.headers, timeout=10)
-                root = ET.fromstring(r.content)
-                for item in root.findall('.//EpgItem'):
-                    start_str = item.findtext('EpgStartDateTime')
-                    end_str = item.findtext('EpgEndDateTime')
-                    
-                    ep_info = item.find('EpisodeInfo')
-                    title = ep_info.findtext('EpisodeShortDescription')
-                    # Ensure we get the long description
-                    desc = ep_info.findtext('EpisodeLongDescription')
-                    
-                    start = kl_tz.localize(datetime.strptime(start_str, "%Y-%m-%d %H:%M:%S"))
-                    end = kl_tz.localize(datetime.strptime(end_str, "%Y-%m-%d %H:%M:%S"))
+                        # XMLTV format: 20260718060000 +0800
+                        start_attr = prog.get('start')
+                        stop_attr = prog.get('stop')
+                        
+                        if start_attr and stop_attr:
+                            # Extract 14 digits for YYYYMMDDHHMMSS
+                            s_match = re.search(r'(\d{14})', start_attr)
+                            e_match = re.search(r'(\d{14})', stop_attr)
+                            
+                            if s_match and e_match:
+                                fmt = "%Y%m%d%H%M%S"
+                                
+                                # 1. Parse the raw time
+                                s_dt = datetime.strptime(s_match.group(1), fmt)
+                                e_dt = datetime.strptime(e_match.group(1), fmt)
+                                
+                                # 2. Localize to KL Time (UTC+8)
+                                # We assume the source is already HK/KL time (+8)
+                                start_kl = self.kl_tz.localize(s_dt)
+                                end_kl = self.kl_tz.localize(e_dt)
 
                                 all_programs.append({
                                     'channel_id': ch_id,
                                     'title': prog.findtext('title', 'No Title'),
                                     'desc': prog.findtext('desc', ''),
-                                    'start': start_dt.astimezone(pytz.UTC),
-                                    'end': end_dt.astimezone(pytz.UTC)
+                                    # Televizo works best when start/end are datetime objects 
+                                    # or strings formatted with the +0800 offset
+                                    'start': start_kl, 
+                                    'end': end_kl
                                 })
                                 count += 1
                 
@@ -68,10 +70,10 @@ class ViuTVPlatform:
         except Exception as e:
             print(f"Open-EPG fetch failed: {e}")
 
-        # Only show fallback if absolutely no programs were found
+        # Fallback logic
         if not all_programs:
-            print("No programs found in XML. Check channel IDs.")
-            now = datetime.now(pytz.UTC)
+            print("No programs found in XML. Generating placeholder.")
+            now = datetime.now(self.kl_tz)
             for cid in ["099", "096"]:
                 all_programs.append({
                     'channel_id': cid,
