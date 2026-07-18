@@ -36,21 +36,24 @@ class ViuTVPlatform:
                         ch_id = target_map[channel_attr]
                         
                         # Parse times: e.g., 20260718060000 +0800
-                        start_attr = prog.get('start')
-                        stop_attr = prog.get('stop')
-                        
-                        if start_attr and stop_attr:
-                            # Extract the 14 digits
-                            s_match = re.search(r'(\d{14})', start_attr)
-                            e_match = re.search(r'(\d{14})', stop_attr)
-                            
-                            if s_match and e_match:
-                                fmt = "%Y%m%d%H%M%S"
-                                # This file uses +0800 (HK Time)
-                                hk_tz = pytz.timezone('Asia/Hong_Kong')
-                                
-                                start_dt = hk_tz.localize(datetime.strptime(s_match.group(1), fmt))
-                                end_dt = hk_tz.localize(datetime.strptime(e_match.group(1), fmt))
+        all_progs = []
+        kl_tz = pytz.timezone('Asia/Kuala_Lumpur')
+        for ch in channels:
+            if not ch['epg']: continue
+            try:
+                r = requests.get(ch['epg'], headers=self.headers, timeout=10)
+                root = ET.fromstring(r.content)
+                for item in root.findall('.//EpgItem'):
+                    start_str = item.findtext('EpgStartDateTime')
+                    end_str = item.findtext('EpgEndDateTime')
+                    
+                    ep_info = item.find('EpisodeInfo')
+                    title = ep_info.findtext('EpisodeShortDescription')
+                    # Ensure we get the long description
+                    desc = ep_info.findtext('EpisodeLongDescription')
+                    
+                    start = kl_tz.localize(datetime.strptime(start_str, "%Y-%m-%d %H:%M:%S"))
+                    end = kl_tz.localize(datetime.strptime(end_str, "%Y-%m-%d %H:%M:%S"))
 
                                 all_programs.append({
                                     'channel_id': ch_id,
