@@ -4,6 +4,21 @@ from datetime import datetime, timedelta
 
 class ViuTVPlatform:
     def __init__(self):
+        # The source you provided
+        self.url = "https://www.open-epg.com/files/hongkong4.xml"
+
+    async def fetch_all_programs(self, days=2):
+        all_programs = []
+        # EXACT IDs from hongkong4.xml:
+        # <channel id="ViuTV.hk">
+        # <channel id="ViuTVsix.hk">
+        target_map = {
+            "ViuTV.hk": "099",
+            "ViuTVsix.hk": "096"
+        }
+
+class ViuTVPlatform:
+    def __init__(self):
         self.schedule_url = "https://api.viu.now.com/p8/2/getChannelSchedule"
         self.headers = {
             "Content-Type": "application/json",
