@@ -20,8 +20,8 @@ CUSTOM_CHANNELS = {
     "76": {"name": "HOY 76", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
     "77": {"name": "HOY 77", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
     "78": {"name": "HOY 78", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png"},
-    "099": {"name": "ViuTV", "logo": "https://m3u.hk/logo/viutv.png"},
-    "096": {"name": "ViuTVsix", "logo": "https://m3u.hk/logo/viutvsix.png"}
+    "099": {"name": "ViuTV", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/ViuTV.png"},
+    "096": {"name": "ViuTVsix", "logo": "https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/ViuTVsix.png"}
 }
 
 def add_custom_section(root, ch_id, progs):
@@ -89,8 +89,8 @@ async def run_all():
     for cid in ["76", "77", "78"]:
         add_custom_section(root, cid, hoy_progs)
 
-    # 2. Add ViuTV Channels (099, 096)
-    for cid in ["099", "096"]:
+    # 2. Add ViuTV Channels (99, 96)
+    for cid in ["99", "96"]:
         add_custom_section(root, cid, viu_progs)
 
     # 3. Add epg.pw Channels
