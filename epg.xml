@@ -4,122 +4,6 @@
     <display-name lang="Malaysia">HOY 76</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
   </channel>
-  <programme channel="76" start="20260703165500 +0000" stop="20260703190000 +0000">
-    <title lang="zh">瑞典超級足球聯賽-天狼星  對  米贊比</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260703190000 +0000" stop="20260703200000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260703200000 +0000" stop="20260703210000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260703210000 +0000" stop="20260703220000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260703220000 +0000" stop="20260703230000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260703230000 +0000" stop="20260703235500 +0000">
-    <title lang="zh">CGTN 時段</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260703235500 +0000" stop="20260704020000 +0000">
-    <title lang="zh">FIBA世界盃男子籃球美洲區資格賽-多明尼加共和國 對 美國</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704020000 +0000" stop="20260704023000 +0000">
-    <title lang="zh">露露布魯姆布魯姆 第1-2季</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704023000 +0000" stop="20260704030000 +0000">
-    <title lang="zh">奧利和朋友們 第6季</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704030000 +0000" stop="20260704040000 +0000">
-    <title lang="zh">催化劑系列</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704040000 +0000" stop="20260704043000 +0000">
-    <title lang="zh">動物魔法師第2季</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704043000 +0000" stop="20260704050000 +0000">
-    <title lang="zh">動物魔法師第2季</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704050000 +0000" stop="20260704060000 +0000">
-    <title lang="zh">體育360</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704060000 +0000" stop="20260704070000 +0000">
-    <title lang="zh">FashionTV</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704070000 +0000" stop="20260704080000 +0000">
-    <title lang="zh">亞洲勒芒系列賽</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704080000 +0000" stop="20260704083000 +0000">
-    <title lang="zh">太空新星 第1季</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704083000 +0000" stop="20260704090000 +0000">
-    <title lang="zh">消防員山姆系列 15</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704090000 +0000" stop="20260704093000 +0000">
-    <title lang="zh">露露布魯姆布魯姆 第1-2季</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704093000 +0000" stop="20260704100000 +0000">
-    <title lang="zh">奧利和朋友們 第6季</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704100000 +0000" stop="20260704110000 +0000">
-    <title lang="zh">體育360</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704110000 +0000" stop="20260704113000 +0000">
-    <title lang="zh">歐洲大觀</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704113000 +0000" stop="20260704120000 +0000">
-    <title lang="zh">Arts.21</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704120000 +0000" stop="20260704121500 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704121500 +0000" stop="20260704123000 +0000">
-    <title lang="zh">Green Touch</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704123000 +0000" stop="20260704125500 +0000">
-    <title lang="zh">與Kal Penn一起變暖</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704125500 +0000" stop="20260704134500 +0000">
-    <title lang="zh">瑞典超級足球聯賽-迪加科斯 對 馬模</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704134500 +0000" stop="20260704140000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704140000 +0000" stop="20260704145500 +0000">
-    <title lang="zh">瑞典超級足球聯賽-迪加科斯 對 馬模</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="76" start="20260704145500 +0000" stop="20260704170000 +0000">
-    <title lang="zh">FIBA U17 世界盃男子籃球賽準決賽</title>
-    <date>2026-07-04</date>
-  </programme>
   <programme channel="76" start="20260704170000 +0000" stop="20260704175500 +0000">
     <title lang="zh">亞洲勒芒系列賽</title>
     <date>2026-07-05</date>
@@ -1704,16 +1588,12 @@
     <title lang="zh">真心假結婚</title>
     <date>2026-07-17</date>
   </programme>
-  <programme channel="76" start="20260717163000 +0000" stop="20260717173000 +0000">
-    <title lang="zh">樂遊原</title>
+  <programme channel="76" start="20260717163000 +0000" stop="20260717165500 +0000">
+    <title lang="zh">小空間大活用 3</title>
     <date>2026-07-18</date>
   </programme>
-  <programme channel="76" start="20260717173000 +0000" stop="20260717180000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-07-18</date>
-  </programme>
-  <programme channel="76" start="20260717180000 +0000" stop="20260717190000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
+  <programme channel="76" start="20260717165500 +0000" stop="20260717190000 +0000">
+    <title lang="zh">瑞典超級足球聯賽-米贊比 對  華斯特拉斯</title>
     <date>2026-07-18</date>
   </programme>
   <programme channel="76" start="20260717190000 +0000" stop="20260717200000 +0000">
@@ -1816,16 +1696,12 @@
     <title lang="zh">Green Touch</title>
     <date>2026-07-18</date>
   </programme>
-  <programme channel="76" start="20260718123000 +0000" stop="20260718130000 +0000">
+  <programme channel="76" start="20260718123000 +0000" stop="20260718125500 +0000">
     <title lang="zh">Emily Chang 的《後人類》</title>
     <date>2026-07-18</date>
   </programme>
-  <programme channel="76" start="20260718130000 +0000" stop="20260718140000 +0000">
-    <title lang="zh">螞蟻王國</title>
-    <date>2026-07-18</date>
-  </programme>
-  <programme channel="76" start="20260718140000 +0000" stop="20260718150000 +0000">
-    <title lang="zh">長壽時代第1季</title>
+  <programme channel="76" start="20260718125500 +0000" stop="20260718150000 +0000">
+    <title lang="zh">瑞典超級足球聯賽-AIK蘇納  對  加爾斯</title>
     <date>2026-07-18</date>
   </programme>
   <programme channel="76" start="20260718150000 +0000" stop="20260718151500 +0000">
@@ -1960,25 +1836,25 @@
     <title lang="zh">長壽時代第1季</title>
     <date>2026-07-19</date>
   </programme>
-  <programme channel="76" start="20260719140000 +0000" stop="20260719143000 +0000">
-    <title lang="zh">牛市</title>
-    <date>2026-07-19</date>
-  </programme>
-  <programme channel="76" start="20260719143000 +0000" stop="20260719144500 +0000">
-    <title lang="zh">Green Touch</title>
-    <date>2026-07-19</date>
-  </programme>
-  <programme channel="76" start="20260719144500 +0000" stop="20260719150000 +0000">
+  <programme channel="76" start="20260719140000 +0000" stop="20260719141500 +0000">
     <title lang="zh">有線新聞</title>
     <date>2026-07-19</date>
   </programme>
-  <programme channel="76" start="20260719150000 +0000" stop="20260719151000 +0000">
+  <programme channel="76" start="20260719141500 +0000" stop="20260719142500 +0000">
     <title lang="zh">Green Touch</title>
     <date>2026-07-19</date>
   </programme>
-  <programme channel="76" start="20260719151000 +0000" stop="20260719171500 +0000">
-    <title lang="zh">FIBA U17 世界盃女子籃球賽季軍賽</title>
+  <programme channel="76" start="20260719142500 +0000" stop="20260719163000 +0000">
+    <title lang="zh">瑞典超級足球聯賽-艾夫斯堡 對 天狼星</title>
     <date>2026-07-19</date>
+  </programme>
+  <programme channel="76" start="20260719163000 +0000" stop="20260719170000 +0000">
+    <title lang="zh">Emily Chang 的《後人類》</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="76" start="20260719170000 +0000" stop="20260719171500 +0000">
+    <title lang="zh">Green Touch</title>
+    <date>2026-07-20</date>
   </programme>
   <programme channel="76" start="20260719171500 +0000" stop="20260719181000 +0000">
     <title lang="zh">我們偉大的約克郡生活</title>
@@ -2096,16 +1972,12 @@
     <title lang="zh">真心假結婚</title>
     <date>2026-07-20</date>
   </programme>
-  <programme channel="76" start="20260720163000 +0000" stop="20260720173000 +0000">
-    <title lang="zh">樂遊原</title>
+  <programme channel="76" start="20260720163000 +0000" stop="20260720165500 +0000">
+    <title lang="zh">小空間大活用 3</title>
     <date>2026-07-21</date>
   </programme>
-  <programme channel="76" start="20260720173000 +0000" stop="20260720180000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-07-21</date>
-  </programme>
-  <programme channel="76" start="20260720180000 +0000" stop="20260720190000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
+  <programme channel="76" start="20260720165500 +0000" stop="20260720190000 +0000">
+    <title lang="zh">瑞典超級足球聯賽-卡爾馬  對 馬模</title>
     <date>2026-07-21</date>
   </programme>
   <programme channel="76" start="20260720190000 +0000" stop="20260720200000 +0000">
@@ -2364,16 +2236,12 @@
     <title lang="zh">Bloomberg 時段</title>
     <date>2026-07-23</date>
   </programme>
-  <programme channel="76" start="20260722210000 +0000" stop="20260722220000 +0000">
+  <programme channel="76" start="20260722210000 +0000" stop="20260722215500 +0000">
     <title lang="zh">Bloomberg 時段</title>
     <date>2026-07-23</date>
   </programme>
-  <programme channel="76" start="20260722220000 +0000" stop="20260722230000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-07-23</date>
-  </programme>
-  <programme channel="76" start="20260722230000 +0000" stop="20260723000000 +0000">
-    <title lang="zh">CGTN 時段</title>
+  <programme channel="76" start="20260722215500 +0000" stop="20260723000000 +0000">
+    <title lang="zh">南美球會盃附加賽-麥德林獨立 對 華斯高</title>
     <date>2026-07-23</date>
   </programme>
   <programme channel="76" start="20260723000000 +0000" stop="20260723010000 +0000">
@@ -2500,24 +2368,16 @@
     <title lang="zh">CGTN 時段</title>
     <date>2026-07-24</date>
   </programme>
-  <programme channel="76" start="20260724000000 +0000" stop="20260724010000 +0000">
-    <title lang="zh">CGTN 時段</title>
+  <programme channel="76" start="20260724000000 +0000" stop="20260724004000 +0000">
+    <title lang="zh">Bloomberg 時段</title>
     <date>2026-07-24</date>
   </programme>
-  <programme channel="76" start="20260724010000 +0000" stop="20260724013000 +0000">
-    <title lang="zh">太空新星 第2季</title>
+  <programme channel="76" start="20260724004000 +0000" stop="20260724024500 +0000">
+    <title lang="zh">阿根廷甲組足球聯賽-防衛者 對  阿度斯維</title>
     <date>2026-07-24</date>
   </programme>
-  <programme channel="76" start="20260724013000 +0000" stop="20260724020000 +0000">
-    <title lang="zh">消防員山姆系列 16</title>
-    <date>2026-07-24</date>
-  </programme>
-  <programme channel="76" start="20260724020000 +0000" stop="20260724023000 +0000">
-    <title lang="zh">露露布魯姆布魯姆 第1-2季</title>
-    <date>2026-07-24</date>
-  </programme>
-  <programme channel="76" start="20260724023000 +0000" stop="20260724030000 +0000">
-    <title lang="zh">奧利和朋友們 第6季</title>
+  <programme channel="76" start="20260724024500 +0000" stop="20260724030000 +0000">
+    <title lang="zh">Green Touch</title>
     <date>2026-07-24</date>
   </programme>
   <programme channel="76" start="20260724030000 +0000" stop="20260724040000 +0000">
@@ -2592,16 +2452,12 @@
     <title lang="zh">真心假結婚</title>
     <date>2026-07-24</date>
   </programme>
-  <programme channel="76" start="20260724163000 +0000" stop="20260724173000 +0000">
-    <title lang="zh">樂遊原</title>
+  <programme channel="76" start="20260724163000 +0000" stop="20260724165500 +0000">
+    <title lang="zh">小空間大活用 3</title>
     <date>2026-07-25</date>
   </programme>
-  <programme channel="76" start="20260724173000 +0000" stop="20260724180000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-07-25</date>
-  </programme>
-  <programme channel="76" start="20260724180000 +0000" stop="20260724190000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
+  <programme channel="76" start="20260724165500 +0000" stop="20260724190000 +0000">
+    <title lang="zh">瑞典超級足球聯賽-華斯特拉斯 對 奧基迪</title>
     <date>2026-07-25</date>
   </programme>
   <programme channel="76" start="20260724190000 +0000" stop="20260724200000 +0000">
@@ -2612,32 +2468,24 @@
     <title lang="zh">Bloomberg 時段</title>
     <date>2026-07-25</date>
   </programme>
-  <programme channel="76" start="20260724210000 +0000" stop="20260724220000 +0000">
+  <programme channel="76" start="20260724210000 +0000" stop="20260724215500 +0000">
     <title lang="zh">Bloomberg 時段</title>
     <date>2026-07-25</date>
   </programme>
-  <programme channel="76" start="20260724220000 +0000" stop="20260724230000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
+  <programme channel="76" start="20260724215500 +0000" stop="20260725000000 +0000">
+    <title lang="zh">阿根廷甲組足球聯賽-競賽會 對 甘拿斯亞</title>
     <date>2026-07-25</date>
   </programme>
-  <programme channel="76" start="20260724230000 +0000" stop="20260725000000 +0000">
-    <title lang="zh">CGTN 時段</title>
+  <programme channel="76" start="20260725000000 +0000" stop="20260725001000 +0000">
+    <title lang="zh">Green Touch</title>
     <date>2026-07-25</date>
   </programme>
-  <programme channel="76" start="20260725000000 +0000" stop="20260725010000 +0000">
-    <title lang="zh">CGTN 時段</title>
+  <programme channel="76" start="20260725001000 +0000" stop="20260725021500 +0000">
+    <title lang="zh">阿根廷甲組足球聯賽-颶風隊 對  班菲特</title>
     <date>2026-07-25</date>
   </programme>
-  <programme channel="76" start="20260725010000 +0000" stop="20260725013000 +0000">
-    <title lang="zh">太空新星 第2季</title>
-    <date>2026-07-25</date>
-  </programme>
-  <programme channel="76" start="20260725013000 +0000" stop="20260725020000 +0000">
-    <title lang="zh">消防員山姆系列 16</title>
-    <date>2026-07-25</date>
-  </programme>
-  <programme channel="76" start="20260725020000 +0000" stop="20260725023000 +0000">
-    <title lang="zh">露露布魯姆布魯姆 第1-2季</title>
+  <programme channel="76" start="20260725021500 +0000" stop="20260725023000 +0000">
+    <title lang="zh">Green Touch</title>
     <date>2026-07-25</date>
   </programme>
   <programme channel="76" start="20260725023000 +0000" stop="20260725030000 +0000">
@@ -2704,185 +2552,142 @@
     <title lang="zh">Green Touch</title>
     <date>2026-07-25</date>
   </programme>
-  <programme channel="76" start="20260725123000 +0000" stop="20260725130000 +0000">
-    <title lang="zh">Emily Chang 的《後人類》</title>
+  <programme channel="76" start="20260725123000 +0000" stop="20260725125500 +0000">
+    <title lang="zh">小空間大活用 3</title>
     <date>2026-07-25</date>
   </programme>
-  <programme channel="76" start="20260725130000 +0000" stop="20260725140000 +0000">
-    <title lang="zh">被馴化的野性</title>
-    <date>2026-07-25</date>
-  </programme>
-  <programme channel="76" start="20260725140000 +0000" stop="20260725150000 +0000">
-    <title lang="zh">長壽時代第1季</title>
+  <programme channel="76" start="20260725125500 +0000" stop="20260725150000 +0000">
+    <title lang="zh">瑞典超級足球聯賽-迪加科斯 對 佐加頓斯</title>
     <date>2026-07-25</date>
   </programme>
   <programme channel="76" start="20260725150000 +0000" stop="20260725151500 +0000">
     <title lang="zh">有線新聞</title>
     <date>2026-07-25</date>
   </programme>
-  <programme channel="76" start="20260725151500 +0000" stop="20260725153000 +0000">
+  <programme channel="76" start="20260725151500 +0000" stop="20260725152500 +0000">
     <title lang="zh">Green Touch</title>
     <date>2026-07-25</date>
+  </programme>
+  <programme channel="76" start="20260725152500 +0000" stop="20260725173000 +0000">
+    <title lang="zh">瑞典超級足球聯賽-卡爾馬 對 米贊比</title>
+    <date>2026-07-25</date>
+  </programme>
+  <programme channel="76" start="20260725173000 +0000" stop="20260725180000 +0000">
+    <title lang="zh">Emily Chang 的《後人類》</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260725180000 +0000" stop="20260725190000 +0000">
+    <title lang="zh">動物的命運</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260725190000 +0000" stop="20260725193000 +0000">
+    <title lang="zh">歐洲大觀</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260725193000 +0000" stop="20260725200000 +0000">
+    <title lang="zh">Arts.21</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260725200000 +0000" stop="20260725210000 +0000">
+    <title lang="zh">野生土阿莫土群島</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260725210000 +0000" stop="20260725220000 +0000">
+    <title lang="zh">體育360</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260725220000 +0000" stop="20260725221000 +0000">
+    <title lang="zh">Green Touch</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260725221000 +0000" stop="20260726001500 +0000">
+    <title lang="zh">阿根廷甲組足球聯賽-河床 對  巴拉卡斯中央</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726001500 +0000" stop="20260726002500 +0000">
+    <title lang="zh">Green Touch</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726002500 +0000" stop="20260726023000 +0000">
+    <title lang="zh">阿根廷甲組足球聯賽-拉努斯 對  聖羅倫素</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726023000 +0000" stop="20260726030000 +0000">
+    <title lang="zh">奧利和朋友們 第6季</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726030000 +0000" stop="20260726032500 +0000">
+    <title lang="zh">小空間大活用 3</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726032500 +0000" stop="20260726053000 +0000">
+    <title lang="zh">國際足球友誼賽-熱刺 對 奧克蘭FC</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726053000 +0000" stop="20260726060000 +0000">
+    <title lang="zh">Emily Chang 的《後人類》</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726060000 +0000" stop="20260726070000 +0000">
+    <title lang="zh">FashionTV</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726070000 +0000" stop="20260726080000 +0000">
+    <title lang="zh">生於1965年</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726080000 +0000" stop="20260726083000 +0000">
+    <title lang="zh">太空新星 第2季</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726083000 +0000" stop="20260726090000 +0000">
+    <title lang="zh">消防員山姆系列 16</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726090000 +0000" stop="20260726093000 +0000">
+    <title lang="zh">露露布魯姆布魯姆 第1-2季</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726093000 +0000" stop="20260726100000 +0000">
+    <title lang="zh">奧利和朋友們 第6季</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726100000 +0000" stop="20260726103000 +0000">
+    <title lang="zh">歐洲大觀</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726103000 +0000" stop="20260726110000 +0000">
+    <title lang="zh">Made In Germany</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726110000 +0000" stop="20260726113000 +0000">
+    <title lang="zh">In Good Shape</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726113000 +0000" stop="20260726114500 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726114500 +0000" stop="20260726115500 +0000">
+    <title lang="zh">Green Touch</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726115500 +0000" stop="20260726140000 +0000">
+    <title lang="zh">瑞典超級足球聯賽-布洛馬波卡納  對  哈馬比</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726140000 +0000" stop="20260726141500 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="76" start="20260726141500 +0000" stop="20260726142500 +0000">
+    <title lang="zh">Green Touch</title>
+    <date>2026-07-26</date>
   </programme>
   <channel id="77">
     <display-name lang="Malaysia">HOY 77</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
   </channel>
-  <programme channel="77" start="20260703164500 +0000" stop="20260703171500 +0000">
-    <title lang="zh">煮題COOK4 大食四方</title>
-    <desc lang="zh">來到最後一集, Ricky、Jacky帶大家去南澳島活捉海鮮及在魚排享受海鮮大餐, 二人跟當地漁民出海撒網, 不知有多少收穫。上到魚排, Ricky忍不住要大顯身手, 即場煮了一道薑蔥蟹, 在毫無準備下, 他隨手找了幾隻雞蛋, 教大家怎樣令炒蟹變得更</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260703171500 +0000" stop="20260703174500 +0000">
-    <title lang="zh">一個人鐵道行 2</title>
-    <desc lang="zh">九寨溝是一片被譽為“童話世界”的自然保護區。每個湖泊因其獨特的顏色和形態展現出大自然的鬼斧神工。九寨溝的景觀呈現出層次分明的高山湖泊、瀑布和森林。更是體驗到純正的藏式騎馬。阿倫跟著經驗豐富的藏族馬師，環繞古老的格下古寨，從不同的角度觀賞藏族村寨與壯麗</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260703174500 +0000" stop="20260703181500 +0000">
-    <title lang="zh">深圳地圖 2</title>
-    <desc lang="zh">《深圳地圖2》今輯繼續有馬曉晴、梁凱晴、樂翊榆帶觀眾北上吃喝玩樂，近年國內科技發展迅速，凱晴第一集到深圳坪山乘搭「無人駕駛的士」，親身感受冇司機的路面體驗。Maisy到福田試食一間好有港式大排檔風味嘅「宵夜食堂」，而樂翊榆就去到港人熟識的皇庭廣場食一</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260703181500 +0000" stop="20260703184500 +0000">
-    <title lang="zh">白種元四季滋味</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260703184500 +0000" stop="20260703190000 +0000">
-    <title lang="zh">娛樂頭條 E-news Headline</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260703190000 +0000" stop="20260703220000 +0000">
-    <title lang="zh">魚樂無限</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260703220000 +0000" stop="20260703230000 +0000">
-    <title lang="zh">道地生豆乳特約 : 健康原因講多D</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260703230000 +0000" stop="20260703233000 +0000">
-    <title lang="zh">民間有戲</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260703233000 +0000" stop="20260704000000 +0000">
-    <title lang="zh">上海工匠</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704000000 +0000" stop="20260704010000 +0000">
-    <title lang="zh">禁區地帶</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704010000 +0000" stop="20260704020000 +0000">
-    <title lang="zh">一流料理人</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704020000 +0000" stop="20260704023000 +0000">
-    <title lang="zh">白種元四季滋味</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704023000 +0000" stop="20260704030000 +0000">
-    <title lang="zh">馬田點食記 台灣篇</title>
-    <desc lang="zh">最新網上調查顯示，寧夏夜市被網友評為最受歡迎的夜市，從街頭到街尾都有不能錯過的美食。一開始就有米芝蓮指南推薦的豬肝湯。清澈又鮮甜的湯頭，搭配不帶一絲腥味的豬肝讓人一嚐就會成爲回頭客。接著就是老字號的知高飯，即是豬腳飯。「黑金」的滷汁加上入口即融的豬腳</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704030000 +0000" stop="20260704033000 +0000">
-    <title lang="zh">一日打工仔</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704033000 +0000" stop="20260704043000 +0000">
-    <title lang="zh">立邦抗甲醛淨味兒童漆系列特約 : 空間改造王</title>
-    <desc lang="zh">內山家是一棟樓齡超過40年、約1500呎的木造平房，由於地勢問題及日久失修，屋內出現不少隱患。這裡平日住了一家六口，但一到週末兒孫們過來留宿，就會變成十三人的大家庭。為了令到日漸長大的孫子們住得更舒適，改造工匠松永務決定將內山家進行翻天覆地的大改造。</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704043000 +0000" stop="20260704045500 +0000">
-    <title lang="zh">午間新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704045500 +0000" stop="20260704050500 +0000">
-    <title lang="zh">《香港國安法》公布實施6周年 保安局呈獻 : 國安檔案解密</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704050500 +0000" stop="20260704053000 +0000">
-    <title lang="zh">一線搜查</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704053000 +0000" stop="20260704060000 +0000">
-    <title lang="zh">老派小店之必要</title>
-    <desc lang="zh">人們總會對一些看似陰森的事物敬而遠之。紙紮店便是其中一例。紙紮店，的確散發著一股古老而神秘的氣息，讓人不自覺地產生一絲恐慌。很多人都當作是祭祀的象徵，但其實紙紮鋪亦充滿人情味。而紮作師傅的作品，就好像一道橋將兩個截然不同的世界無縫連接。</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704060000 +0000" stop="20260704070000 +0000">
-    <title lang="zh">禁區地帶</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704070000 +0000" stop="20260704073000 +0000">
-    <title lang="zh">嘻哈馬場</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704073000 +0000" stop="20260704080000 +0000">
-    <title lang="zh">未來發明家</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704080000 +0000" stop="20260704083000 +0000">
-    <title lang="zh">汪汪隊立大功</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704083000 +0000" stop="20260704090000 +0000">
-    <title lang="zh">小樹俠湯姆</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704090000 +0000" stop="20260704100000 +0000">
-    <title lang="zh">城市農夫漂流記</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704100000 +0000" stop="20260704103000 +0000">
-    <title lang="zh">新村之後</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704103000 +0000" stop="20260704110000 +0000">
-    <title lang="zh">極限冰速</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704110000 +0000" stop="20260704113000 +0000">
-    <title lang="zh">7點直播室</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704113000 +0000" stop="20260704114500 +0000">
-    <title lang="zh">《香港國安法》公布實施6周年 保安局呈獻 : 國安檔案解密</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704114500 +0000" stop="20260704120000 +0000">
-    <title lang="zh">樂遊關西</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704120000 +0000" stop="20260704123000 +0000">
-    <title lang="zh">健康百萬大道</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704123000 +0000" stop="20260704133000 +0000">
-    <title lang="zh">道地蜂蜜綠茶特約 : 山旮旯睇樓團</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704133000 +0000" stop="20260704140000 +0000">
-    <title lang="zh">運動關注組</title>
-    <desc lang="zh">拗柴，是常見的下肢創傷。多數情況是休息就會慢慢康復，但是如果有強烈痛楚與腫脹，難以步行，就要盡快求醫，透過冰敷按摩或者物理治療去改善症狀，萬一經常拗柴，有可能變成慣性拗柴，增加生骨刺的風險，今集一起關注如何避免拗柴。</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704140000 +0000" stop="20260704143000 +0000">
-    <title lang="zh">地膽帶路日本遊</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704143000 +0000" stop="20260704150000 +0000">
-    <title lang="zh">愛知‧名古屋亞運超前放送</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704150000 +0000" stop="20260704153000 +0000">
-    <title lang="zh">HOY娛樂一周</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="77" start="20260704153000 +0000" stop="20260704160000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
   <programme channel="77" start="20260704160000 +0000" stop="20260704163000 +0000">
     <title lang="zh">老派小店之必要</title>
     <desc lang="zh">人們總會對一些看似陰森的事物敬而遠之。紙紮店便是其中一例。紙紮店，的確散發著一股古老而神秘的氣息，讓人不自覺地產生一絲恐慌。很多人都當作是祭祀的象徵，但其實紙紮鋪亦充滿人情味。而紮作師傅的作品，就好像一道橋將兩個截然不同的世界無縫連接。</desc>
@@ -5514,6 +5319,7 @@
   </programme>
   <programme channel="77" start="20260720123000 +0000" stop="20260720130000 +0000">
     <title lang="zh">健康關注組</title>
+    <desc lang="zh">肺癌高居本港癌症頭號殺手，很多時候發現到肺癌，可惜已經是晚期，不抽煙、沒有咳嗽，不代表肺部百分百健康，小心肺癌殺手隨時找上門！透過高科技AI肺癌影像篩查，據聞只要幾秒鐘，就連初期病變都可以檢測，可以幫大家提早偵測、把握黃金治療期！</desc>
     <date>2026-07-20</date>
   </programme>
   <programme channel="77" start="20260720130000 +0000" stop="20260720132500 +0000">
@@ -5627,6 +5433,7 @@
   </programme>
   <programme channel="77" start="20260721060000 +0000" stop="20260721063000 +0000">
     <title lang="zh">健康關注組</title>
+    <desc lang="zh">肺癌高居本港癌症頭號殺手，很多時候發現到肺癌，可惜已經是晚期，不抽煙、沒有咳嗽，不代表肺部百分百健康，小心肺癌殺手隨時找上門！透過高科技AI肺癌影像篩查，據聞只要幾秒鐘，就連初期病變都可以檢測，可以幫大家提早偵測、把握黃金治療期！</desc>
     <date>2026-07-21</date>
   </programme>
   <programme channel="77" start="20260721063000 +0000" stop="20260721070000 +0000">
@@ -5681,6 +5488,7 @@
   </programme>
   <programme channel="77" start="20260721123000 +0000" stop="20260721130000 +0000">
     <title lang="zh">健康關注組</title>
+    <desc lang="zh">怒火突然爆發，無理大吵大鬧，發脾甚至動手打人，有可能是患上「間歇性暴怒症」，如果置之不理，不接受治療，家庭、事業、社交關係，都會大受影響，甚至惹上官非！有些人經常因小事就被發怒氣，通常形容他們是性格火爆、脾氣差，其實可能是有病，今集就由精神科專科醫生</desc>
     <date>2026-07-21</date>
   </programme>
   <programme channel="77" start="20260721130000 +0000" stop="20260721132500 +0000">
@@ -5800,6 +5608,7 @@
   </programme>
   <programme channel="77" start="20260722060000 +0000" stop="20260722063000 +0000">
     <title lang="zh">健康關注組</title>
+    <desc lang="zh">怒火突然爆發，無理大吵大鬧，發脾甚至動手打人，有可能是患上「間歇性暴怒症」，如果置之不理，不接受治療，家庭、事業、社交關係，都會大受影響，甚至惹上官非！有些人經常因小事就被發怒氣，通常形容他們是性格火爆、脾氣差，其實可能是有病，今集就由精神科專科醫生</desc>
     <date>2026-07-22</date>
   </programme>
   <programme channel="77" start="20260722063000 +0000" stop="20260722070000 +0000">
@@ -5855,6 +5664,7 @@
   </programme>
   <programme channel="77" start="20260722123000 +0000" stop="20260722130000 +0000">
     <title lang="zh">健康關注組</title>
+    <desc lang="zh">「雪卵」就是將卵子抽取冷凍保存，而試管嬰兒IVF，就是將卵子解凍，同精子結合、培養成胚胎再植入子宮。兩者分別屬於前後階段的生育療程。藝人糖妹與阿Sa蔡卓妍，都是未婚的時候接受雪卵，為將來的生育做好準備。雪卵要幾多歲前做最好？試管嬰兒IVF的過程又是怎</desc>
     <date>2026-07-22</date>
   </programme>
   <programme channel="77" start="20260722130000 +0000" stop="20260722132500 +0000">
@@ -5978,6 +5788,7 @@
   </programme>
   <programme channel="77" start="20260723060000 +0000" stop="20260723063000 +0000">
     <title lang="zh">健康關注組</title>
+    <desc lang="zh">「雪卵」就是將卵子抽取冷凍保存，而試管嬰兒IVF，就是將卵子解凍，同精子結合、培養成胚胎再植入子宮。兩者分別屬於前後階段的生育療程。藝人糖妹與阿Sa蔡卓妍，都是未婚的時候接受雪卵，為將來的生育做好準備。雪卵要幾多歲前做最好？試管嬰兒IVF的過程又是怎</desc>
     <date>2026-07-23</date>
   </programme>
   <programme channel="77" start="20260723063000 +0000" stop="20260723070000 +0000">
@@ -6033,6 +5844,7 @@
   </programme>
   <programme channel="77" start="20260723123000 +0000" stop="20260723130000 +0000">
     <title lang="zh">健康關注組</title>
+    <desc lang="zh">懷孕會令心臟負荷增加30至50%，可能會誘發心臟衰竭、心律不整的狀況，如果懷孕期間出現呼吸困難、嚴重水腫、異常疲倦或心悸等症狀，就要立即就醫，由心臟科與婦產科，跨團隊進行專業評估與治療。到底心臟病與懷孕有關係？今集關注：「隱性心臟病，孕婦隨時無命」</desc>
     <date>2026-07-23</date>
   </programme>
   <programme channel="77" start="20260723130000 +0000" stop="20260723132500 +0000">
@@ -6044,7 +5856,7 @@
     <date>2026-07-23</date>
   </programme>
   <programme channel="77" start="20260723133000 +0000" stop="20260723140000 +0000">
-    <title lang="zh">大小矛盾在路上</title>
+    <title lang="zh">Panasonic 空調機呈獻 : 大小矛盾在路上</title>
     <desc lang="zh">節目打破「家醜不外揚」嘅觀念，搜羅出四組現代家庭：單親父母、婆媳、兩姊姊、新手父母，一齊到訪大灣區拆解家庭矛盾。當中最常比人忽略嘅，往往就係新手父母面對嘅難處。新手父母點協調時間、家務分工、小朋友嘅管教方式都係一門終生學問⋯⋯</desc>
     <date>2026-07-23</date>
   </programme>
@@ -6145,12 +5957,13 @@
     <date>2026-07-24</date>
   </programme>
   <programme channel="77" start="20260724053000 +0000" stop="20260724060000 +0000">
-    <title lang="zh">大小矛盾在路上</title>
+    <title lang="zh">Panasonic 空調機呈獻 : 大小矛盾在路上</title>
     <desc lang="zh">節目打破「家醜不外揚」嘅觀念，搜羅出四組現代家庭：單親父母、婆媳、兩姊姊、新手父母，一齊到訪大灣區拆解家庭矛盾。當中最常比人忽略嘅，往往就係新手父母面對嘅難處。新手父母點協調時間、家務分工、小朋友嘅管教方式都係一門終生學問⋯⋯</desc>
     <date>2026-07-24</date>
   </programme>
   <programme channel="77" start="20260724060000 +0000" stop="20260724063000 +0000">
     <title lang="zh">健康關注組</title>
+    <desc lang="zh">懷孕會令心臟負荷增加30至50%，可能會誘發心臟衰竭、心律不整的狀況，如果懷孕期間出現呼吸困難、嚴重水腫、異常疲倦或心悸等症狀，就要立即就醫，由心臟科與婦產科，跨團隊進行專業評估與治療。到底心臟病與懷孕有關係？今集關注：「隱性心臟病，孕婦隨時無命」</desc>
     <date>2026-07-24</date>
   </programme>
   <programme channel="77" start="20260724063000 +0000" stop="20260724070000 +0000">
@@ -6209,6 +6022,7 @@
   </programme>
   <programme channel="77" start="20260724123000 +0000" stop="20260724130000 +0000">
     <title lang="zh">健康關注組</title>
+    <desc lang="zh">突然間失業、或者退休告別職場，生活好似頓時失去重心，如果唔識調節心情，隨時引爆抑鬱症危機! 當價值感一夜歸零，情緒崩潰應該點樣自救？究竟體內大腦分泌出現了甚麼問題? 怎樣可以重建人生下半場？</desc>
     <date>2026-07-24</date>
   </programme>
   <programme channel="77" start="20260724130000 +0000" stop="20260724132500 +0000">
@@ -6220,7 +6034,7 @@
     <date>2026-07-24</date>
   </programme>
   <programme channel="77" start="20260724133000 +0000" stop="20260724135500 +0000">
-    <title lang="zh">大小矛盾在路上</title>
+    <title lang="zh">Panasonic 空調機呈獻 : 大小矛盾在路上</title>
     <desc lang="zh">喺無盡嘅育兒戰爭中，新手父母從來都無休息嘅時間。今次旅程父母要放低小朋友，好好同對方嚟一場久違嘅拍拖，重拾以往嘅甜蜜時光。請好好記得二人成為父母之前，首先係一對愛人。</desc>
     <date>2026-07-24</date>
   </programme>
@@ -6391,217 +6205,166 @@
     <date>2026-07-25</date>
   </programme>
   <programme channel="77" start="20260725150000 +0000" stop="20260725153000 +0000">
-    <title lang="zh">HOY娛樂一周</title>
+    <title lang="zh">Midea 美的洗衣機特約 : 世界工廠</title>
     <date>2026-07-25</date>
+  </programme>
+  <programme channel="77" start="20260725153000 +0000" stop="20260725160000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-25</date>
+  </programme>
+  <programme channel="77" start="20260725160000 +0000" stop="20260725163000 +0000">
+    <title lang="zh">HOY娛樂一周</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260725163000 +0000" stop="20260725170000 +0000">
+    <title lang="zh">一日打工仔</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260725170000 +0000" stop="20260725173000 +0000">
+    <title lang="zh">勝在有設計</title>
+    <desc lang="zh">裝修預算愈高，用的物料當然就愈好，不過只要用得其所，有限的預算加上無限創意，一樣可以創出理想家居，今集vicky與設計師哈利，就會去到葵涌金石樓，一間40年前裝修過的舊屋，以有限預算，全屋變得美輪美奐。另外，仲會介紹可以裝在浴室的小型桑拿。</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260725173000 +0000" stop="20260725180000 +0000">
+    <title lang="zh">馬田點食記 台灣篇</title>
+    <desc lang="zh">隱身在巷弄中的無名麵店，從早到晚人流不斷，為的就是吃一碗外面沒有的四醬麵，秘方的醬料是老闆母親的配方，不含人工香料，有時候簡單的一碗麵就能讓人印象深刻。寧夏夜市的臭豆腐專賣店吃的是創意，不只有傳統醬油膏，還有香醇的金沙醬搭臭豆腐，甚至把臭豆腐當成內餡</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260725180000 +0000" stop="20260725183000 +0000">
+    <title lang="zh">闖出我天地—台青登陸創業紀實</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260725183000 +0000" stop="20260725190000 +0000">
+    <title lang="zh">新村之後</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260725190000 +0000" stop="20260725220000 +0000">
+    <title lang="zh">魚樂無限</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260725220000 +0000" stop="20260725230000 +0000">
+    <title lang="zh">瘋速滑板賽</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260725230000 +0000" stop="20260726000000 +0000">
+    <title lang="zh">自學人生</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726000000 +0000" stop="20260726010000 +0000">
+    <title lang="zh">韓國工藝大師</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726010000 +0000" stop="20260726020000 +0000">
+    <title lang="zh">道地生豆乳特約 : 健康原因講多D</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726020000 +0000" stop="20260726021500 +0000">
+    <title lang="zh">《香港國安法》公布實施6周年 保安局呈獻 : 國安檔案解密</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726021500 +0000" stop="20260726023000 +0000">
+    <title lang="zh">樂遊關西</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726023000 +0000" stop="20260726030000 +0000">
+    <title lang="zh">Lolly Lolly寵物拯救隊</title>
+    <desc lang="zh">異寵有幾精彩，除了貓貓狗狗，香港人飼養另類寵物也成小熱潮；最受香港人歡迎的異寵首選鳥類及爬蟲類，今集，Yanny 與Elka會與養雀達人Kelvin，一齊帶雀仔外出曬太陽，當中最出眾的大嘴鳥，究竟有甚麼生活習性？不同鸚鵡的性格如何？ 另一小隊包括Si</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726030000 +0000" stop="20260726040000 +0000">
+    <title lang="zh">道地蜂蜜綠茶特約 : 山旮旯睇樓團</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726040000 +0000" stop="20260726043000 +0000">
+    <title lang="zh">HOY娛樂一周</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726043000 +0000" stop="20260726045500 +0000">
+    <title lang="zh">午間新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726045500 +0000" stop="20260726050500 +0000">
+    <title lang="zh">東方表行Take Your Time 特約 : 一刻．時光</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726050500 +0000" stop="20260726063000 +0000">
+    <title lang="zh">廣告強人</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726063000 +0000" stop="20260726070000 +0000">
+    <title lang="zh">馬田點食記 台灣篇</title>
+    <desc lang="zh">隱身在巷弄中的無名麵店，從早到晚人流不斷，為的就是吃一碗外面沒有的四醬麵，秘方的醬料是老闆母親的配方，不含人工香料，有時候簡單的一碗麵就能讓人印象深刻。寧夏夜市的臭豆腐專賣店吃的是創意，不只有傳統醬油膏，還有香醇的金沙醬搭臭豆腐，甚至把臭豆腐當成內餡</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726070000 +0000" stop="20260726073000 +0000">
+    <title lang="zh">運動關注組</title>
+    <desc lang="zh">根據中大醫學院最新調查，本港6至17歲學童，專注力不足及過度活躍症ADHD患病率高達10.2%，即是大約每10個小朋友就有1個受影響！ADHD的小朋友，經常坐立不安，原來運動可以幫助他們，今集就由精神科專科醫生與中醫為大家剖析運動改善ADHD。</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726073000 +0000" stop="20260726080000 +0000">
+    <title lang="zh">不完美的人生</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726080000 +0000" stop="20260726083000 +0000">
+    <title lang="zh">汪汪隊立大功</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726083000 +0000" stop="20260726090000 +0000">
+    <title lang="zh">小樹俠湯姆</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726090000 +0000" stop="20260726100000 +0000">
+    <title lang="zh">韓國工藝大師</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726100000 +0000" stop="20260726103000 +0000">
+    <title lang="zh">新村之後</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726103000 +0000" stop="20260726110000 +0000">
+    <title lang="zh">雪脈—賽場內外的接力</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726110000 +0000" stop="20260726113000 +0000">
+    <title lang="zh">7點直播室</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726113000 +0000" stop="20260726120000 +0000">
+    <title lang="zh">五平方Squarefoot 優質樓盤專區特約 : 樓盤傳真</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726120000 +0000" stop="20260726130000 +0000">
+    <title lang="zh">立邦抗甲醛淨味兒童漆系列特約 : 空間改造王</title>
+    <desc lang="zh">深井家近年發生很多不愉快的事件，為了讓這家人重新展開新生活，改造工匠池田佳人費盡心思設計出獨一無二的家。經過改造後，她們可以在這裡重新經營雞肉串燒店及聲樂教室。居住部份亦善用每寸空間，除了保留眾人珍貴的回憶外，同時滿足四位家庭成員各自的願望。</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726130000 +0000" stop="20260726133000 +0000">
+    <title lang="zh">高鐵旅遊呈獻 : 臥底．高鐵團</title>
+    <desc lang="zh">郴州臥底再次北上進行任務，全程由西九龍高鐵站出發直達目的地，第一團潛伏湖南郴州4天團，一到埗就被漫天櫻花重重包圍，妹姐置身花花世界之中難以自拔。之後又奔馳於一望無際嘅【蓼江油菜花田】，坐吉普車遊【郴州小洱海】，再坐專用攝影船近距離欣賞小東江嘅“漁夫撒</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726133000 +0000" stop="20260726140000 +0000">
+    <title lang="zh">關於．快樂的死亡 2</title>
+    <desc lang="zh">陳志雲, 母親心臟病猝逝時他身在倫敦，未能見最後一面，成為一生最大遺憾。他感悟「死亡唔一定係負面，可以教識我哋珍惜眼前人」。</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726140000 +0000" stop="20260726150000 +0000">
+    <title lang="zh">道地生豆乳特約 : 健康原因講多D</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726150000 +0000" stop="20260726153000 +0000">
+    <title lang="zh">HOY榜啦</title>
+    <desc lang="zh">今集梁釗峰帶嚟〈半月辦好〉，記錄膝蓋手術後嘅領悟，學識正視脆弱。陳苡臻新歌〈潘朵拉盒子〉，用手機比喻愛情嘅信任危機，安全感到底係邊個俾？冇分手嘅覺悟就唔好check電話。</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="77" start="20260726153000 +0000" stop="20260726155500 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
   </programme>
   <channel id="78">
     <display-name lang="Malaysia">HOY 78</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
   </channel>
-  <programme channel="78" start="20260703160000 +0000" stop="20260703163000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703163000 +0000" stop="20260703170000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703170000 +0000" stop="20260703173000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703173000 +0000" stop="20260703180000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703180000 +0000" stop="20260703183000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703183000 +0000" stop="20260703190000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703190000 +0000" stop="20260703193000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703193000 +0000" stop="20260703200000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703200000 +0000" stop="20260703203000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703203000 +0000" stop="20260703210000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703210000 +0000" stop="20260703213000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703213000 +0000" stop="20260703220000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703220000 +0000" stop="20260703223000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703223000 +0000" stop="20260703230000 +0000">
-    <title lang="zh">一線搜查</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703230000 +0000" stop="20260703233000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260703233000 +0000" stop="20260704000000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704000000 +0000" stop="20260704003000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704003000 +0000" stop="20260704010000 +0000">
-    <title lang="zh">數碼轉型新方向</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704010000 +0000" stop="20260704013000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704013000 +0000" stop="20260704020000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704020000 +0000" stop="20260704023000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704023000 +0000" stop="20260704030000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704030000 +0000" stop="20260704033000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704033000 +0000" stop="20260704040000 +0000">
-    <title lang="zh">有理有得傾</title>
-    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704040000 +0000" stop="20260704043000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704043000 +0000" stop="20260704045500 +0000">
-    <title lang="zh">午間新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704045500 +0000" stop="20260704050000 +0000">
-    <title lang="zh">《香港國安法》公布實施6周年 保安局 呈獻 : 國安檔案解密</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704050000 +0000" stop="20260704053000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704053000 +0000" stop="20260704060000 +0000">
-    <title lang="zh">有理有得傾</title>
-    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704060000 +0000" stop="20260704063000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704063000 +0000" stop="20260704070000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704070000 +0000" stop="20260704073000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704073000 +0000" stop="20260704080000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704080000 +0000" stop="20260704083000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704083000 +0000" stop="20260704090000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704090000 +0000" stop="20260704093000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704093000 +0000" stop="20260704100000 +0000">
-    <title lang="zh">有理有得傾</title>
-    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704100000 +0000" stop="20260704103000 +0000">
-    <title lang="zh">手語新聞報道</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704103000 +0000" stop="20260704104500 +0000">
-    <title lang="zh">六點半新聞報道</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704104500 +0000" stop="20260704110000 +0000">
-    <title lang="zh">《香港國安法》公布實施6周年 保安局 呈獻 : 國安檔案解密</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704110000 +0000" stop="20260704113000 +0000">
-    <title lang="zh">7點直播室</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704113000 +0000" stop="20260704120000 +0000">
-    <title lang="zh">智‧創未來</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704120000 +0000" stop="20260704123000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704123000 +0000" stop="20260704130000 +0000">
-    <title lang="zh">有理有得傾</title>
-    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704130000 +0000" stop="20260704133000 +0000">
-    <title lang="zh">晚間直播室</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704133000 +0000" stop="20260704140000 +0000">
-    <title lang="zh">五平方Squarefoot優質樓盤專區特約 : 樓盤傳真</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704140000 +0000" stop="20260704143000 +0000">
-    <title lang="zh">數碼轉型新方向</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704143000 +0000" stop="20260704150000 +0000">
-    <title lang="zh">智‧創未來</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704150000 +0000" stop="20260704153000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
-  <programme channel="78" start="20260704153000 +0000" stop="20260704160000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-07-04</date>
-  </programme>
   <programme channel="78" start="20260704160000 +0000" stop="20260704163000 +0000">
     <title lang="zh">有線新聞</title>
     <date>2026-07-05</date>
@@ -10994,6 +10757,222 @@
   <programme channel="78" start="20260725150000 +0000" stop="20260725153000 +0000">
     <title lang="zh">有線新聞</title>
     <date>2026-07-25</date>
+  </programme>
+  <programme channel="78" start="20260725153000 +0000" stop="20260725160000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-25</date>
+  </programme>
+  <programme channel="78" start="20260725160000 +0000" stop="20260725163000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725163000 +0000" stop="20260725170000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725170000 +0000" stop="20260725173000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725173000 +0000" stop="20260725180000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725180000 +0000" stop="20260725183000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725183000 +0000" stop="20260725190000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725190000 +0000" stop="20260725193000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725193000 +0000" stop="20260725200000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725200000 +0000" stop="20260725203000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725203000 +0000" stop="20260725210000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725210000 +0000" stop="20260725213000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725213000 +0000" stop="20260725220000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725220000 +0000" stop="20260725223000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725223000 +0000" stop="20260725230000 +0000">
+    <title lang="zh">有理有得傾</title>
+    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725230000 +0000" stop="20260725233000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260725233000 +0000" stop="20260726000000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726000000 +0000" stop="20260726003000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726003000 +0000" stop="20260726010000 +0000">
+    <title lang="zh">五平方Squarefoot優質樓盤專區特約 : 樓盤傳真</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726010000 +0000" stop="20260726013000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726013000 +0000" stop="20260726020000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726020000 +0000" stop="20260726023000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726023000 +0000" stop="20260726030000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726030000 +0000" stop="20260726033000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726033000 +0000" stop="20260726040000 +0000">
+    <title lang="zh">財智．商傳</title>
+    <desc lang="zh">每星期均請來財金專家、著名評論員或商界領袖，分享對金融市場的獨特見解，以及他們的營商之道。在半小時的節目內，主持亦會與嘉賓深入淺出地，探討最新金融議題及投資理論。</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726040000 +0000" stop="20260726043000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726043000 +0000" stop="20260726045500 +0000">
+    <title lang="zh">午間新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726045500 +0000" stop="20260726050000 +0000">
+    <title lang="zh">東方表行Take Your Time特約 : 一刻．時光</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726050000 +0000" stop="20260726053000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726053000 +0000" stop="20260726060000 +0000">
+    <title lang="zh">五平方Squarefoot優質樓盤專區特約 : 樓盤傳真</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726060000 +0000" stop="20260726063000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726063000 +0000" stop="20260726070000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726070000 +0000" stop="20260726073000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726073000 +0000" stop="20260726080000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726080000 +0000" stop="20260726083000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726083000 +0000" stop="20260726090000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726090000 +0000" stop="20260726093000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726093000 +0000" stop="20260726100000 +0000">
+    <title lang="zh">財智．商傳</title>
+    <desc lang="zh">每星期均請來財金專家、著名評論員或商界領袖，分享對金融市場的獨特見解，以及他們的營商之道。在半小時的節目內，主持亦會與嘉賓深入淺出地，探討最新金融議題及投資理論。</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726100000 +0000" stop="20260726103000 +0000">
+    <title lang="zh">手語新聞報道</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726103000 +0000" stop="20260726105500 +0000">
+    <title lang="zh">六點半新聞報道</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726105500 +0000" stop="20260726110000 +0000">
+    <title lang="zh">《香港國安法》公布實施6周年 保安局 呈獻 : 國安檔案解密</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726110000 +0000" stop="20260726113000 +0000">
+    <title lang="zh">7點直播室</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726113000 +0000" stop="20260726120000 +0000">
+    <title lang="zh">家國天下</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726120000 +0000" stop="20260726121500 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726121500 +0000" stop="20260726122700 +0000">
+    <title lang="zh">《香港國安法》公布實施6周年 保安局 呈獻 : 國安檔案解密</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726122700 +0000" stop="20260726123000 +0000">
+    <title lang="zh">東方表行Take Your Time特約 : 一刻．時光</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726123000 +0000" stop="20260726130000 +0000">
+    <title lang="zh">財智．商傳</title>
+    <desc lang="zh">每星期均請來財金專家、著名評論員或商界領袖，分享對金融市場的獨特見解，以及他們的營商之道。在半小時的節目內，主持亦會與嘉賓深入淺出地，探討最新金融議題及投資理論。</desc>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726130000 +0000" stop="20260726133000 +0000">
+    <title lang="zh">晚間直播室</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726133000 +0000" stop="20260726140000 +0000">
+    <title lang="zh">28Hse搵樓App特約 : 講樓 ‧港巿</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726140000 +0000" stop="20260726143000 +0000">
+    <title lang="zh">五平方Squarefoot優質樓盤專區特約 : 樓盤傳真</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726143000 +0000" stop="20260726150000 +0000">
+    <title lang="zh">家國天下</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726150000 +0000" stop="20260726153000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
+  </programme>
+  <programme channel="78" start="20260726153000 +0000" stop="20260726155500 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-07-26</date>
   </programme>
   <channel id="099">
     <display-name lang="Malaysia">ViuTV</display-name>
