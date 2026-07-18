@@ -93,10 +93,6 @@ async def run_all():
     for cid in ["099", "096"]:
         add_custom_section(root, cid, viu_progs)
 
-    # We use the Display Names as the ID for ViuTV
-    for display_name in ["ViuTV", "ViuTVsix"]:
-        ET.SubElement(ch, "display-name").text = display_name
-
     # 3. Add epg.pw Channels
     for cid in CHANNEL_IDS:
         url = f"https://epg.pw/api/epg.xml?lang=zh-hant&timezone=Asia/Kuala_Lumpur&channel_id={cid}"
