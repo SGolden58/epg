@@ -10974,6 +10974,720 @@
     <title lang="zh">有線新聞</title>
     <date>2026-07-26</date>
   </programme>
+  <channel id="99">
+    <display-name lang="Malaysia">ViuTV</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/ViuTV.png" />
+  </channel>
+  <programme channel="99" start="20260718090000 +0000" stop="20260718092500 +0000">
+    <title lang="zh">Star Detective Precure!</title>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718092500 +0000" stop="20260718095500 +0000">
+    <title lang="zh">Mini Maker</title>
+    <desc lang="zh">天然染色職人張駿霖(Eric)醉心用天然染材喺紡織物上留低光影圖案，但其實佢最想留下的，是印染手藝，尤其是香港客家人傳統的藍染手藝。今集主持同小學徒就去跟Eric老師以紥染手法感受一下藍染的温度及生命力。</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718095500 +0000" stop="20260718100000 +0000">
+    <title lang="zh">SCOLAR 30 Years On: Nurturing Hong Kong’s Language Landscape</title>
+    <desc lang="zh">語常會推動社會，提升兩文三語能力，嘉年華推廣閱讀，資助非華裔學生學習中文，戲劇表演沉浸式學普通話，介紹語常會成立30年，深耕語言路。</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718100000 +0000" stop="20260718103000 +0000">
+    <title lang="zh">News Cast at 6 with Sign Language</title>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718103000 +0000" stop="20260718110000 +0000">
+    <title lang="zh">Now Forum</title>
+    <desc lang="zh">政府修例改革醫務委員會成為近日焦點。醫務衞生局局長盧寵茂接受《大鳴大放》專訪時表示，業內外委員沒有黃金比例，他強調改革並非純粹昨日的錯，而是看明天的好，不認同以「醫醫相衛」批評醫委會問題。盧寵茂續指新增三名非醫生的業外委員，有醫療背景，對醫療用詞、醫療系統運作、法規都比較清晰；盧寵茂指醫委會條例以往修改是不到位，只是小部份程序上的修改。他指現時業內外委員比例的方案不是唯一的比率，但以目前醫委會的整體工作，是最適合香港。至於雙非腦癱嬰案拖延16年終於迎來判決，他指相關的行政人員已交由公務員事務局跟進，會審視工作表現是否有遺漏。盧寵茂指今次修例填補一個漏洞，就是犯嚴重罪行、刑事上已判刑的人，過往醫委會因要審視整個程序才判決，造成空窗期，所以今次修例不再容許有人以醫生之名，去危害更多人的生命健康。至於早前希愈生殖醫學中心涉嫌調亂胚胎細胞活檢樣本，盧寵茂指人類生殖管理局做調查，而中心亦將於四周後提交報告；待有關報告完成後，再決定於條例或管理局在執業守則上是否需要檢視，主要審視出現事故的上報時間。盧寵茂強調希愈活檢樣本調亂可能不是程序上出錯，而是涉及其他原因。衞生署於今年6月8日起透過「優先審評途徑」加快審批由醫院管理局引進創新藥物及醫療器械辦公室建議，經「1+」機制申請註冊創新藥物，加快註冊新藥列入藥物名冊。盧寵茂指目前經「1+」機制已批出廿多種藥物，他舉例其中一隻大腸癌藥物，本來每月需費萬多元，一年便要廿多萬元；現在病患者只需付20元，一年只需240元服用該新藥，這是醫療收費改革中，為市民增加保障，中產也不會因病致貧。</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718110000 +0000" stop="20260718113000 +0000">
+    <title lang="zh">News Cast at 7</title>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718113000 +0000" stop="20260718120000 +0000">
+    <title lang="zh">TOKUSON: Life Hacks! S5</title>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718120000 +0000" stop="20260718123000 +0000">
+    <title lang="zh">Treasure of the Sea in Hong Kong</title>
+    <desc lang="zh">從漁民子弟到航海導師，考盡天下航海牌，Terry用一生證明：海，是最好的教 室。主持Kathy仔跟著Terry 出海、學習駕船、更試飲招牌船長奶茶。Terry 不但教人駕船，更傳承香港漁民故事—— 乘風破浪，這就是一種生活哲學。</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718123000 +0000" stop="20260718150000 +0000">
+    <title lang="zh">The Lyricist Wannabe</title>
+    <desc lang="zh">「天生我材必有用」，羅穎詩誤信師長的讒言，認定寫歌詞是她這輩子的使命，立志要當填詞人！好事多磨，儘管阿詩扭盡六壬、奇招百出，一邊增進填詞功力、一邊廣結善緣，仍未能成功入行，做不成填詞人，反淪為填詞L。「只要有恆心，鐵柱磨成針」，填詞L揹著夢想的包袱在填滿遺憾的道上狂奔！</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718150000 +0000" stop="20260718153000 +0000">
+    <title lang="zh">Kaiju No. 8 S2</title>
+    <desc lang="zh">怪獸10號的襲擊給立川基地帶來了毀滅性打擊，日本即將進入新的危險時代。以「怪獸8號」身分被關押的日比野卡夫卡，關於他的處置尚未定案，而第3部隊的新進隊員們卻已決定分發至其他部隊，在各自的崗位上執行新的任務。四之宮奇可露被調派至有「防衛隊最強」之稱的第1部隊，正要前往與隊長．鳴海弦致意，然而…</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718153000 +0000" stop="20260718163000 +0000">
+    <title lang="zh">FIFA World Cup 2026™ World Cup Happy Hour</title>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="99" start="20260718163000 +0000" stop="20260718163500 +0000">
+    <title lang="zh">Count Down to Kick-off</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260718163500 +0000" stop="20260718173500 +0000">
+    <title lang="zh">Hometown Pride S4</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260718173500 +0000" stop="20260718180500 +0000">
+    <title lang="zh">MM730 - Beast fight game</title>
+    <desc lang="zh">為慶祝米媽富哥生日，今次特別為他們舉辦生日會，而且2人分別成為隊長，與其他主持分別組隊，爭奪豐富的生日禮物！不過第一個遊戲就要測試其他人對米媽富哥的認識度，幾位主持會否不敵難題，答錯兼要被畫花面？</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260718180500 +0000" stop="20260718183500 +0000">
+    <title lang="zh">So Positive</title>
+    <desc lang="zh">常說道「跳出舒適圈需要勇氣」，亦似乎成為一種時代價值。時裝品牌公關經理 Ashley 卻不是走出舒適圈，是擴大舒適圈；她透過教導瑜珈將自己的興趣和擅長的事情分享給更多人，不知道 KB 和 Yoshi 這趟造訪又領略到幾多呢？</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260718183500 +0000" stop="20260718190500 +0000">
+    <title lang="zh">Super Funny Unit</title>
+    <desc lang="zh">超低能特攻隊終極一回，8位隊員化身來自不同時空的英雄人物，決戰多功能室內運動中心，首集先玩鱷魚潭熱身，腳踏地墊前進，低分組別再玩黐波波，身上黐到最少波出局，最後大戰parkour高手的輸家竟是曾經當兵的型男主持。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260718190500 +0000" stop="20260718193500 +0000">
+    <title lang="zh">Soul of Pro Wrestling</title>
+    <desc lang="zh">職業摔角是一種以競技方式進行的表演藝術，過程充分展現摔角手在擂台上的拼勁及雄姿。仿如真實的擂台格鬥，讓觀眾看得熱血沸騰。各個國家的摔角表演，因應當地文化差異而有所不同，亞洲地區以日本摔角發展得最為蓬勃。香港及台灣近年也發展得有聲有色，可謂後起之秀。香港選手何顥麟更成功衝出亞洲，打到美國，正式成為世界摔角最高殿堂WWE的選手，在美國各地巡迴演出。此節目的真正目的是透過香港摔角代表人物「何顥麟」及其團員，向廣大觀眾介紹，摔角到底是一種什麼表演藝術？如何由一名初哥變成擂台好手？過程以「真人騷」形式進行，再配以輕鬆搞笑的故事骨幹及旁白，深入淺出地介紹日本與香港之間的摔角文化及特色。更會詳盡介紹摔角手鮮為人知的一面，擂台英姿、訓練苦況、日常生活...等等，務求全方化了解摔角，投入摔角。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260718193500 +0000" stop="20260718201000 +0000">
+    <title lang="zh">The Culture Book</title>
+    <desc lang="zh">藝術品畫作這些看似與日常生活有一段距離，如何將藝術作品與我們的距離拉近？今集一起聽聽創辦人的分享。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260718201000 +0000" stop="20260718201500 +0000">
+    <title lang="zh">Count Down to Kick-off</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260718201500 +0000" stop="20260719000000 +0000">
+    <title lang="zh">FIFA World Cup 2026™</title>
+    <desc lang="zh">季軍 - 法國 對 英格蘭</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719000000 +0000" stop="20260719003000 +0000">
+    <title lang="zh">Doctor Animal</title>
+    <desc lang="zh">不少主人都十分溺愛寵物，把牠們當親生仔女般照顧。根據非正式統計，截至2022年，全球近六成的寵物患有過肥問題！本集將會拆解毛孩過重引致的可怕疾病 – 脂肪肝。而背後原因，竟然與主人的日常生活有密切關係!</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719003000 +0000" stop="20260719010000 +0000">
+    <title lang="zh">Practical Handbook for the Elderly</title>
+    <desc lang="zh">對獨居長者而言，家庭樂看似遙遠。香港有組織以義工家人的身份，為長者提供溫暖。本集邀請計劃負責人、長者和義工，講述計劃如何幫助長者，從日常探訪、到節日陪伴。成為長者沒有血緣關係的親人。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719010000 +0000" stop="20260719013000 +0000">
+    <title lang="zh">Dual-Track Athletic Life</title>
+    <desc lang="zh">Rachel，香港合氣道代表隊運動員，正職是一位公司老闆。她每日處理繁重業務，下班後仍穿上道服，走進道場苦練，多年來堅持不懈。合氣道在香港屬小眾武術，Rachel 不僅在本地及國際賽事中取得佳績，更積極推廣這項注重身心平衡的日本傳統武道。作為女老闆運動員，她用實際行動證明：無論事業多忙，熱愛從不妥協。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719013000 +0000" stop="20260719020000 +0000">
+    <title lang="zh">Mechamato Series 3</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719020000 +0000" stop="20260719023000 +0000">
+    <title lang="zh">Food and Beyond</title>
+    <desc lang="zh">牛角麵包要做到千層要摺一千次嗎？今日邀請到的嘉賓是麵包工場的老闆，《舔舔脷．講講理》為你拆解牛角麵包酥脆的秘密。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719023000 +0000" stop="20260719030000 +0000">
+    <title lang="zh">Attention ! Driver is coming</title>
+    <desc lang="zh">今集《學神出沒注意》P牌女神陳嘉倩隆重登場！節目組眼見女神自信滿滿，特意為她安排了一連串駕駛技術大考驗，看看P牌仔的她有幾多斤兩！大考驗包括由荃灣駛去屯門、挑戰深淺赤石以及戶外室內停車場泊車！誰知，歷盡驚險，機關算盡，都算不到嘉倩BB竟然在良心停車場出現重大事故！節目組馬上安排教練為嘉倩補補鐘，急救駕駛技術！</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719030000 +0000" stop="20260719033000 +0000">
+    <title lang="zh">Kamen Rider ZEZTZ</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719033000 +0000" stop="20260719040000 +0000">
+    <title lang="zh">Builders of Sound</title>
+    <desc lang="zh">錄音室承載無數作品的誕生，成為音樂人創作與交流的基地，記錄香港聲音在房間裡成形的每一刻。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719040000 +0000" stop="20260719043000 +0000">
+    <title lang="zh">Noon News</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719043000 +0000" stop="20260719050000 +0000">
+    <title lang="zh">Night Vibes Asia</title>
+    <desc lang="zh">邊個話成都淨係出名食辣嘢？今集有Yoshi同Anton同大家走入街頭，食勻各種口感嘅小食，無論係綿密、鬆軟、煙韌定係脆口都應有盡有！食飽再去三個地方睇景打卡——位於都江堰嘅「藍眼淚」可以令人感受洶湧澎湃嘅岷江、「安順廊橋」威水到連探險家馬可波羅（Marco Polo）都去過、古色古香嘅寬窄巷子，有得食、買、玩，絕對啱晒咁多位夜遊人！</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719050000 +0000" stop="20260719060000 +0000">
+    <title lang="zh">Survival</title>
+    <desc lang="zh">經過數日的生存訓練，女孩們開始脫離教練的幫助獨自生存，蔡寶欣、蔡宛珊在蒐集資源的過程中，頂著豔陽高照砍芭蕉葉跟芒草，甚至連手都割傷流血，但紮營組卻屢屢碰上難題，小明和芮恩的意見不合造成天幕帳篷的位置換來換去，天氣燥熱讓所有人都心浮氣躁，幸好最終有驚無險的完成營地搭建，他們是否能撐過露宿野外的一晚呢？</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719060000 +0000" stop="20260719063000 +0000">
+    <title lang="zh">Brain Fog Research</title>
+    <desc lang="zh">今集《腦霧研究所》派出Shirley、Kenji 同yoyo 嚟到大學呢個決賽場地，梗係要揀個最需要記嘢背嘢嘅學系去挑戰啦！揀中文系相信無人會異議！三位挑戰者除咗要認吓古人樣之外，梗係唔少得玩吓Ocamp跑吓check point！出名跑得慢嘅Shirley可能會陷入最大危機！另外仲有過百個甲骨文等住佢哋！呢個唔止考記憶仲要考埋畫功！記到畫唔到都唔會當贏！咁艱鉅嘅任務，最後邊個會係腦霧王呢！？</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719063000 +0000" stop="20260719073000 +0000">
+    <title lang="zh">Hometown Pride S4</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719073000 +0000" stop="20260719080000 +0000">
+    <title lang="zh">Happy COLLAR</title>
+    <desc lang="zh">遊戲進入白熱化階段，喺今集最後4強將要爭取只有2個嘅決賽席位！第一個遊戲 － 〈搶分大作戰〉﹐佢哋要施展決斷力同埋詐欺之術，透過爾虞我詐去搶分！友情定係勝負，佢哋會點揀呢？第二個遊戲－〈拆「蛋」專家〉﹐佢哋就要回答問題，如果答錯就會被生雞蛋攻擊﹐為大家獻上COLLAR最狼狽一面！</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719080000 +0000" stop="20260719081500 +0000">
+    <title lang="zh">MIRROR Gone Wild (Repackaged)</title>
+    <desc lang="zh">今集 Ian、Stanley到訪一間保留了大排檔傳統菜式的餐廳，除了一嚐極具風味的美食外，更向餐廳師傅偷師學藝下廚，到底會是大顯身手，還是火燒廚房？</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719081500 +0000" stop="20260719084500 +0000">
+    <title lang="zh">PJ Masks Power Heroes S1</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719084500 +0000" stop="20260719091000 +0000">
+    <title lang="zh">Shining Star</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719091000 +0000" stop="20260719094000 +0000">
+    <title lang="zh">After School Playtime</title>
+    <desc lang="zh">有時在網上看到一群人跳躍屋頂、飛越欄杆、跑上圍牆等高難度動作，其實這種運動名為跑酷。究竟跑酷是一種怎樣的運動呢？今集就讓大家認識跑酷。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719094000 +0000" stop="20260719095500 +0000">
+    <title lang="zh">FIFA World Cup 2026™ Match Day Express</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719095500 +0000" stop="20260719100000 +0000">
+    <title lang="zh">Onward, Police! III</title>
+    <desc lang="zh">警隊設立十五個具特別功能的兼任職務隊，直擊危險地帶逆行者，實景模型了解案發過程， 鐵騎戰陣開路護送， 無人機隊守護社區安全， 「邁向新警界 III」 拆解警隊專業支援職務。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719100000 +0000" stop="20260719103000 +0000">
+    <title lang="zh">News Cast at 6 with Sign Language</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719103000 +0000" stop="20260719110000 +0000">
+    <title lang="zh">Now Forum</title>
+    <desc lang="zh">狗隻進入食肆措施實施一個多星期，環境及生態局局長謝展寰接受《大鳴大放》專訪，表示有八百九十多間餐廳參與，反應理想，食環署已成立90人專組巡視約四千七百多次，發出38個警告，愈九成多是口頭警告，一宗書面警告。謝展寰表示在磨合期間，不合規﹑不合適的現象相信會慢慢消失，並會與寵物團體合作，向狗主推廣教育，共建人寵共融的文化。食環署發出狗隻進入食肆牌照許可約九百三十多間餐廳，當中八百九十多間餐廳已用不同形式讓狗隻進入餐廳，謝展寰指參與度相當高。署方90人專組向違規狗主發出的口頭警告，有二十多宗是狗主沒有拿著狗帶或放開狗帶，另有十多宗是餐廳沒有標示或標示不清楚，有兩宗則是餐廳的餐桌上有加熱食物，屬於違規。謝展寰指署方發出的一宗書面警告是因同一間餐廳在口頭警告發出後，仍然違規有加熱食物；謝展寰強調若餐廳屢犯獲三次書面警告，會撤銷其狗隻進入食肆的許可。他指出狗隻進入食肆措施正在嘗試階段，局方正收集各方意見，半年後再審視有關措施是否需要微調。至於焚化爐設施Ｉ．ＰＡＲＫ第二期工程招標去年十月截標，審批標書至今歷時８個月，謝展寰指因項目工程大及技術複雜，需時審視標書，現已完成審批，他續指Ｉ．ＰＡＲＫ一期及二期每天可處理９０００公噸廢物，今屆政府在廢物產量減少一千噸﹑未來產量再減一千噸，屆時能兩期Ｉ．ＰＡＲＫ焚化爐設施便能處理香港每日廢物量，毋需興建第三座焚化爐設施。在餘下任期及展望下屆政府，謝展寰希望綠色轉型及漁農業及食品產業發展可持續發展下去。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719110000 +0000" stop="20260719113000 +0000">
+    <title lang="zh">News Cast at 7</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719113000 +0000" stop="20260719120000 +0000">
+    <title lang="zh">now Report</title>
+    <desc lang="zh">近年，霹靂舞被列入亞運及奧運競賽項目，由街頭跳上國際舞台，香港霹靂舞亦經歷由「地下」慢慢走向「主流」的蛻變，然而，本地舞者仍然面對場地不足與資源匱乏的考驗。由於霹靂舞在香港並非精英運動項目，舞者缺乏政府的經濟資助，有曾出戰杭州亞運的港隊代表，日間有正職，下班後要長途跋涉前往舞室練習，每天在全職工作與訓練之間掙扎；儘管最終無緣出戰今年九月的名古屋亞運，她依然堅持工餘時間備戰其他賽事，希望做出成績。亦有霹靂舞者自幼患上類風濕關節炎，曾被預言可能有不能走動的危機，但她選擇透過跳舞與病魔抗衡，並靈活改變舞蹈動作以克服關節痛楚，最後更成為霹靂舞港隊代表；海外留學回港後，她開設工作室籌辦比賽，希望培育下一代，成為世界級霹靂舞者。霹靂舞要從街頭文化走向專業化與職業化，制度的建立亦是關鍵。有曾任杭州亞運港隊隨團教練的第一代舞者，六年前成立協會，走入中小學及社區中心，透過擴大參與人數，培育更多霹靂舞精英，並期望改善大眾過去對霹靂舞的負面印象。從昔日在街頭練習屢遭驅趕，到今日踏上國際賽場；從非主流的地下文化，到建立成為有框架的專業運動；這群香港舞者在鎂光燈背後付出汗水，他們是如何追遂自己的霹靂夢？</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719120000 +0000" stop="20260719123000 +0000">
+    <title lang="zh">⁠Camping as you go</title>
+    <desc lang="zh">新營地驚喜聯乘野外服飾品牌！兩位主持隨即在蓼科湖挑戰獨木舟，好玩又刺激。隨後Soko獨自前往著名的千人風呂浸溫泉，洗盡疲勞。當日更與當地農業大學生匯合，在牧場大啖BBQ，青春萬歲！</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719123000 +0000" stop="20260719133000 +0000">
+    <title lang="zh">FIFA World Cup 2026™ Extended 1hr Highlight</title>
+    <desc lang="zh">季軍 - 法國 對 英格蘭</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719133000 +0000" stop="20260719143000 +0000">
+    <title lang="zh">The Popcorn Show 4</title>
+    <desc lang="zh">「腦細」林日曦掌舵顛喪喜劇，承傳一貫「乜都唔知」的神秘風格！堅持不劇透，一樣有人「死撐」！毛舜筠、楊偉倫對劇本一無所知，依然答應出演。毛姐如何催逼阿曦在正式排練前交出劇本？以「黑面神」見稱的阿曦，在什麼情況下罕有地大笑？</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719143000 +0000" stop="20260719150000 +0000">
+    <title lang="zh">CHILL CLUB</title>
+    <desc lang="zh">本集邀請洪嘉豪擔任嘉賓，以「潮流雜誌」為主題，嘉豪唱出多首有關潮流服飾、約會打扮心得的歌曲，用歌聲編輯屬於嘉豪和歌迷間的「潮流雜誌」，今集和大家一起逐頁翻開！此外，節目亦設有 「CHILL CLUB 推介榜」，與樂迷一同公布本週第一至第十位推介歌曲。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719150000 +0000" stop="20260719153000 +0000">
+    <title lang="zh">Crayon Shinchan</title>
+    <desc lang="zh">臼井儀人漫畫作品。五歲小孩野原新之助（小新）百厭趣怪，個性誇張自戀，是最令人頭痛的小朋友。小新與父親廣志、母親美冴、妹妹小葵住在埼玉縣的春日部市，最愛領著「雙葉幼稚園」的朋友你搞冒險，在日常生活中製造無數瘋狂趣事。</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719153000 +0000" stop="20260719162500 +0000">
+    <title lang="zh">FIFA World Cup 2026™ World Cup Happy Hour</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="99" start="20260719162500 +0000" stop="20260719163000 +0000">
+    <title lang="zh">Count Down to Kick-off</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260719163000 +0000" stop="20260719172500 +0000">
+    <title lang="zh">Road to Final 2026</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260719172500 +0000" stop="20260719173000 +0000">
+    <title lang="zh">Count Down to Kick-off</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260719173000 +0000" stop="20260719220000 +0000">
+    <title lang="zh">FIFA World Cup 2026™</title>
+    <desc lang="zh">決賽 - 西班牙 對 阿根廷</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260719220000 +0000" stop="20260720010000 +0000">
+    <title lang="zh">Morning News</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720010000 +0000" stop="20260720013000 +0000">
+    <title lang="zh">The Alternative Classroom</title>
+    <desc lang="zh">陳樂添（Tim Chan）是香港極少數的全職棟篤笑表演者之一，入行超過十年，累積了逾千場的演出經驗。他致力於以廣東話推廣棟篤笑文化，並經常探討職場生活、香港文化差異及個人生活經歷，風格深受觀眾歡迎。</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720013000 +0000" stop="20260720030000 +0000">
+    <title lang="zh">Trading Hour</title>
+    <desc lang="zh">緊貼市場走勢，為你提供全面訊息，分析港股焦點新聞消息。</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720030000 +0000" stop="20260720033000 +0000">
+    <title lang="zh">Invest Smarter</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720033000 +0000" stop="20260720040000 +0000">
+    <title lang="zh">Taste Hunter</title>
+    <desc lang="zh">「辣」其實是一種痛覺，辣椒中的辣椒素對人產生強烈的刺激感。從新加坡的地道辣食「參峇醬勁辣魔鬼魚」、「傳統叻沙」，到特色辣椒雞尾酒，Martin和Kenji又能否尋找到屬於他們兩人的刺激感呢？兩人更在寫意的河流上討對辣的體會。</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720040000 +0000" stop="20260720043000 +0000">
+    <title lang="zh">Noon News</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720043000 +0000" stop="20260720045500 +0000">
+    <title lang="zh">CHILL CLUB Song Promotion</title>
+    <desc lang="zh">一首歌背後嘅故事、花咗好多心機嘅MV、歌手同幕後音樂人嘅心血… 《CHILL CLUB 推介》星期一至五晚一於全部都推介俾你！</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720045500 +0000" stop="20260720050000 +0000">
+    <title lang="zh">3 mins Enews</title>
+    <desc lang="zh">娛樂資訊節目《3分鐘熱度》是ViuTV一個自家製作，集娛樂圈消息及熱話的精華式娛樂資訊節目，以明快節奏、幽默角度報道本港及海外演藝界最新動態，快而準追蹤娛樂圈消息。</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720050000 +0000" stop="20260720053000 +0000">
+    <title lang="zh">Design Wave S2</title>
+    <desc lang="zh">Wesley和Aron合作創立Napp Studio &amp; Architects，他們在建築方面的專業知識和思維，為不同展覽設計出獨特的裝置。他們亦鍾情於融合傳統文化於作品形態，在色彩和物料間實驗。</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720053000 +0000" stop="20260720060000 +0000">
+    <title lang="zh">Let's travel around the world</title>
+    <desc lang="zh">《730 玩返轉》魚夫人走訪中山神灣，探索被菠蘿包圍的地方。法國姊妹繼續分享香港與法國之間的文化差異。Dixon帶領觀眾品嚐全港榜上有名好吃的蛋撻，引發酥皮與曲奇皮之爭。</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720060000 +0000" stop="20260720070000 +0000">
+    <title lang="zh">Wise and Foolish (2024)</title>
+    <desc lang="zh">美國總統拜格訪日，但偏偏這個時候，武藤泰山與一個五歲的小孩交換了身體，面對與拜格的一連串活動，泰山怎樣化險為夷呢？</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720070000 +0000" stop="20260720080000 +0000">
+    <title lang="zh">Trading Hour</title>
+    <desc lang="zh">緊貼市場走勢，為你提供全面訊息，分析港股焦點新聞消息。</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720080000 +0000" stop="20260720083000 +0000">
+    <title lang="zh">ULTRAMAN ARC</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720083000 +0000" stop="20260720090000 +0000">
+    <title lang="zh">The Snoopy Show S2</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720090000 +0000" stop="20260720091500 +0000">
+    <title lang="zh">The Bigfoots S1</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720091500 +0000" stop="20260720093000 +0000">
+    <title lang="zh">FIFA World Cup 2026™ Match Day Express</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720093000 +0000" stop="20260720100000 +0000">
+    <title lang="zh">Words of Gold</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720100000 +0000" stop="20260720103000 +0000">
+    <title lang="zh">News Cast at 6 with Sign Language</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720103000 +0000" stop="20260720110000 +0000">
+    <title lang="zh">Beauty and Mr. Romantic</title>
+    <desc lang="zh">此劇敘述年幼便出道養家的一線女演員與PD的愛情故事。女演員因母親賭博的債務及醜聞一夜之間跌落谷底。PD嘗試鼓勵她重新振作，女演員卻消失了……</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720110000 +0000" stop="20260720113000 +0000">
+    <title lang="zh">News Cast at 7</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720113000 +0000" stop="20260720120000 +0000">
+    <title lang="zh">Let's travel around the world</title>
+    <desc lang="zh">《730 玩返轉》菇菇菇帶領觀眾前往江戶東京博物館，欣賞江戶時代的獨特生活與建築文化。Charlene與Sophie分享放假時喜歡遊玩的地方，並推薦法國的旅遊景點。Polly講解前往非洲前的準備事項。</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720120000 +0000" stop="20260720133000 +0000">
+    <title lang="zh">VIURIETY</title>
+    <desc lang="zh">《8 點直樂 VIURIETY》為 1.5 小時綜藝節目，集娛樂、資訊、遊戲等不同元素於一身，送上多元而精彩的綜藝環節！星期一至五每晚都有獨特主題，包括 Food Night、The Choose Day、Men’s Challenge Night、Music Night 及 Play Hard Night。每一集主持、藝員及嘉賓傾力演出外，還有豐富獎金獎品送給全港觀眾，務求與大家共渡可能是最有玩味性的綜藝時光！</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="99" start="20260720133000 +0000" stop="20260720170000 +0000">
+    <title lang="zh">FIFA World Cup 2026™</title>
+    <desc lang="zh">決賽 - 西班牙 對 阿根廷</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <channel id="96">
+    <display-name lang="Malaysia">ViuTVsix</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo//ViuTVsix.png" />
+  </channel>
+  <programme channel="96" start="20260718090000 +0000" stop="20260718091500 +0000">
+    <title lang="zh">When I was Your Age E9</title>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718091500 +0000" stop="20260718093000 +0000">
+    <title lang="zh">When I was Your Age</title>
+    <desc lang="zh">Paul, 10, is a typical little boy. He goes to school, he plays sports, he is secretly in love, he tries to do as little as possible at home, he confuses his parents to get what he wants. And most of all, he would like them to finally understand that he’s not a baby anymore and is old enough to do things ON HIS OWN!Except that... he has a strange gift... or curse... As soon as someone says the words, “When I was your age...” Paul is immediately hurled back to the time when the person he is talking to was 10 years old like he is now. He can shoot back 20, 30...70 years in time! Before mobile phones existed... When boys and girls didn't go to the same school... When there was only one television station... When toilets were at the far end of the yard... In other words, for a boy in 2021: ancient history! So as soon as he hears, “When I was your age,” gasp, gulp, where and when will he land this time? And in what completely crazy situation?”</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718093000 +0000" stop="20260718094500 +0000">
+    <title lang="zh">Buddybot</title>
+    <desc lang="zh">Chloe’s life changed when Buddybot, a hyper-enthusiastic robot from the future, arrived in her garden. Now, they’re on a mission to save the planet! But even though their hearts are in the right place, things don't always go as planned…</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718094500 +0000" stop="20260718100000 +0000">
+    <title lang="zh">Buddybot</title>
+    <desc lang="zh">Chloe’s life changed when Buddybot, a hyper-enthusiastic robot from the future, arrived in her garden. Now, they’re on a mission to save the planet! But even though their hearts are in the right place, things don't always go as planned…</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718100000 +0000" stop="20260718103000 +0000">
+    <title lang="zh">Weekly Re-Viu</title>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718103000 +0000" stop="20260718110000 +0000">
+    <title lang="zh">Martin Compston's Scottish Fling</title>
+    <desc lang="zh">Martin Compston embarks on a road trip around his beloved Scotland with his friend Phil MacHugh to showcase what makes modern Scotland tick today and to discover the different ways in which people experience the great outdoors.</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718110000 +0000" stop="20260718111500 +0000">
+    <title lang="zh">ViuTV News</title>
+    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718111500 +0000" stop="20260718113000 +0000">
+    <title lang="zh">Entertainment Express</title>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718113000 +0000" stop="20260718120000 +0000">
+    <title lang="zh">Food Trail: South Africa S2</title>
+    <desc lang="zh">The wild northeast coast of South Africa is like nothing you’ve seen. And it’s here Warren will find himself romanced by empty beaches, rugged open oceans, and waterways filled with wild hippopotamus. Based at the breathtakingly remote Thonga Beach Lodge, he’ll take us through two recipes using local peanuts and local chillies while taking time out in between for a snorkel in a secret oceanic cove. Then it’s onto the quant coastal village of St Lucia to cook a recipe on a sunrise cruise, with the hippo’s watching on. Yep, it’s real and you should see it.</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718120000 +0000" stop="20260718130000 +0000">
+    <title lang="zh">Mayday S23</title>
+    <desc lang="zh">Every time a plane crashes, the world takes notice. And so do the experts whose job it is to figure out what happened. MAYDAY uncovers the truth behind the most legendary aviation disasters, and every episode features eyewitness accounts, captivating reenactments, state-of-the-art CGI, and interviews with the investigators who ultimately determined what went wrong.</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718130000 +0000" stop="20260718140000 +0000">
+    <title lang="zh">Britain's Got Talent S17</title>
+    <desc lang="zh">A variety of acts perform in front of a live audience and a panel of judges for a chance to win £250,000 and perform for the British Royal Family at the Royal Variety Performance.</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718140000 +0000" stop="20260718151500 +0000">
+    <title lang="zh">Love Island USA S5</title>
+    <desc lang="zh">Sarah Hyland returns to host a brand-new season of Love Island, matchmaking a new group of sexy singles as they live in a luxury villa in Fiji and try to win the $100K prize by coupling up and surviving to the end. Along the way, there will be steamy challenges, shocking twists, jaw-dropping betrayals, savage dumpings and thirsty bombshells trying to steal love away. Who will forge deep connections and which heads will turn? Don’t miss any of the drama in America’s favorite villa.</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718151500 +0000" stop="20260718153000 +0000">
+    <title lang="zh">ViuTV News</title>
+    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718153000 +0000" stop="20260718162000 +0000">
+    <title lang="zh">The UnXplained with William Shatner S3</title>
+    <desc lang="zh">Every year, thousands of people report looking up at the sky and witnessing unidentified flying objects. A vast majority of these strange and disturbing incidents take place in the same locations on Earth. Is it possible that extraterrestrial spacecrafts are repeatedly visiting Earth at so-called “UFO Hot Spots?”</desc>
+    <date>2026-07-18</date>
+  </programme>
+  <programme channel="96" start="20260718162000 +0000" stop="20260718172000 +0000">
+    <title lang="zh">Tim Burton, Monsters Within</title>
+    <desc lang="zh">This is a portrait of one of the most singular filmmakers of our time, who explores the wounds of childhood and the world of fantasy through strange, marginal characters rejected by a society that values perfection. To watch his films is to discover his self-portrait, but also to question our own “monstrosity”.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260718172000 +0000" stop="20260718181500 +0000">
+    <title lang="zh">Britain's Most Scenic Counties: Norfolk and Suffolk</title>
+    <desc lang="zh">Award-winning actor Bill Nighy narrates this celebration of England's gorgeous eastern counties, Norfolk and Suffolk. Made up of wild coastlines, deep forests, and rich farmland, it's the breadbasket of Britain and a beloved vacation destination.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260718181500 +0000" stop="20260719010000 +0000">
+    <title lang="zh">ViuTVsix Station Closing Slate</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719010000 +0000" stop="20260719013000 +0000">
+    <title lang="zh">Food Trail: South Africa S2</title>
+    <desc lang="zh">The wild northeast coast of South Africa is like nothing you’ve seen. And it’s here Warren will find himself romanced by empty beaches, rugged open oceans, and waterways filled with wild hippopotamus. Based at the breathtakingly remote Thonga Beach Lodge, he’ll take us through two recipes using local peanuts and local chillies while taking time out in between for a snorkel in a secret oceanic cove. Then it’s onto the quant coastal village of St Lucia to cook a recipe on a sunrise cruise, with the hippo’s watching on. Yep, it’s real and you should see it.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719013000 +0000" stop="20260719020000 +0000">
+    <title lang="zh">Deliciously Twisted Classics</title>
+    <desc lang="zh">A Nashville Hot Chicken served as a Bloody Mary? A grilled cheese sandwich dessert? French Onion Soup but it's a pretzel? Chefs around America today are coming up with amazing twists on our favorite classic dishes. A panel of charismatic celebrity chefs and culinary influencers reveal where you can find the zaniest, where in the heck did they come up with that? Delicious spins on familiar dishes.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719020000 +0000" stop="20260719030000 +0000">
+    <title lang="zh">Britain's Got Talent S17</title>
+    <desc lang="zh">A variety of acts perform in front of a live audience and a panel of judges for a chance to win £250,000 and perform for the British Royal Family at the Royal Variety Performance.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719030000 +0000" stop="20260719040000 +0000">
+    <title lang="zh">Don't Forget the Lyrics! USA S6</title>
+    <desc lang="zh">Contestants get their musical memory challenged in a bid to win $1 million. They'll sing alongside the studio band, but suddenly the music will stop, and the words will disappear. Will they sing missing lyrics, or freeze under pressure?</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719040000 +0000" stop="20260719050000 +0000">
+    <title lang="zh">Polychromia, Archaeology of Colors - Ancient Greece</title>
+    <desc lang="zh">Museums and monuments give visitors the opportunity to contemplate ancient Greek works in sparkling white. Yet science reveals what time has erased from the colossi to the facades of temples and statues: a profusion of gold and colors. With the help of new technologies and through experiments, researchers are trying, between controversy and amazement of the public, to tell us this other story in polychromy.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719050000 +0000" stop="20260719053000 +0000">
+    <title lang="zh">Weekly Re-Viu</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719053000 +0000" stop="20260719060000 +0000">
+    <title lang="zh">Martin Compston's Scottish Fling</title>
+    <desc lang="zh">Martin Compston embarks on a road trip around his beloved Scotland with his friend Phil MacHugh to showcase what makes modern Scotland tick today and to discover the different ways in which people experience the great outdoors.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719060000 +0000" stop="20260719070000 +0000">
+    <title lang="zh">SailGP Season 6 Highlights</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719070000 +0000" stop="20260719080000 +0000">
+    <title lang="zh">Mayday S23</title>
+    <desc lang="zh">Every time a plane crashes, the world takes notice. And so do the experts whose job it is to figure out what happened. MAYDAY uncovers the truth behind the most legendary aviation disasters, and every episode features eyewitness accounts, captivating reenactments, state-of-the-art CGI, and interviews with the investigators who ultimately determined what went wrong.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719080000 +0000" stop="20260719081500 +0000">
+    <title lang="zh">Gus the Itsy Bitsy Knight S2</title>
+    <desc lang="zh">Gus, there was a little boy who wanted to become The Greatest knight in the whole kingdom of Karamel. The problem is, Gus is - ITSY BITSY. Gus will prove to one and all that a brave heart can overcome everything.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719081500 +0000" stop="20260719083000 +0000">
+    <title lang="zh">Gus the Itsy Bitsy Knight S2</title>
+    <desc lang="zh">Gus, there was a little boy who wanted to become The Greatest knight in the whole kingdom of Karamel. The problem is, Gus is - ITSY BITSY. Gus will prove to one and all that a brave heart can overcome everything.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719083000 +0000" stop="20260719090000 +0000">
+    <title lang="zh">Gabby's Dollhouse S7</title>
+    <desc lang="zh">It's time to get tiny for some ameowzing new dollhouse adventures! Discover some adorable new faces and some paw-some new places as Gabby and the Gabby Cats sets sail on the S.S. MerCat cruise ship, whip up crafty-riffic creations for Baby Box's Meow-seum Day, chase down some googly-eyed trouble makers, and make some new friends. They may not have all the answers...'Yet!', but the Gabby Cats are always ready to give it a go! Bringing together adorable kitties, dollhouse play, growth mindset, music, crafts, and laughs; Gabby's Dollhouse is the preschool show... with a surprise inside!</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719090000 +0000" stop="20260719091500 +0000">
+    <title lang="zh">When I was Your Age</title>
+    <desc lang="zh">Paul, 10, is a typical little boy. He goes to school, he plays sports, he is secretly in love, he tries to do as little as possible at home, he confuses his parents to get what he wants. And most of all, he would like them to finally understand that he’s not a baby anymore and is old enough to do things ON HIS OWN!Except that... he has a strange gift... or curse... As soon as someone says the words, “When I was your age...” Paul is immediately hurled back to the time when the person he is talking to was 10 years old like he is now. He can shoot back 20, 30...70 years in time! Before mobile phones existed... When boys and girls didn't go to the same school... When there was only one television station... When toilets were at the far end of the yard... In other words, for a boy in 2021: ancient history! So as soon as he hears, “When I was your age,” gasp, gulp, where and when will he land this time? And in what completely crazy situation?”</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719091500 +0000" stop="20260719093000 +0000">
+    <title lang="zh">When I was Your Age</title>
+    <desc lang="zh">Paul, 10, is a typical little boy. He goes to school, he plays sports, he is secretly in love, he tries to do as little as possible at home, he confuses his parents to get what he wants. And most of all, he would like them to finally understand that he’s not a baby anymore and is old enough to do things ON HIS OWN!Except that... he has a strange gift... or curse... As soon as someone says the words, “When I was your age...” Paul is immediately hurled back to the time when the person he is talking to was 10 years old like he is now. He can shoot back 20, 30...70 years in time! Before mobile phones existed... When boys and girls didn't go to the same school... When there was only one television station... When toilets were at the far end of the yard... In other words, for a boy in 2021: ancient history! So as soon as he hears, “When I was your age,” gasp, gulp, where and when will he land this time? And in what completely crazy situation?”</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719093000 +0000" stop="20260719094500 +0000">
+    <title lang="zh">Buddybot</title>
+    <desc lang="zh">Chloe’s life changed when Buddybot, a hyper-enthusiastic robot from the future, arrived in her garden. Now, they’re on a mission to save the planet! But even though their hearts are in the right place, things don't always go as planned…</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719094500 +0000" stop="20260719100000 +0000">
+    <title lang="zh">Buddybot</title>
+    <desc lang="zh">Chloe’s life changed when Buddybot, a hyper-enthusiastic robot from the future, arrived in her garden. Now, they’re on a mission to save the planet! But even though their hearts are in the right place, things don't always go as planned…</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719100000 +0000" stop="20260719110000 +0000">
+    <title lang="zh">The Big Bake S3</title>
+    <desc lang="zh">The Big Bake is a larger-than-life baking competition series with themed episodes. In each episode, three professional baking teams have five hours to design, bake and decorate a grand-scale cake creation based on a particular theme. These bakers need to think big and bold, blowing up their designs to gigantic proportions and thinking outside the (bakery) box. In the end, the most ambitious, eye-popping and delicious cake will go home with a $10,000 prize.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719110000 +0000" stop="20260719111500 +0000">
+    <title lang="zh">ViuTV News</title>
+    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719111500 +0000" stop="20260719113000 +0000">
+    <title lang="zh">Entertainment Express</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719113000 +0000" stop="20260719120000 +0000">
+    <title lang="zh">This Tastes Funny</title>
+    <desc lang="zh">In this new series ‘This Tastes Funny’, Iliza and her chef husband Noah are travelling the length of New Zealand - one stop before the middle of nowhere. Confined to a small motorhome and only each other for company - they are here to discover the sights, tastes, and weirdly – the smells that this country has to offer. All in preparation for Iliza’s first New Zealand comedy show, because - if you’re going to make fun of an entire country, you must first understand every gritty detail.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719120000 +0000" stop="20260719130000 +0000">
+    <title lang="zh">Country House Antique Hunt</title>
+    <desc lang="zh">Auctioneer Angus Ashworth sets out on a mission to help preserve Yorkshire's historic stately homes by utilising his auctioneering and house clearance skills to find items which can be sold to help fund restoration and repair works.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719130000 +0000" stop="20260719151500 +0000">
+    <title lang="zh">Theatre 96: Jurassic World: Fallen Kingdom</title>
+    <desc lang="zh">With all of the wonder, adventure and thrills synonymous with one of the most popular and successful series in cinema history, this all-new motion-picture event sees the return of favorite characters and dinosaurs—along with new breeds more awe-inspiring and terrifying than ever before. Welcome to 'Jurassic World: Fallen Kingdom.' Stars Pratt and Howard return alongside executive producers Steven Spielberg and Colin Trevorrow for 'Jurassic World: Fallen Kingdom.' They are joined by co-stars James Cromwell, Ted Levine, Justice Smith, Geraldine Chaplin, Daniella Pineda, Toby Jones, Rafe Spall and Isabella Sermon, while BD Wong and Jeff Goldblum reprise their roles.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719151500 +0000" stop="20260719153000 +0000">
+    <title lang="zh">ViuTV News</title>
+    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719153000 +0000" stop="20260719154500 +0000">
+    <title lang="zh">FIFA World Cup 2026™ Match Day +1 Highlights</title>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719154500 +0000" stop="20260719163500 +0000">
+    <title lang="zh">The UnXplained with William Shatner S3</title>
+    <desc lang="zh">For centuries archaeologists and explorers have been obsessed with locating ancient cities lost to time. Some of these places are recorded in historical texts, while others are part of oral traditions and folklore. How does a once-thriving community become a lost city? And if their ruins are found, what secrets might be they reveal about human history?</desc>
+    <date>2026-07-19</date>
+  </programme>
+  <programme channel="96" start="20260719163500 +0000" stop="20260719173500 +0000">
+    <title lang="zh">The Cube S11</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260719173500 +0000" stop="20260719182500 +0000">
+    <title lang="zh">The Big Bake S3</title>
+    <desc lang="zh">The Big Bake is a larger-than-life baking competition series with themed episodes. In each episode, three professional baking teams have five hours to design, bake and decorate a grand-scale cake creation based on a particular theme. These bakers need to think big and bold, blowing up their designs to gigantic proportions and thinking outside the (bakery) box. In the end, the most ambitious, eye-popping and delicious cake will go home with a $10,000 prize.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260719182500 +0000" stop="20260720010000 +0000">
+    <title lang="zh">ViuTVsix Station Closing Slate</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720010000 +0000" stop="20260720013000 +0000">
+    <title lang="zh">This Tastes Funny</title>
+    <desc lang="zh">In this new series ‘This Tastes Funny’, Iliza and her chef husband Noah are travelling the length of New Zealand - one stop before the middle of nowhere. Confined to a small motorhome and only each other for company - they are here to discover the sights, tastes, and weirdly – the smells that this country has to offer. All in preparation for Iliza’s first New Zealand comedy show, because - if you’re going to make fun of an entire country, you must first understand every gritty detail.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720013000 +0000" stop="20260720020000 +0000">
+    <title lang="zh">Ainsley's Great Garden Cook Off</title>
+    <desc lang="zh">Ainsley asks two chefs to join him in a beautiful kitchen garden for an al fresco cooking contest using its fresh summer produce.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720020000 +0000" stop="20260720030000 +0000">
+    <title lang="zh">The Cube S11</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720030000 +0000" stop="20260720040000 +0000">
+    <title lang="zh">Secrets of the Lost Liners S2</title>
+    <desc lang="zh">Secrets of the Lost Liners, Series 2, explores the rise and fall of iconic ocean liners, from glamorous Hollywood transports to converted cruise ships. The detailed documentary unveils tragic losses due to war, human error, and nature, showcasing dramatic events on board, including hijackings, political intrigue, and neglect. Never-before-seen footage and survivor testimonies enrich the exploration.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720040000 +0000" stop="20260720050000 +0000">
+    <title lang="zh">Country House Antique Hunt</title>
+    <desc lang="zh">Auctioneer Angus Ashworth sets out on a mission to help preserve Yorkshire's historic stately homes by utilising his auctioneering and house clearance skills to find items which can be sold to help fund restoration and repair works.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720050000 +0000" stop="20260720071500 +0000">
+    <title lang="zh">Theatre 96: Jurassic World: Fallen Kingdom</title>
+    <desc lang="zh">With all of the wonder, adventure and thrills synonymous with one of the most popular and successful series in cinema history, this all-new motion-picture event sees the return of favorite characters and dinosaurs—along with new breeds more awe-inspiring and terrifying than ever before. Welcome to 'Jurassic World: Fallen Kingdom.' Stars Pratt and Howard return alongside executive producers Steven Spielberg and Colin Trevorrow for 'Jurassic World: Fallen Kingdom.' They are joined by co-stars James Cromwell, Ted Levine, Justice Smith, Geraldine Chaplin, Daniella Pineda, Toby Jones, Rafe Spall and Isabella Sermon, while BD Wong and Jeff Goldblum reprise their roles.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720071500 +0000" stop="20260720073000 +0000">
+    <title lang="zh">Entertainment Express</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720073000 +0000" stop="20260720080000 +0000">
+    <title lang="zh">Prue Leith's Cotswold Kitchen S2</title>
+    <desc lang="zh">Prue whips up delicious food, welcomes guests, shares kitchen hacks and cooks alongside husband John. Prue celebrates UK food heroes and John explores local countryside crafts.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720080000 +0000" stop="20260720083000 +0000">
+    <title lang="zh">DW News</title>
+    <desc lang="zh">Latest news headlines, current events, photos, and exclusive stories from eyewitnesses in Asia, Middle East, and Africa.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720083000 +0000" stop="20260720084500 +0000">
+    <title lang="zh">BarnKidz</title>
+    <desc lang="zh">Surrounded by fields, near a vast forest and a lovely stream where reaches wriggle and frogs creak is the village of Bellefontaine. Here lives a small group of boys and girls including our heroes: Raphael, Lina, Little Foot and Beanpole. Those four friends have limitless imagination and fill their days with thrilling adventures.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720084500 +0000" stop="20260720090000 +0000">
+    <title lang="zh">BarnKidz</title>
+    <desc lang="zh">Surrounded by fields, near a vast forest and a lovely stream where reaches wriggle and frogs creak is the village of Bellefontaine. Here lives a small group of boys and girls including our heroes: Raphael, Lina, Little Foot and Beanpole. Those four friends have limitless imagination and fill their days with thrilling adventures.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720090000 +0000" stop="20260720091500 +0000">
+    <title lang="zh">Chimera Keepers: Adventures with Incredible Creatures</title>
+    <desc lang="zh">Join Thelma and Wendy on an extraordinary summer adventure, discovering the unique and magical Chimera creatures!</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720091500 +0000" stop="20260720093000 +0000">
+    <title lang="zh">Chimera Keepers: Adventures with Incredible Creatures</title>
+    <desc lang="zh">Join Thelma and Wendy on an extraordinary summer adventure, discovering the unique and magical Chimera creatures!</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720093000 +0000" stop="20260720094500 +0000">
+    <title lang="zh">ODO S2</title>
+    <desc lang="zh">Odo is a little owl with big ideas! At the Forest Camp for Young Birds, he and his best friend Doodle positively tackle every challenge, no matter how big - and believe that everything is possible... often with unexpected outcomes!</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720094500 +0000" stop="20260720100000 +0000">
+    <title lang="zh">ODO S2</title>
+    <desc lang="zh">Odo is a little owl with big ideas! At the Forest Camp for Young Birds, he and his best friend Doodle positively tackle every challenge, no matter how big - and believe that everything is possible... often with unexpected outcomes!</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720100000 +0000" stop="20260720103000 +0000">
+    <title lang="zh">DW Evening News</title>
+    <desc lang="zh">Latest news headlines, current events, photos, and exclusive stories from eyewitnesses in Asia, Middle East, and Africa.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720103000 +0000" stop="20260720110000 +0000">
+    <title lang="zh">Louie &amp; Yoko Build</title>
+    <desc lang="zh">Louie has swapped his pencil case for a toolbox and with the help of Yoko, they build what their friends need. Whether it’s a bridge, a ski lift, a wind turbine or a rocket; it’s no problem! With the magic toolbox, there is no limit to what Louie and Yoko can build. And better still, Louie and Yoko show you how to do it.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720110000 +0000" stop="20260720111500 +0000">
+    <title lang="zh">ViuTV News</title>
+    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720111500 +0000" stop="20260720113000 +0000">
+    <title lang="zh">Lana Longbeard</title>
+    <desc lang="zh">Lana is a super feisty, forward-thinking, and passionate 12-year-old girl, and the heir to her father’s adventuring ship, the Mighty Windbreaker. Along with her Viking dad and his diverse crew of rogues (a dwarf, an orc, a barbarian, and a cyclops), she sails across the Ten Realms, dreaming of becoming one of the greatest adventurers of all time. But first, she must overcome some challenging obstacles: impulsivity, stubbornness, extreme curiosity, disdain for rules, and love of pancakes. All the best things about her!</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720113000 +0000" stop="20260720120000 +0000">
+    <title lang="zh">Help! I Bought It at Auction with Sarah Beeny</title>
+    <desc lang="zh">Sarah Beeny follows the brave buyers with big ambitions who are transforming their property auction buys from derelict digs to beautiful abodes.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720120000 +0000" stop="20260720130000 +0000">
+    <title lang="zh">Riddiculous S2</title>
+    <desc lang="zh">Ranvir Singh hosts the quiz where contestants take on the Riddlemaster in a bid to solve his riddles. Only one team can make it through to the final to face the iconic Riddle Run.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720130000 +0000" stop="20260720140000 +0000">
+    <title lang="zh">Abandoned Americana S2</title>
+    <desc lang="zh">Scattered across the United States are abandoned structures and those who know their stories. These forgotten ruins reveal the past of this land and its people. These are the secrets of Hidden America.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720140000 +0000" stop="20260720150000 +0000">
+    <title lang="zh">Case File 96: Cold Case Files S4</title>
+    <desc lang="zh">There are over 100,000 cold cases in America, and only about 1% are ever solved. With recent advancements in technology and the methods used to solve these cases, as well as the unwavering dedication of victims’ families, law enforcement and the public, “Cold Case Files” explores the cases the defied the odds.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720150000 +0000" stop="20260720151500 +0000">
+    <title lang="zh">ViuTV News</title>
+    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720151500 +0000" stop="20260720153000 +0000">
+    <title lang="zh">FIFA World Cup 2026™ Match Day +1 Highlights</title>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720153000 +0000" stop="20260720161500 +0000">
+    <title lang="zh">Hunted Australia S2</title>
+    <desc lang="zh">Season 2 of Australia’s real-life extreme version of hide and seek returns with more edge of your seat antics. In a heart-pounding game of cat and mouse, the contingent of 10 pairs of shrewd Fugitives’ aim is to disappear without a trace. Hot on their tails is the expert group of Hunters who will stop at nothing to outthink, outsmart and outrun those striving to reach the extraction point.</desc>
+    <date>2026-07-20</date>
+  </programme>
+  <programme channel="96" start="20260720161500 +0000" stop="20260720164500 +0000">
+    <title lang="zh">Ainsley's Great Garden Cook Off</title>
+    <desc lang="zh">Ainsley asks two chefs to join him in a beautiful kitchen garden for an al fresco cooking contest using its fresh summer produce.</desc>
+    <date>2026-07-21</date>
+  </programme>
+  <programme channel="96" start="20260720164500 +0000" stop="20260720174000 +0000">
+    <title lang="zh">Secrets of the Lost Liners S2</title>
+    <desc lang="zh">Secrets of the Lost Liners, Series 2, explores the rise and fall of iconic ocean liners, from glamorous Hollywood transports to converted cruise ships. The detailed documentary unveils tragic losses due to war, human error, and nature, showcasing dramatic events on board, including hijackings, political intrigue, and neglect. Never-before-seen footage and survivor testimonies enrich the exploration.</desc>
+    <date>2026-07-21</date>
+  </programme>
   <channel id="370136">
     <display-name lang="Malaysia">TV1</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612105904271177_79.png" />
