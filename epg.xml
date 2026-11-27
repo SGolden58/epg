@@ -4,102 +4,6 @@
     <display-name lang="Malaysia">HOY 76</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
   </channel>
-  <programme channel="76" start="20261112160000 +0000" stop="20261112170000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261112170000 +0000" stop="20261112173000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261112173000 +0000" stop="20261112180000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261112180000 +0000" stop="20261112190000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261112190000 +0000" stop="20261112200000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261112200000 +0000" stop="20261112210000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261112210000 +0000" stop="20261112220000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261112220000 +0000" stop="20261113000000 +0000">
-    <title lang="zh">阿根廷甲組足球聯賽-沙米恩圖 對 羅沙里奧中央</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113000000 +0000" stop="20261113020000 +0000">
-    <title lang="zh">澳洲女子職業足球聯賽-布里斯班獅吼 對  墨爾本勝利</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113020000 +0000" stop="20261113040000 +0000">
-    <title lang="zh">亞洲聯賽冠軍盃精英聯賽-泰港  對  FC北京</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113040000 +0000" stop="20261113043000 +0000">
-    <title lang="zh">大眾參與 2026</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113043000 +0000" stop="20261113063000 +0000">
-    <title lang="zh">愛知‧名古屋亞運男子足球賽半準決賽-日本 對  北韓</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113063000 +0000" stop="20261113070000 +0000">
-    <title lang="zh">阿聯酋職業足球聯賽雜誌</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113070000 +0000" stop="20261113080000 +0000">
-    <title lang="zh">亞洲勒芒系列賽</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113080000 +0000" stop="20261113082500 +0000">
-    <title lang="zh">第46屆黃金海岸馬拉松精華</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113082500 +0000" stop="20261113103000 +0000">
-    <title lang="zh">澳洲冠軍聯賽-普雷斯頓雄獅 對  FC獅子</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113103000 +0000" stop="20261113110000 +0000">
-    <title lang="zh">大眾參與 2026</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113110000 +0000" stop="20261113120000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113120000 +0000" stop="20261113121500 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113121500 +0000" stop="20261113131500 +0000">
-    <title lang="zh">時間旅行者的銀河指南</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113131500 +0000" stop="20261113140000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113140000 +0000" stop="20261113150000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113150000 +0000" stop="20261113151500 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="76" start="20261113151500 +0000" stop="20261113160000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-11-13</date>
-  </programme>
   <programme channel="76" start="20261113160000 +0000" stop="20261113170000 +0000">
     <title lang="zh">Bloomberg 時段</title>
     <date>2026-11-14</date>
@@ -1504,24 +1408,24 @@
     <title lang="zh">FIBA 女籃定格 - 費比芝(德國)</title>
     <date>2026-11-29</date>
   </programme>
-  <programme channel="76" start="20261128223000 +0000" stop="20261128230000 +0000">
+  <programme channel="76" start="20261128223000 +0000" stop="20261128225500 +0000">
     <title lang="zh">第46屆黃金海岸馬拉松精華</title>
     <date>2026-11-29</date>
   </programme>
-  <programme channel="76" start="20261128230000 +0000" stop="20261129000000 +0000">
+  <programme channel="76" start="20261128225500 +0000" stop="20261129005500 +0000">
+    <title lang="zh">阿根廷甲組足球聯賽次階段附加賽半準決賽-沙士菲  對  獨立隊</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="76" start="20261129005500 +0000" stop="20261129030000 +0000">
+    <title lang="zh">阿根廷甲組足球聯賽次階段附加賽半準決賽-聯合隊 對 河床</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="76" start="20261129030000 +0000" stop="20261129040000 +0000">
     <title lang="zh">大眾參與 2026</title>
     <date>2026-11-29</date>
   </programme>
-  <programme channel="76" start="20261129000000 +0000" stop="20261129020000 +0000">
-    <title lang="zh">東亞超級籃球聯賽-釜山宙斯盾 對 台北富邦勇士</title>
-    <date>2026-11-29</date>
-  </programme>
-  <programme channel="76" start="20261129020000 +0000" stop="20261129023000 +0000">
-    <title lang="zh">大眾參與 2026</title>
-    <date>2026-11-29</date>
-  </programme>
-  <programme channel="76" start="20261129023000 +0000" stop="20261129043000 +0000">
-    <title lang="zh">阿聯酋職業足球聯賽-艾阿恩 對 艾迪哈夫拉</title>
+  <programme channel="76" start="20261129040000 +0000" stop="20261129043000 +0000">
+    <title lang="zh">A-League 女足最精彩</title>
     <date>2026-11-29</date>
   </programme>
   <programme channel="76" start="20261129043000 +0000" stop="20261129063000 +0000">
@@ -1592,20 +1496,32 @@
     <title lang="zh">亞洲勒芒系列賽</title>
     <date>2026-11-30</date>
   </programme>
-  <programme channel="76" start="20261129230000 +0000" stop="20261130000000 +0000">
-    <title lang="zh">CGTN 時段</title>
+  <programme channel="76" start="20261129230000 +0000" stop="20261129232500 +0000">
+    <title lang="zh">大眾參與 2026</title>
     <date>2026-11-30</date>
   </programme>
-  <programme channel="76" start="20261130000000 +0000" stop="20261130010000 +0000">
-    <title lang="zh">CGTN 時段</title>
+  <programme channel="76" start="20261129232500 +0000" stop="20261130013000 +0000">
+    <title lang="zh">阿根廷甲組足球聯賽次階段附加賽半準決賽-小保加 對 甘拿斯亞</title>
     <date>2026-11-30</date>
   </programme>
-  <programme channel="76" start="20261130010000 +0000" stop="20261130030000 +0000">
-    <title lang="zh">亞洲聯賽冠軍盃精英聯賽-艾薩德 對 吉達艾阿里</title>
+  <programme channel="76" start="20261130013000 +0000" stop="20261130020000 +0000">
+    <title lang="zh">阿聯酋職業足球聯賽雜誌</title>
     <date>2026-11-30</date>
   </programme>
-  <programme channel="76" start="20261130030000 +0000" stop="20261130050000 +0000">
-    <title lang="zh">阿聯酋聯賽盃-卡爾巴FC 對 杜拜艾阿里</title>
+  <programme channel="76" start="20261130020000 +0000" stop="20261130023000 +0000">
+    <title lang="zh">第46屆黃金海岸馬拉松精華</title>
+    <date>2026-11-30</date>
+  </programme>
+  <programme channel="76" start="20261130023000 +0000" stop="20261130033000 +0000">
+    <title lang="zh">大眾參與 2026</title>
+    <date>2026-11-30</date>
+  </programme>
+  <programme channel="76" start="20261130033000 +0000" stop="20261130043000 +0000">
+    <title lang="zh">2026 FIM 世界越野摩托錦標賽</title>
+    <date>2026-11-30</date>
+  </programme>
+  <programme channel="76" start="20261130043000 +0000" stop="20261130050000 +0000">
+    <title lang="zh">大眾參與 2026</title>
     <date>2026-11-30</date>
   </programme>
   <programme channel="76" start="20261130050000 +0000" stop="20261130070000 +0000">
@@ -2004,20 +1920,12 @@
     <title lang="zh">有線新聞</title>
     <date>2026-12-04</date>
   </programme>
-  <programme channel="76" start="20261204114500 +0000" stop="20261204120000 +0000">
+  <programme channel="76" start="20261204114500 +0000" stop="20261204115500 +0000">
     <title lang="zh">Green Touch</title>
     <date>2026-12-04</date>
   </programme>
-  <programme channel="76" start="20261204120000 +0000" stop="20261204121500 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-12-04</date>
-  </programme>
-  <programme channel="76" start="20261204121500 +0000" stop="20261204130000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
-    <date>2026-12-04</date>
-  </programme>
-  <programme channel="76" start="20261204130000 +0000" stop="20261204140000 +0000">
-    <title lang="zh">Bloomberg 時段</title>
+  <programme channel="76" start="20261204115500 +0000" stop="20261204140000 +0000">
+    <title lang="zh">泰國甲組足球聯賽-羅勇  對 素可泰</title>
     <date>2026-12-04</date>
   </programme>
   <programme channel="76" start="20261204140000 +0000" stop="20261204141500 +0000">
@@ -2032,180 +1940,118 @@
     <title lang="zh">Bloomberg 時段</title>
     <date>2026-12-04</date>
   </programme>
+  <programme channel="76" start="20261204151000 +0000" stop="20261204171500 +0000">
+    <title lang="zh">沙特職業足球聯賽-吉達艾阿里  對  費薩里</title>
+    <date>2026-12-04</date>
+  </programme>
+  <programme channel="76" start="20261204171500 +0000" stop="20261204172500 +0000">
+    <title lang="zh">Bloomberg 時段</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261204172500 +0000" stop="20261204193000 +0000">
+    <title lang="zh">沙特職業足球聯賽-艾納斯 對  艾卡迪沙</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261204193000 +0000" stop="20261204200000 +0000">
+    <title lang="zh">Bloomberg 時段</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261204200000 +0000" stop="20261204210000 +0000">
+    <title lang="zh">Bloomberg 時段</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261204210000 +0000" stop="20261204220000 +0000">
+    <title lang="zh">Bloomberg 時段</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261204220000 +0000" stop="20261204230000 +0000">
+    <title lang="zh">亞洲勒芒系列賽</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261204230000 +0000" stop="20261205000000 +0000">
+    <title lang="zh">CGTN 時段</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205000000 +0000" stop="20261205010000 +0000">
+    <title lang="zh">CGTN 時段</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205010000 +0000" stop="20261205030000 +0000">
+    <title lang="zh">亞洲聯賽冠軍盃二級聯賽-墨爾本勝利 對 越南電信</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205030000 +0000" stop="20261205035500 +0000">
+    <title lang="zh">2026 FIM 世界越野摩托錦標賽</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205035500 +0000" stop="20261205060000 +0000">
+    <title lang="zh">澳洲冠軍聯賽準決賽-</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205060000 +0000" stop="20261205063000 +0000">
+    <title lang="zh">大眾參與 2026</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205063000 +0000" stop="20261205065500 +0000">
+    <title lang="zh">第46屆黃金海岸馬拉松精華</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205065500 +0000" stop="20261205090000 +0000">
+    <title lang="zh">香港聯賽盃-理文 對  東區</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205090000 +0000" stop="20261205104500 +0000">
+    <title lang="zh">女子欖球國際賽 2026-中國香港 對 湯加</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205104500 +0000" stop="20261205110000 +0000">
+    <title lang="zh">FIBA 女籃定格 - 費比芝(德國)</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205110000 +0000" stop="20261205113000 +0000">
+    <title lang="zh">歐洲大觀</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205113000 +0000" stop="20261205120000 +0000">
+    <title lang="zh">小空間大活用 3</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205120000 +0000" stop="20261205121500 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205121500 +0000" stop="20261205123000 +0000">
+    <title lang="zh">Green Touch</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205123000 +0000" stop="20261205133000 +0000">
+    <title lang="zh">瑪吉比爾的大使命</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205133000 +0000" stop="20261205134500 +0000">
+    <title lang="zh">Sports Life</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205134500 +0000" stop="20261205140000 +0000">
+    <title lang="zh">Green Touch</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205140000 +0000" stop="20261205150000 +0000">
+    <title lang="zh">被馴化的野性</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205150000 +0000" stop="20261205151500 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="76" start="20261205151500 +0000" stop="20261205153000 +0000">
+    <title lang="zh">Sports Life</title>
+    <date>2026-12-05</date>
+  </programme>
   <channel id="77">
     <display-name lang="Malaysia">HOY 77</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
   </channel>
-  <programme channel="77" start="20261112163000 +0000" stop="20261112180000 +0000">
-    <title lang="zh">HOY 枱啦</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261112180000 +0000" stop="20261112183000 +0000">
-    <title lang="zh">開飯啦</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261112183000 +0000" stop="20261112190000 +0000">
-    <title lang="zh">韓國邊忽好</title>
-    <desc lang="zh">韓國職業棒球今年創出史上入場觀看紀錄新高，超過1000萬觀眾入場看球賽。為了了解韓國人對棒球的熱愛程度，詩詠走訪金浦市小小棒球隊，從6歲小朋友身上初次體會棒球魅力。亦會在韓職棒球隊周邊專賣店認識30年棒球忠粉，忠粉更成功幫詩詠搶購一票難買的季後賽門票</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261112190000 +0000" stop="20261112220000 +0000">
-    <title lang="zh">魚樂無限</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261112220000 +0000" stop="20261112230000 +0000">
-    <title lang="zh">與鳳行</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261112230000 +0000" stop="20261112233000 +0000">
-    <title lang="zh">HOY始做運動</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261112233000 +0000" stop="20261112235500 +0000">
-    <title lang="zh">Cable早晨 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261112235500 +0000" stop="20261113000000 +0000">
-    <title lang="zh">政制及內地事務局粵港澳大灣區發展辦公室呈獻 : 灣區快拍</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113000000 +0000" stop="20261113003000 +0000">
-    <title lang="zh">Cable早晨</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113003000 +0000" stop="20261113010000 +0000">
-    <title lang="zh">Cable早晨</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113010000 +0000" stop="20261113013000 +0000">
-    <title lang="zh">開飯啦</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113013000 +0000" stop="20261113015500 +0000">
-    <title lang="zh">女行團</title>
-    <desc lang="zh">邱晴一早到富國島最值得打卡景點「日落小鎮」，乘坐現時世界上最長跨海三線纜車到一個大型樂園，先玩木製刺激過山車嗌一餐，再到水上樂園降溫，下午再回到小鎮接吻橋黃昏打卡及欣賞每晚的富國島煙花騷。邱晴又試浸富國島泥漿浴及spa滋潤養顏，再帶隊品嚐一間網紅越式</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113015500 +0000" stop="20261113020000 +0000">
-    <title lang="zh">都大創未來</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113020000 +0000" stop="20261113023000 +0000">
-    <title lang="zh">HOY始做運動</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113023000 +0000" stop="20261113030000 +0000">
-    <title lang="zh">九運會客室 2</title>
-    <desc lang="zh">J Arie小肥大談「性經」：高呼喜愛SEX不等於濫交。J Arie又透露曾為男性伴口交後，對方竟然拒絕接吻，令她大受打擊。小肥就分享倫敦「約炮」的不快經歷。</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113030000 +0000" stop="20261113040000 +0000">
-    <title lang="zh">亞洲劇場 : 鬼怪 - 孤單又燦爛的神</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113040000 +0000" stop="20261113043000 +0000">
-    <title lang="zh">午間新聞 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113043000 +0000" stop="20261113045500 +0000">
-    <title lang="zh">X Wallet 呈獻 : 你的保安 李寶安</title>
-    <desc lang="zh">第12集：熄燈一小時（上）總公司推行節能比賽，贏家可獲三日有薪假！阿彩為了與羅宋湯去旅行，化身「環保大使」嚴格監控全員，李寶安更焗到熱暈倒地，唯獨麥峰自有妙計逃避悶熱！大家拼命不用電，屋苑用電量竟不跌反升！眾人無心戀戰，甚至有人暗懷鬼胎，一場偷電暗湧</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113045500 +0000" stop="20261113050000 +0000">
-    <title lang="zh">政制及內地事務局粵港澳大灣區發展辦公室呈獻 : 灣區快拍</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113050000 +0000" stop="20261113053000 +0000">
-    <title lang="zh">一線搜查</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113053000 +0000" stop="20261113060000 +0000">
-    <title lang="zh">李錦記呈獻 : 他鄉的煮人 2</title>
-    <desc lang="zh">「我小時候的夢想是在中環做OL，從沒有想過有一日我會在波士頓開茶餐廳。我竟然會躲在廚房研究食譜、工作一整天，從來都沒有想像過。」Kenix笑言。Kenix在波士頓生活二十多年，本身從事化學研究工作，機緣巧合之下，和丈夫一同經營茶餐廳，焗飯、鐵板雜扒餐</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113060000 +0000" stop="20261113063000 +0000">
-    <title lang="zh">永安旅遊呈獻 : 健康關注組</title>
-    <desc lang="zh">吃完油膩食物，右上腹隱隱作痛，痛感伸延到背脊？小心是膽石作怪！但有一部份患有膽石的人士，可能會完全無痛感，所以很多時要去體檢才發現有膽石，究竟膽石是否一定要做手術切除膽囊？切除膽後，又會否影響消化功能？</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113063000 +0000" stop="20261113080000 +0000">
-    <title lang="zh">HOY 枱啦</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113080000 +0000" stop="20261113083000 +0000">
-    <title lang="zh">美斯的奧奇島</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113083000 +0000" stop="20261113090000 +0000">
-    <title lang="zh">雷頓 不可思議偵探社 ～卡特莉的解謎事件簿～</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113090000 +0000" stop="20261113093000 +0000">
-    <title lang="zh">友夫日記</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113093000 +0000" stop="20261113100000 +0000">
-    <title lang="zh">凱特與米米兔</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113100000 +0000" stop="20261113110000 +0000">
-    <title lang="zh">六點1小時新聞 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113110000 +0000" stop="20261113112000 +0000">
-    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113112000 +0000" stop="20261113113000 +0000">
-    <title lang="zh">28Hse 搵樓App 特約 : 每日樓市</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113113000 +0000" stop="20261113120000 +0000">
-    <title lang="zh">X Wallet 呈獻 : 你的保安 李寶安</title>
-    <desc lang="zh">第12集：熄燈一小時（上）總公司推行節能比賽，贏家可獲三日有薪假！阿彩為了與羅宋湯去旅行，化身「環保大使」嚴格監控全員，李寶安更焗到熱暈倒地，唯獨麥峰自有妙計逃避悶熱！大家拼命不用電，屋苑用電量竟不跌反升！眾人無心戀戰，甚至有人暗懷鬼胎，一場偷電暗湧</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113120000 +0000" stop="20261113123000 +0000">
-    <title lang="zh">X Wallet 呈獻 : 臨海峯答問大會</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113123000 +0000" stop="20261113125500 +0000">
-    <title lang="zh">一線搜查</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113125500 +0000" stop="20261113130000 +0000">
-    <title lang="zh">政制及內地事務局粵港澳大灣區發展辦公室呈獻 : 灣區快拍</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113130000 +0000" stop="20261113133000 +0000">
-    <title lang="zh">李錦記呈獻 : 他鄉的煮人 2</title>
-    <desc lang="zh">強哥在七十年代來到法國，多年來從事首飾批發生意，退休之後，因為喜歡吃，特意在巴黎十三區開粵菜館，結果他比退休之前更加忙碌辛勤！從批發行業轉行至餐飲業，強哥坦言，一開始都有點不習慣：「初初有一點後悔，後來做下去之後，客人都知道我們餐館，便覺得辛苦一點都</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113133000 +0000" stop="20261113140000 +0000">
-    <title lang="zh">永安旅遊呈獻 : 健康關注組</title>
-    <desc lang="zh">根據2020-22年度人口健康調查，本港有52%人出現高膽固醇問題，而早前有社會機構，向心血管病患者做問卷調查，就發現過半數受訪者，對膽固醇控制同警覺性依然不足，隨時觸發中風同心臟病風險！原來香港人有高膽固醇比率頗高，但因為平日無徵狀，往往很多人都掉</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113140000 +0000" stop="20261113143000 +0000">
-    <title lang="zh">九運會客室 2</title>
-    <desc lang="zh">康子妮分享由加拿大回流香港入行經過，電視台工作多年後獲派鍾嘉欣母親角色，意識到要離巢。又透露現時開拓音樂、保險事業，以及學音樂的兒子會否入行的話題。</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113143000 +0000" stop="20261113153000 +0000">
-    <title lang="zh">亞洲劇場 : 鬼怪 - 孤單又燦爛的神</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113153000 +0000" stop="20261113154500 +0000">
-    <title lang="zh">HOY娛樂</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="77" start="20261113154500 +0000" stop="20261113164500 +0000">
-    <title lang="zh">晚安晚安</title>
-    <date>2026-11-13</date>
-  </programme>
   <programme channel="77" start="20261113164500 +0000" stop="20261113181500 +0000">
     <title lang="zh">HOY 枱啦</title>
     <date>2026-11-14</date>
@@ -5571,193 +5417,177 @@
     <title lang="zh">HOY娛樂</title>
     <date>2026-12-04</date>
   </programme>
+  <programme channel="77" start="20261204154500 +0000" stop="20261204164500 +0000">
+    <title lang="zh">晚安晚安</title>
+    <date>2026-12-04</date>
+  </programme>
+  <programme channel="77" start="20261204164500 +0000" stop="20261204181500 +0000">
+    <title lang="zh">HOY 枱啦</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261204181500 +0000" stop="20261204184500 +0000">
+    <title lang="zh">東呃西騙</title>
+    <desc lang="zh">裸聊騙案大家一定聽過！ 但是為何還有人中招？為了拆解騙徒招數，短劇「裸命」 由BEN SIR及七師傅親身上陣！騙徒七師傅將出盡渾身解數，引誘苦主BEN SIR裸聊！而另一齣短劇「換面真相」由個案改編，事主就算堅持不脫衣，騙徒只是運用科技，照舊有辦法令</desc>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261204184500 +0000" stop="20261204190000 +0000">
+    <title lang="zh">HOY娛樂</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261204190000 +0000" stop="20261204220000 +0000">
+    <title lang="zh">魚樂無限</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261204220000 +0000" stop="20261204230000 +0000">
+    <title lang="zh">道地生豆乳特約 : 健康原因講多D</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261204230000 +0000" stop="20261204233000 +0000">
+    <title lang="zh">上海工匠</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261204233000 +0000" stop="20261205000000 +0000">
+    <title lang="zh">來頓燒烤</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205000000 +0000" stop="20261205003000 +0000">
+    <title lang="zh">領廚爭霸戰</title>
+    <desc lang="zh">今集《領廚爭霸戰》繼續第一場初賽，Beryl和文采到底誰會勝出，率先晉級複賽？第二場初賽有參賽者Shirley和鹿煮出「拿手宴客菜」！兩位參賽者先到TKO街市購買新鮮食材，再馬上回到廚房比拼！Shirley和鹿都「落重本」，他們會用甚麼食材來應戰？</desc>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205003000 +0000" stop="20261205010000 +0000">
+    <title lang="zh">邊走邊煮滋味行</title>
+    <desc lang="zh">這一集Arthur和林莎要帶大家找尋台灣的冠軍食材，探訪屏東的巧克力工坊，從種植可可豆到製作成世界級金牌巧克力的過程，令人讚歎不已。接著，他們前往高雄旗山，學習如何挑選最佳品質的香蕉，還遇到看都沒看過的香蕉花，沒想到香蕉花吃起來是這種味道！如何將甜甜</desc>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205010000 +0000" stop="20261205013000 +0000">
+    <title lang="zh">半世紀老店</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205013000 +0000" stop="20261205020000 +0000">
+    <title lang="zh">因乜事周圍遊</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205020000 +0000" stop="20261205030000 +0000">
+    <title lang="zh">立邦抗甲醛淨味兒童漆系列特約 : 空間改造王</title>
+    <desc lang="zh">今集要改造嘅係一幢3層住宅，90幾歲嘅老婆婆，本來住喺沖繩，一世未住過有樓梯嘅屋，宜家搬左黎同個女，女婿一齊住，原本3個人住好寬落，可惜間屋樓梯好斜，地方又吾見駛，全間屋仲危機四伏，對長者家居設計素有研究嘅工匠決定出手，為呢間屋帶黎徹底改變。</desc>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205030000 +0000" stop="20261205033000 +0000">
+    <title lang="zh">愛知‧名古屋亞運回顧</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205033000 +0000" stop="20261205040000 +0000">
+    <title lang="zh">女神同行</title>
+    <desc lang="zh">John和康師傅起初對於林可約在廟碰面不能理解，後來才明白原來這裡的自修室是以前林可考大學時唸書的地方，林可也提到原來到這唸書是跟她的初戀有關。林可老家是台中清水，這裡有個他從小吃到大的小吃叫做白燒炸粿，也是清水的排隊銅板美食，也是他有朋友來清水一定</desc>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205040000 +0000" stop="20261205043500 +0000">
+    <title lang="zh">午間新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205043500 +0000" stop="20261205050000 +0000">
+    <title lang="zh">來頓燒烤</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205050000 +0000" stop="20261205053000 +0000">
+    <title lang="zh">一線搜查</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205053000 +0000" stop="20261205060000 +0000">
+    <title lang="zh">食材大變身</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205060000 +0000" stop="20261205063000 +0000">
+    <title lang="zh">領廚爭霸戰</title>
+    <desc lang="zh">今集《領廚爭霸戰》繼續第一場初賽，Beryl和文采到底誰會勝出，率先晉級複賽？第二場初賽有參賽者Shirley和鹿煮出「拿手宴客菜」！兩位參賽者先到TKO街市購買新鮮食材，再馬上回到廚房比拼！Shirley和鹿都「落重本」，他們會用甚麼食材來應戰？</desc>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205063000 +0000" stop="20261205070000 +0000">
+    <title lang="zh">邊走邊煮滋味行</title>
+    <desc lang="zh">這一集Arthur和林莎要帶大家找尋台灣的冠軍食材，探訪屏東的巧克力工坊，從種植可可豆到製作成世界級金牌巧克力的過程，令人讚歎不已。接著，他們前往高雄旗山，學習如何挑選最佳品質的香蕉，還遇到看都沒看過的香蕉花，沒想到香蕉花吃起來是這種味道！如何將甜甜</desc>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205070000 +0000" stop="20261205073000 +0000">
+    <title lang="zh">嘻哈馬場</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205073000 +0000" stop="20261205080000 +0000">
+    <title lang="zh">半世紀老店</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205080000 +0000" stop="20261205083000 +0000">
+    <title lang="zh">美斯的奧奇島</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205083000 +0000" stop="20261205090000 +0000">
+    <title lang="zh">神勇小白鼠</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205090000 +0000" stop="20261205093000 +0000">
+    <title lang="zh">友夫日記</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205093000 +0000" stop="20261205100000 +0000">
+    <title lang="zh">寶可夢 地平線：第三季 - 希望昇空</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205100000 +0000" stop="20261205102500 +0000">
+    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205102500 +0000" stop="20261205103000 +0000">
+    <title lang="zh">港鐵公司呈獻 : 建鐵路 見未來</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205103000 +0000" stop="20261205110000 +0000">
+    <title lang="zh">上海工匠</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205110000 +0000" stop="20261205113000 +0000">
+    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205113000 +0000" stop="20261205115500 +0000">
+    <title lang="zh">也好吃</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205115500 +0000" stop="20261205120000 +0000">
+    <title lang="zh">拆解6號密碼</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205120000 +0000" stop="20261205122500 +0000">
+    <title lang="zh">西卡防水，放心！特約 : 安居樂業</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205122500 +0000" stop="20261205123000 +0000">
+    <title lang="zh">香港保險業聯會呈獻 : Action! 人生保障全就位</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205123000 +0000" stop="20261205133000 +0000">
+    <title lang="zh">道地蜂蜜綠茶特約 : 山旮旯睇樓團</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205133000 +0000" stop="20261205140000 +0000">
+    <title lang="zh">ASANA 360 呈獻 : 臥底進化研究所</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205140000 +0000" stop="20261205143000 +0000">
+    <title lang="zh">立邦抗甲醛淨味兒童漆系列特約 : 金牌食相</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205143000 +0000" stop="20261205150000 +0000">
+    <title lang="zh">緊急候命</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="77" start="20261205150000 +0000" stop="20261205153000 +0000">
+    <title lang="zh">HOY娛樂一周</title>
+    <date>2026-12-05</date>
+  </programme>
   <channel id="78">
     <display-name lang="Malaysia">HOY 78</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/HOYTV.svg.png" />
   </channel>
-  <programme channel="78" start="20261112160000 +0000" stop="20261112163000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112163000 +0000" stop="20261112170000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112170000 +0000" stop="20261112173000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112173000 +0000" stop="20261112180000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112180000 +0000" stop="20261112183000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112183000 +0000" stop="20261112190000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112190000 +0000" stop="20261112193000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112193000 +0000" stop="20261112200000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112200000 +0000" stop="20261112203000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112203000 +0000" stop="20261112210000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112210000 +0000" stop="20261112213000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112213000 +0000" stop="20261112220000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112220000 +0000" stop="20261112223000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112223000 +0000" stop="20261112230000 +0000">
-    <title lang="zh">一線搜查</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112230000 +0000" stop="20261112233000 +0000">
-    <title lang="zh">Cable早晨 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261112233000 +0000" stop="20261113000000 +0000">
-    <title lang="zh">Cable早晨 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113000000 +0000" stop="20261113003000 +0000">
-    <title lang="zh">Cable 早晨</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113003000 +0000" stop="20261113010000 +0000">
-    <title lang="zh">Cable 早晨</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113010000 +0000" stop="20261113020000 +0000">
-    <title lang="zh">股市直播室</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113020000 +0000" stop="20261113024000 +0000">
-    <title lang="zh">時事HOY角度</title>
-    <desc lang="zh">綜合時事資訊節目，以時事及焦點新聞為主軸，延伸至健康、週末消閒、本地故事及實用生活資訊。邀請專家、學者為觀眾帶來客觀、深度與廣度兼備的觀點，讓觀眾在短時間內掌握新聞重點，對複雜議題建立清晰、全面及理性的理解。</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113024000 +0000" stop="20261113024500 +0000">
-    <title lang="zh">都大創未來</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113024500 +0000" stop="20261113033000 +0000">
-    <title lang="zh">時事HOY角度</title>
-    <desc lang="zh">綜合時事資訊節目，以時事及焦點新聞為主軸，延伸至健康、週末消閒、本地故事及實用生活資訊。邀請專家、學者為觀眾帶來客觀、深度與廣度兼備的觀點，讓觀眾在短時間內掌握新聞重點，對複雜議題建立清晰、全面及理性的理解。</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113033000 +0000" stop="20261113040000 +0000">
-    <title lang="zh">智‧創未來</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113040000 +0000" stop="20261113043000 +0000">
-    <title lang="zh">午間新聞 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113043000 +0000" stop="20261113045500 +0000">
-    <title lang="zh">家國天下</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113045500 +0000" stop="20261113050000 +0000">
-    <title lang="zh">政制及內地事務局粵港澳大灣區發展辦公室呈獻 : 灣區快拍</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113050000 +0000" stop="20261113053000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113053000 +0000" stop="20261113060000 +0000">
-    <title lang="zh">一線搜查</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113060000 +0000" stop="20261113080000 +0000">
-    <title lang="zh">財經HOY視野</title>
-    <desc lang="zh">結合「企業宏觀、科技微觀、個人理財、環球實戰」的現代財經節目。於港股交易時段，加強與觀眾互動，加插「多渠道即時問股價」環節，嘉賓主持即時分析回應，亦會總結亞洲市況、前瞻歐美股市重點，超前部署投資分析。</desc>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113080000 +0000" stop="20261113083000 +0000">
-    <title lang="zh">股市直播室</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113083000 +0000" stop="20261113090000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113090000 +0000" stop="20261113093000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113093000 +0000" stop="20261113100000 +0000">
-    <title lang="zh">股市直播室</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113100000 +0000" stop="20261113110000 +0000">
-    <title lang="zh">六點1小時新聞 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113110000 +0000" stop="20261113112000 +0000">
-    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113112000 +0000" stop="20261113113000 +0000">
-    <title lang="zh">28Hse搵樓App特約 : 每日樓市</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113113000 +0000" stop="20261113115000 +0000">
-    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113115000 +0000" stop="20261113120000 +0000">
-    <title lang="zh">28Hse搵樓App特約 : 每日樓市</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113120000 +0000" stop="20261113123000 +0000">
-    <title lang="zh">一線搜查</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113123000 +0000" stop="20261113130000 +0000">
-    <title lang="zh">手語新聞報道</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113130000 +0000" stop="20261113140000 +0000">
-    <title lang="zh">九點1小時新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113140000 +0000" stop="20261113143000 +0000">
-    <title lang="zh">國際最前線</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113143000 +0000" stop="20261113150000 +0000">
-    <title lang="zh">國際最前線</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113150000 +0000" stop="20261113153000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
-  <programme channel="78" start="20261113153000 +0000" stop="20261113160000 +0000">
-    <title lang="zh">有線新聞</title>
-    <date>2026-11-13</date>
-  </programme>
   <programme channel="78" start="20261113160000 +0000" stop="20261113163000 +0000">
     <title lang="zh">有線新聞</title>
     <date>2026-11-14</date>
@@ -9755,188 +9585,212 @@
     <title lang="zh">有線新聞</title>
     <date>2026-12-04</date>
   </programme>
+  <programme channel="78" start="20261204153000 +0000" stop="20261204160000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-04</date>
+  </programme>
+  <programme channel="78" start="20261204160000 +0000" stop="20261204163000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204163000 +0000" stop="20261204170000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204170000 +0000" stop="20261204173000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204173000 +0000" stop="20261204180000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204180000 +0000" stop="20261204183000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204183000 +0000" stop="20261204190000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204190000 +0000" stop="20261204193000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204193000 +0000" stop="20261204200000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204200000 +0000" stop="20261204203000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204203000 +0000" stop="20261204210000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204210000 +0000" stop="20261204213000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204213000 +0000" stop="20261204220000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204220000 +0000" stop="20261204223000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204223000 +0000" stop="20261204230000 +0000">
+    <title lang="zh">一線搜查</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204230000 +0000" stop="20261204233000 +0000">
+    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261204233000 +0000" stop="20261205000000 +0000">
+    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205000000 +0000" stop="20261205003000 +0000">
+    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205003000 +0000" stop="20261205010000 +0000">
+    <title lang="zh">家國天下</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205010000 +0000" stop="20261205013000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205013000 +0000" stop="20261205020000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205020000 +0000" stop="20261205023000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205023000 +0000" stop="20261205030000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205030000 +0000" stop="20261205033000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205033000 +0000" stop="20261205040000 +0000">
+    <title lang="zh">有理有得傾</title>
+    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205040000 +0000" stop="20261205043000 +0000">
+    <title lang="zh">午間新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205043000 +0000" stop="20261205050000 +0000">
+    <title lang="zh">午間新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205050000 +0000" stop="20261205053000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205053000 +0000" stop="20261205060000 +0000">
+    <title lang="zh">一線搜查</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205060000 +0000" stop="20261205063000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205063000 +0000" stop="20261205070000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205070000 +0000" stop="20261205073000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205073000 +0000" stop="20261205080000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205080000 +0000" stop="20261205083000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205083000 +0000" stop="20261205090000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205090000 +0000" stop="20261205093000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205093000 +0000" stop="20261205100000 +0000">
+    <title lang="zh">有理有得傾</title>
+    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205100000 +0000" stop="20261205102500 +0000">
+    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205102500 +0000" stop="20261205103000 +0000">
+    <title lang="zh">港鐵公司呈獻 : 建鐵路  見未來</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205103000 +0000" stop="20261205105500 +0000">
+    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205105500 +0000" stop="20261205110000 +0000">
+    <title lang="zh">港鐵公司呈獻 : 建鐵路  見未來</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205110000 +0000" stop="20261205113000 +0000">
+    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205113000 +0000" stop="20261205120000 +0000">
+    <title lang="zh">有線新聞 及 周大福人壽特約：天氣全視覺</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205120000 +0000" stop="20261205123000 +0000">
+    <title lang="zh">手語新聞報道</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205123000 +0000" stop="20261205130000 +0000">
+    <title lang="zh">28Hse搵樓App特約 : 講樓 ‧港巿</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205130000 +0000" stop="20261205133000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205133000 +0000" stop="20261205140000 +0000">
+    <title lang="zh">五平方Squarefoot優質樓盤專區特約 : 樓盤傳真</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205140000 +0000" stop="20261205143000 +0000">
+    <title lang="zh">智‧創未來</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205143000 +0000" stop="20261205150000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
+  <programme channel="78" start="20261205150000 +0000" stop="20261205153000 +0000">
+    <title lang="zh">有線新聞</title>
+    <date>2026-12-05</date>
+  </programme>
   <channel id="99">
     <display-name lang="Malaysia">ViuTV</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo/ViuTV.png" />
   </channel>
-  <programme channel="99" start="20261126080000 +0000" stop="20261126083000 +0000">
-    <title lang="zh">He-Man and The Masters of The Universe</title>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126083000 +0000" stop="20261126090000 +0000">
-    <title lang="zh">Care Bears: Unlock the Magic S1</title>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126090000 +0000" stop="20261126093000 +0000">
-    <title lang="zh">Jonny Jetboy</title>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126093000 +0000" stop="20261126100000 +0000">
-    <title lang="zh">Attitude of design</title>
-    <desc lang="zh">人有獨一無二的指紋，城市是否也有獨特紋理？今集主持採訪建築及平面設計師，看看她如何將城市的指紋躍然紙上。</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126100000 +0000" stop="20261126103000 +0000">
-    <title lang="zh">News Cast at 6 with Sign Language</title>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126103000 +0000" stop="20261126110000 +0000">
-    <title lang="zh">For Eagle Brothers</title>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126110000 +0000" stop="20261126113000 +0000">
-    <title lang="zh">News Cast at 7</title>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126113000 +0000" stop="20261126120000 +0000">
-    <title lang="zh">Let's travel around the world</title>
-    <desc lang="zh">《730 玩返轉》魚夫人走進深圳甘坑客家小鎮，在約350年歷史的脈絡中探索客家文化與村落空間。Lucas分享上海著名景點，並談及劇場欣賞所帶來的情感體驗。Anton帶大家探索深圳頂級素食藝術，看食材、擺盤與空間如何共同構成一場餐桌創作。</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126120000 +0000" stop="20261126123000 +0000">
-    <title lang="zh">The Cooking Lab</title>
-    <desc lang="zh">洋蔥作為西餐寵兒，經常一袋袋地買，卻一個個地剩下。但未爛？代表還能吃，不要浪費！Andy將辛辣感重的紅洋蔥做洋蔥撻，繼續與Ranya開烘焙研討會！還有很多洋蔥剩？再做一個又脆又鬆化的韓式洋蔥煎餅，下午茶茶點又有新著落！</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126123000 +0000" stop="20261126133000 +0000">
-    <title lang="zh">Namib</title>
-    <desc lang="zh">荷娜在下一場表演中犯了一個錯誤，但製片人故意把它剪輯掉了。振宇收到Chris的消息，說他應該放棄現場表演，如果不放棄，秀賢可能會受到傷害…</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126133000 +0000" stop="20261126142500 +0000">
-    <title lang="zh">Bonus Leveling</title>
-    <desc lang="zh">藍組成功邀請神秘嘉賓，完成多項任務，更意外將觀景點變成小型簽名會；白組努力追趕分數，不停挑戰多項任務，更野生捕獲神秘嘉賓，能否後來居上?</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126142500 +0000" stop="20261126143000 +0000">
-    <title lang="zh">The Making of Long Vacation: Starting Over</title>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126143000 +0000" stop="20261126150000 +0000">
-    <title lang="zh">Late Night Foodie</title>
-    <desc lang="zh">兩位主持分別與兩位美女嘉賓，化身成一日情侶，兵分兩路走訪港島東及征戰大西北。透過節目組提供的相機及心動紙條，拉近彼此距離，同時更要發堀最吸引最好玩的情侶宵夜拍拖路線。</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126150000 +0000" stop="20261126150500 +0000">
-    <title lang="zh">MIRROR: Today's Agenda</title>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126150500 +0000" stop="20261126153000 +0000">
-    <title lang="zh">Talker - Superstitiously Correct</title>
-    <desc lang="zh">近年不少⼈都會到⽂武廟祈求搵份筍⼯，除了求助神明，提升⾃我五⾏能量同樣能夠助你覓得理想⼯作！今集廖俊景師傅將五⾏融入我們的⽣活當中，讓你事業運Level Up！</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126153000 +0000" stop="20261126153500 +0000">
-    <title lang="zh">3 mins Enews</title>
-    <desc lang="zh">娛樂資訊節目《3分鐘熱度》是ViuTV一個自家製作，集娛樂圈消息及熱話的精華式娛樂資訊節目，以明快節奏、幽默角度報道本港及海外演藝界最新動態，快而準追蹤娛樂圈消息。</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126153500 +0000" stop="20261126163000 +0000">
-    <title lang="zh">Love's Ambition</title>
-    <desc lang="zh">喬琳開始在超市賣化妝品，並與暗戀的校草于一鳴重逢。喬琳回憶高中時期，曾追求于一鳴，但于一鳴喜歡的是妹妹，之後還去了京州。林濤鬧事，誤會許妍與于一鳴的關係。許妍出錢解決彩禮問題，喬琳不領情，許妍生氣。許妍通過幫助黃總岳母，為沈皓明拿下地皮創造機會。</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="99" start="20261126163000 +0000" stop="20261126170000 +0000">
-    <title lang="zh">Haunted Road Trip II</title>
-    <desc lang="zh">最後一集打大佬，直闖被稱為愛爾蘭最猛鬼古堡嘅Charleville Castle。193剛開始已經破戒違反古堡禁令，招致咩後果？古堡內傳說有小朋友意外慘死，亡靈一直喺樓梯徘徊，193同米露迪見唔見到佢？最後193仲要獨自留喺被稱為男人禁地嘅紅色房間，靈探儀器響個不停...最後一集，終極靈體大揭秘！</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261126170000 +0000" stop="20261126173000 +0000">
-    <title lang="zh">CHILL CLUB Song Promotion</title>
-    <desc lang="zh">一首歌背後嘅故事、花咗好多心機嘅MV、歌手同幕後音樂人嘅心血… 《CHILL CLUB 推介》星期一至五晚一於全部都推介俾你！</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261126173000 +0000" stop="20261126183000 +0000">
-    <title lang="zh">My Perfect Stranger</title>
-    <desc lang="zh">因為警方遲遲不積極採取行動，海俊不願再等下去，為了順愛的安全和找出真兇，他決定借助傳媒的力量…</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261126183000 +0000" stop="20261126190000 +0000">
-    <title lang="zh">Late News</title>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261126190000 +0000" stop="20261126200000 +0000">
-    <title lang="zh">Namib</title>
-    <desc lang="zh">荷娜在下一場表演中犯了一個錯誤，但製片人故意把它剪輯掉了。振宇收到Chris的消息，說他應該放棄現場表演，如果不放棄，秀賢可能會受到傷害…</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261126200000 +0000" stop="20261126202500 +0000">
-    <title lang="zh">Talker - Superstitiously Correct</title>
-    <desc lang="zh">近年不少⼈都會到⽂武廟祈求搵份筍⼯，除了求助神明，提升⾃我五⾏能量同樣能夠助你覓得理想⼯作！今集廖俊景師傅將五⾏融入我們的⽣活當中，讓你事業運Level Up！</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261126202500 +0000" stop="20261126203000 +0000">
-    <title lang="zh">3 mins Enews</title>
-    <desc lang="zh">娛樂資訊節目《3分鐘熱度》是ViuTV一個自家製作，集娛樂圈消息及熱話的精華式娛樂資訊節目，以明快節奏、幽默角度報道本港及海外演藝界最新動態，快而準追蹤娛樂圈消息。</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261126203000 +0000" stop="20261126210000 +0000">
-    <title lang="zh">CHILL CLUB Song Promotion</title>
-    <desc lang="zh">一首歌背後嘅故事、花咗好多心機嘅MV、歌手同幕後音樂人嘅心血… 《CHILL CLUB 推介》星期一至五晚一於全部都推介俾你！</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261126210000 +0000" stop="20261126220000 +0000">
-    <title lang="zh">The Prisoner of Beauty</title>
-    <desc lang="zh">魏劭得知喬越的惡行十分生氣，決定此番鹿驪大會不邀請喬家人。小喬難過，準備寫信向大喬說明緣由，卻得知喬慈已經到了漁郡，並高興去迎。而魏劭在驛館中探病蘇娥皇，希望蘇娥皇的遭遇不要鬧大，也希望她不要向小喬計較，蘇娥皇趁機談條件，要蘇子信參加鹿驪大會，魏劭為了彌補，同意讓蘇子信加入...</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261126220000 +0000" stop="20261127010000 +0000">
-    <title lang="zh">Morning News</title>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127010000 +0000" stop="20261127013000 +0000">
-    <title lang="zh">Homeland Explorer</title>
-    <desc lang="zh">《國識商通》每集會邀請不同界別的嘉賓，從經濟、社會、文化、教育等不同範疇，了解內地最新發展和機遇，香港如何把握及運用優勢。</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127013000 +0000" stop="20261127030000 +0000">
-    <title lang="zh">Trading Hour</title>
-    <desc lang="zh">緊貼市場走勢，為你提供全面訊息，分析港股焦點新聞消息。</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127030000 +0000" stop="20261127033000 +0000">
-    <title lang="zh">Invest Smarter</title>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127033000 +0000" stop="20261127040000 +0000">
-    <title lang="zh">Beast Fight Game 2.0</title>
-    <desc lang="zh">荒島！囚犯！混戰！困獸家族即將化身成窮兇極惡囚犯，在芭堤雅一處小島上進行一場你爾我詐的爭鬥。主持們需要利用自己的智慧和體力，在各回合勝出，並奪取分數。最終最高分者就能成為最強囚犯，並獲得自由出入監獄的權利。</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127040000 +0000" stop="20261127043000 +0000">
-    <title lang="zh">Noon News</title>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127043000 +0000" stop="20261127045500 +0000">
-    <title lang="zh">CHILL CLUB Song Promotion</title>
-    <desc lang="zh">一首歌背後嘅故事、花咗好多心機嘅MV、歌手同幕後音樂人嘅心血… 《CHILL CLUB 推介》星期一至五晚一於全部都推介俾你！</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127045500 +0000" stop="20261127050000 +0000">
-    <title lang="zh">3 mins Enews</title>
-    <desc lang="zh">娛樂資訊節目《3分鐘熱度》是ViuTV一個自家製作，集娛樂圈消息及熱話的精華式娛樂資訊節目，以明快節奏、幽默角度報道本港及海外演藝界最新動態，快而準追蹤娛樂圈消息。</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127050000 +0000" stop="20261127053000 +0000">
-    <title lang="zh">Green Finder</title>
-    <desc lang="zh">一間充滿環保元素的小學，到底是從何開始？今集主持深入走訪，聽聽校長與老師們的介紹。</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127053000 +0000" stop="20261127060000 +0000">
-    <title lang="zh">Let's travel around the world</title>
-    <desc lang="zh">《730 玩返轉》魚夫人走進深圳甘坑客家小鎮，在約350年歷史的脈絡中探索客家文化與村落空間。Lucas分享上海著名景點，並談及劇場欣賞所帶來的情感體驗。Anton帶大家探索深圳頂級素食藝術，看食材、擺盤與空間如何共同構成一場餐桌創作。</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127060000 +0000" stop="20261127070000 +0000">
-    <title lang="zh">The Auditors (Repackaged)</title>
-    <desc lang="zh">世雄聘請了外部監察組接手，調查書真有否不正常入職…監察組成功追蹤到透過不正當手段進入公司的員工，但意外發現的罪魁禍首卻讓監察組大吃一驚。</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="99" start="20261127070000 +0000" stop="20261127080000 +0000">
-    <title lang="zh">Trading Hour</title>
-    <desc lang="zh">緊貼市場走勢，為你提供全面訊息，分析港股焦點新聞消息。</desc>
-    <date>2026-11-27</date>
-  </programme>
   <programme channel="99" start="20261127080000 +0000" stop="20261127083000 +0000">
     <title lang="zh">He-Man and The Masters of The Universe</title>
     <date>2026-11-27</date>
@@ -9992,7 +9846,7 @@
   </programme>
   <programme channel="99" start="20261127143000 +0000" stop="20261127150000 +0000">
     <title lang="zh">Late Night Foodie</title>
-    <desc lang="zh">「宵夜係自願，收夜係被迫」 疫情後，相信全港打工仔都面對同一問題，一但OT收夜，在市面還有甚麼餐廳可以光顧？ 「宵夜」係你食飽之後的飯後甜品，「收夜」係捱完OT之後但咩都未食的人間悲劇。 為回應市民訴求，Jacky, Arvin 化身「收夜的美食家」，走訪香港各區晚上9點後依然熱鬧營業的各式餐廳，讓各位觀眾知道即使要OT或收夜，除左連鎖店的漢堡薯條，仲可以選擇中式、日式、美式、韓式，港式飲茶鑊氣小炒通通都有！ Jacky Fan及Arvin曾傲棐除了會介紹這些「收夜」餐廳的美食之外，也會訪問這些小店老闆了解他們的故事之餘，亦有嘉賓好友作為飯腳！ 除「收夜」餐廳美食介紹之外，也會有小環節介紹主持們的神秘食法，讓大家可以快速方便吃到一個有溫度兼好味道的Late Dinner！</desc>
+    <desc lang="zh">四人挑戰全英文 Menu 點餐、跟大廚親手整 Burrata 芝士，並一邊品嚐意式美食一邊玩「意大利智力王」Q&amp;A答題與刺激嘅刮刮樂獎罰遊戲！</desc>
     <date>2026-11-27</date>
   </programme>
   <programme channel="99" start="20261127150000 +0000" stop="20261127150500 +0000">
@@ -10158,7 +10012,7 @@
   </programme>
   <programme channel="99" start="20261128120000 +0000" stop="20261128123000 +0000">
     <title lang="zh">Like My Parents</title>
-    <desc lang="zh">有⼀群年輕人，童年的超級英雄不是 Marvel，而是父母的背影。他們選擇走上父母的路，不是因為這條路好行，而是因為這條路「好型」。本節目講述 10 個「粉絲追星」的故事： 這些子女因為崇拜父母而決定長大後也要穿上同⼀套制服，考取同⼀個牌照；亦有人嘗試父母道路後才發現有更適合自己發展的方向、崗位，在這個非家族生意的殘酷職場中，憑實力成為偶像的「同行」，發展出自己的人生。</desc>
+    <desc lang="zh">名廚鄧家濠（Jayson）自小在父親「根哥」經營的大排檔耳濡目染下，憑藉自我摸索學懂職場應變，及後走上專業廚藝之路。根哥為人知足簡樸、處事嚴格而不善言辭，總以默默行動守護兒子；直至為人父後，Jayson 終體會到父親背後的深沉關愛。</desc>
     <date>2026-11-28</date>
   </programme>
   <programme channel="99" start="20261128123000 +0000" stop="20261128150000 +0000">
@@ -10166,140 +10020,191 @@
     <desc lang="zh">處於浮華城市之中，有些人渴望的僅僅是不知何時才會出現的一線光。獨力經營清潔公司的窄哥（張繼聰飾），面對疫情來襲，百業蕭條，遇上失業的年輕單親媽媽Candy（袁澧林飾）前來求職。看似不務正業的 Candy竟能化解窄哥工作上的困難，正當二人以為生活漸入佳境，疫情變成生活一部份時，清潔公司遭人投訴，同時窄哥家中又遭逢巨變。儘管人如微塵，也能在窄路遇上稍作依偎......</desc>
     <date>2026-11-28</date>
   </programme>
+  <programme channel="99" start="20261128150000 +0000" stop="20261128160000 +0000">
+    <title lang="zh">Chef &amp; My Fridge</title>
+    <date>2026-11-28</date>
+  </programme>
+  <programme channel="99" start="20261128160000 +0000" stop="20261128163000 +0000">
+    <title lang="zh">Be a Better Man</title>
+    <desc lang="zh">男人都要學懂保護女人，然而面對三屆世界冠軍，男友們可能先要學懂如何保護自己。挑戰泰拳訓練，哪一位可以成為拳王導師心中的最佳Fighter及最佳男友? 法國人等同浪漫，那男友們在法國導師身上，又是否可以感染到一些浪漫氣質而令自己文武雙全? 可惜，在他們心中，法式濕吻才是最希望學懂一課。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128163000 +0000" stop="20261128170000 +0000">
+    <title lang="zh">ERROR 10M ROCK N ROAD</title>
+    <desc lang="zh">吳師傅證明了自己是最好的樂隊健身教練。在德島深處，死腳膠到訪了最溫暖的不毛之地。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128170000 +0000" stop="20261128173000 +0000">
+    <title lang="zh">Guardians of the Memory</title>
+    <desc lang="zh">日本不少商店街面對人口老化，後繼無人的窘境，部分商店街最後更被荒廢。大阪有酒店把酒店設施和商店街一體化，務求協助活化商店街的同時，為遊客帶來新的體驗，Sica將會帶大家感受這條商店街的人情味。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128173000 +0000" stop="20261128180000 +0000">
+    <title lang="zh">MM730 - Beast fight game</title>
+    <desc lang="zh">2022世界盃即將開幕，一眾主持為了慶祝足球盛事，挑戰一連串與足球有關的遊戲，為求時刻裝備自己迎接世界盃！不過，在足球問答環節中，Sica 竟然爆出驚人八卦內幕！到底發生了甚麼事呢？</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128180000 +0000" stop="20261128183000 +0000">
+    <title lang="zh">Weird Superstition in Taiwan</title>
+    <desc lang="zh">今集節目組到訪北巡財神宮來找一名算命老師，他會用一種特別的方式利用名字來幫人算命，而且嘉琪和小肥更在不知情的情況之下寫下名字，更寄了去台灣，即場與台灣的算命老師連線，到底最後誰能勝出？</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128183000 +0000" stop="20261128190000 +0000">
+    <title lang="zh">Dreaming</title>
+    <desc lang="zh">Phoebus 夢中變囚犯，大隻佬協助逃獄；拆夢反映他偶像包袱依然沉重，並隱藏 Hehe 疑惑，激起一場「直攣」辯論比賽。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128190000 +0000" stop="20261128193000 +0000">
+    <title lang="zh">All for One</title>
+    <desc lang="zh">數據分析技術於香港球圈近年開始「矚目」，不過至今仍未算被廣泛使用到。超聯球隊理文可謂數據分析「龍頭」，而他們的技術分析教練郭駿林「阿林」就一直利用數據分析技術協助球隊更上一層樓。阿林甫畢業便加入球圈擔任行政工作，職業生涯中阿林亦曾感到迷惘，短暫退出球壇，因緣際會下，「破格」成為超聯球隊理文教練團之一。除了擔當主隊技術分析教練外，亦是理文青年軍的教練，阿林希望以身作則，教踢波；同時教一班「明日之星」一個好球員的應有品格……</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128193000 +0000" stop="20261128200000 +0000">
+    <title lang="zh">The Culture Book</title>
+    <desc lang="zh">速寫團體走到第十年，不知道他們筆下的城市有何變遷？今集繼續聽聽他們的分享。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128200000 +0000" stop="20261128203000 +0000">
+    <title lang="zh">The Alternative Classroom</title>
+    <desc lang="zh">活躍於跨界合作的音樂創作者- 崔展鴻，作品涵蓋劇場、電影及獨立音樂。他擅長融合不同樂器和聲響，創造富有畫面感音樂語言，不斷探索聲音藝術邊界。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128203000 +0000" stop="20261128210000 +0000">
+    <title lang="zh">Green Finder</title>
+    <desc lang="zh">一間充滿環保元素的小學，到底是從何開始？今集主持深入走訪，聽聽校長與老師們的介紹。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128210000 +0000" stop="20261128213000 +0000">
+    <title lang="zh">Unhumble Cooking</title>
+    <desc lang="zh">今集的矜貴食材是自南澳洲「朱古力和牛」，這種和牛每天需要食兩公斤朱古力同橡皮糖嘅混合飼料，肉味特別濃郁，入口鬆軟油脂分佈平均。批發價都要港紙3000蚊一公斤! WinWin 創作了一道「7色和牛丼」, 以紅薯粉及蝶豆花將珍珠米染成紫色及藍色，並用其他顏色的蔬果，配以火炙和牛煮成。色香味俱全。嘉倩以鹽焗雞的方法將1KG和牛鹽焗，並得 Christian 大讚獲 A+ 成績。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128213000 +0000" stop="20261128220000 +0000">
+    <title lang="zh">One Day Dating</title>
+    <desc lang="zh">每位男生心目中總有位像那些年女主角的「鄰家女孩」，而今集女神直頭是名符其實的鄰家女神！節目組真的深知Marco心，這位女嘉賓其實Marco曾經衝口而出提過的，現在果真如願以償！不論身型還是外表，總有種想保護她的衝動！但這位女神的喜好卻讓Marco及神隊友Kyle都百思不得其解的，反差極高！二人都分不清什麼是玩笑，什麼是真話！Marco這次只好摸著石頭過河，放手一搏！</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261128220000 +0000" stop="20261129000000 +0000">
+    <title lang="zh">Morning News</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129000000 +0000" stop="20261129003000 +0000">
+    <title lang="zh">Priceless Meal</title>
+    <desc lang="zh">由於家人對農藥敏感，明哥矢志打造一個魚菜共生的實驗農場，以零農藥方式種植出天然的食物，並希望將技術傳給新一代農夫，推動本地安全糧食。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129003000 +0000" stop="20261129010000 +0000">
+    <title lang="zh">Silver Start-up</title>
+    <desc lang="zh">楊文清（Olive）經歷喪夫之痛與天生手指殘缺後，創立「樂活人生整理學」，助人助己重新整理人生。今集主持將了解她如何透過整理、寫作和心靈拼貼走出傷痛，活出勇敢追夢的下半場。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129010000 +0000" stop="20261129013000 +0000">
+    <title lang="zh">Dual-Track Athletic Life</title>
+    <desc lang="zh">Stephen，香港兵器運動員，正職是一名採購員。他在繁重的日常採購工作之外，憑藉對冷兵器對抗的熱愛與堅持，在訓練場與賽場上展現截然不同的剛毅面貌，致力推動兵器運動在香港的普及與發展。從辦公室的談判桌到賽場上的兵刃交鋒，Stephen 用雙重身分詮釋了香港業餘運動員的熱血與自律。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129013000 +0000" stop="20261129020000 +0000">
+    <title lang="zh">Hello Jadoo S5</title>
+    <desc lang="zh">故事背景為1978至1980年，敘述小梅子一家人，以及身邊的朋友同學的溫馨趣味故事。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129020000 +0000" stop="20261129023000 +0000">
+    <title lang="zh">All for One</title>
+    <desc lang="zh">當年的「神奇小子」背後，站著一手帶起香港職業拳擊的Jay。雖然從小就對拳擊產生興趣，但到二十後半，Jay才有機會親身接觸拳擊，隨後更毅然辭去穩定高薪的文職工作開班授徒。後來為推廣拳擊，又決定主辦香港第一場職業拳賽。由最初的一場蝕幾十萬，到大家熟知的「神奇小子廿二連勝」，Jay將半生都投放到推廣職業拳擊之上……</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129023000 +0000" stop="20261129030000 +0000">
+    <title lang="zh">Study Tour with Fun</title>
+    <desc lang="zh">大家成日覺得食唔晒就倒，用唔到嘅嘢就唔要，繼續用呢個心態去生活只會令堆填區承受唔住而影響我哋嘅生活質素！所以今集朱薰會繼續帶住 Ash、Sean、Trixie同 Tania 留喺農場學 Upcycling 之餘，仲會去廚餘再造嘅機構，等佢哋了解唔同方法去減少垃圾！</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129030000 +0000" stop="20261129033000 +0000">
+    <title lang="zh">Kamen Rider MY-TH</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129033000 +0000" stop="20261129040000 +0000">
+    <title lang="zh">Sound and Vision S9</title>
+    <desc lang="zh">《尋》講述海生深夜回到家中，觸景想起與父親景文之間多年未解的距離。今集請來導演、攝影、美指和歌手上來分享拍攝故事。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129040000 +0000" stop="20261129043000 +0000">
+    <title lang="zh">Noon News</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129043000 +0000" stop="20261129050000 +0000">
+    <title lang="zh">Japan Travel in “Alternative Way”</title>
+    <desc lang="zh">日本的玩具文化深受全球矚目，從傳統玩具到現代的動漫、漫畫和電子遊戲，日本的玩具呈現出多樣性和創意，與此同時動漫和漫畫作品激發了許多經典角色玩具的開發。這次主持阿慈同Giann 帶大家遊歷中野百老匯， 然後去拜訪遊戲卡店， 然後再去新穎的膠囊玩具店。玩具絕對是日本玩具文化的一個重要組成部分，也融合了日本的傳統與現代元素，並展示了日本人對創造力和娛樂的熱愛。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129050000 +0000" stop="20261129060000 +0000">
+    <title lang="zh">Battle of the Throne 2</title>
+    <desc lang="zh">今集，四強女鼓手終於來到《擊戰2》的決賽舞台，她們分別要跟Jer 柳應廷、MC 張天賦、陳蕾及許廷鏗合作表演他們的大熱歌曲Medley。而五位評判分別是太極樂隊鼓手Ricky Chu、《Chill Club》樂隊領班Joey Tang、前輩鼓手Patrick、音樂監製徐浩以及第一季《擊戰》的導師波子。最後誰又會成功擠身兩強，獲得爭奪冠軍寶座的機會？</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129060000 +0000" stop="20261129063000 +0000">
+    <title lang="zh">Force of Love</title>
+    <desc lang="zh">經過整日的比賽，終於來到重頭戲—營火晚會！在洪洪烈火前，主持人Elsie竟要四對情侶說出對方的優缺點，將火熱氣氛推至頂點！</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129063000 +0000" stop="20261129073000 +0000">
+    <title lang="zh">Hometown Pride S4</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129073000 +0000" stop="20261129080000 +0000">
+    <title lang="zh">Pay less, Play more S2</title>
+    <desc lang="zh">上集介紹的彈丸旅行，回程前有10個多小時可在九州遊覽。除了Win Win介紹過的別府市內景點，當地還有些車程約需1.5小時的地方，非常值得一去，今集長途篇，一起跟Win Win欣賞超廣角花海。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129080000 +0000" stop="20261129083000 +0000">
+    <title lang="zh">The Great American Outdoors</title>
+    <desc lang="zh">在阿拉斯加冰川探索期間，Chris 遇上瘋狂大雨，只好躲進營裡，原本的豪華營，在濕漉和狼狽之下變成戰場一般。第二朝，Chris 終於等到好天，更接受冰川體驗的最後一個挑戰！返回市區，Chris 根據當地人的建議去搵兩種野生動物。晚上十點幾，叢林無人，他可以如願找到全世界最大的鹿品種嗎？</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129083000 +0000" stop="20261129090000 +0000">
+    <title lang="zh">Robocar Poli S5</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129090000 +0000" stop="20261129093000 +0000">
+    <title lang="zh">Mechamato Series 2</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129093000 +0000" stop="20261129100000 +0000">
+    <title lang="zh">After School Playtime</title>
+    <desc lang="zh">劍球最早源於法國宮廷，18至19世紀傳入日本後逐漸流行，後來更發展出各式各樣的花式玩法與專業賽事。究竟劍球的魅力何在？它又有哪些常見的種類呢？</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129100000 +0000" stop="20261129103000 +0000">
+    <title lang="zh">News Cast at 6 with Sign Language</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129103000 +0000" stop="20261129110000 +0000">
+    <title lang="zh">Now Forum</title>
+    <desc lang="zh">《大鳴大放》是一個30分鐘的時事討論節目，識英雄重英雄，請來各界重磅名人，拋出論點，言無不盡，深入討論時事，跨越維港神州，宏觀全世界。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129110000 +0000" stop="20261129113000 +0000">
+    <title lang="zh">News Cast at 7</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129113000 +0000" stop="20261129115500 +0000">
+    <title lang="zh">now Report</title>
+    <desc lang="zh">專題式深入報道香港及世界熱門時事。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129115500 +0000" stop="20261129120000 +0000">
+    <title lang="zh">Good Employer Unlocked</title>
+    <desc lang="zh">人工高、福利好，就等於好僱主？其實一個真正的好僱主，除了給員工合理待遇之外, 還需要懂得關心員工、重視發展，同時打造理想的工作環境。《解鎖好僱主》走訪不同行業的優秀企業，透過管理層的真實分享，拆解成功企業背後的管理智慧，一齊發掘新時代的「好僱主」。</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="99" start="20261129120000 +0000" stop="20261129123000 +0000">
+    <title lang="zh">Holidays For The Animals</title>
+    <desc lang="zh">Hailey 前往檳城蝴蝶園，見證蝴蝶破繭而出，第一次飛行。體驗昆蟲義工的日常，在竹節蟲的糞便堆中尋找蟲卵。下半集回到香港，原來嘉道理農場暨植物園也有義工計劃，親手為猴子製作玩具及放生斑鳩。</desc>
+    <date>2026-11-29</date>
+  </programme>
   <channel id="96">
     <display-name lang="Malaysia">ViuTVsix</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/SGolden58/svg@main/Logo//ViuTVsix.png" />
   </channel>
-  <programme channel="96" start="20261126080000 +0000" stop="20261126083000 +0000">
-    <title lang="zh">DW News</title>
-    <desc lang="zh">Latest news headlines, current events, photos, and exclusive stories from eyewitnesses in Asia, Middle East, and Africa.</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126083000 +0000" stop="20261126084500 +0000">
-    <title lang="zh">Stan &amp; Gran</title>
-    <desc lang="zh">Stan &amp; Gran is a funny and heart-warming CG animated series following the mystery-busting adventures of 7-year-old Stan and his 71-year-old Gran, as together they investigate the mysterious goings-on in the fictional coastal town of Porthole.</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126084500 +0000" stop="20261126090000 +0000">
-    <title lang="zh">Stan &amp; Gran</title>
-    <desc lang="zh">Stan &amp; Gran is a funny and heart-warming CG animated series following the mystery-busting adventures of 7-year-old Stan and his 71-year-old Gran, as together they investigate the mysterious goings-on in the fictional coastal town of Porthole.</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126090000 +0000" stop="20261126091500 +0000">
-    <title lang="zh">Kangaroo Beach S3</title>
-    <desc lang="zh">Get ready for more sun-soaked fun in Season 3 of Kangaroo Beach! Pounce, Gemma, Neville, and Frizzy are back for another high-energy summer, training as junior lifeguard cadets. This season, they’re joined by Spyke, a daring echidna from the bush who's ready to shake things up as the newest recruit. From beachside rescues to mountain adventures and expeditions into the wilderness, it’s a non-stop thrill ride at the stunning Kangaroo Beach!</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126091500 +0000" stop="20261126092500 +0000">
-    <title lang="zh">Kangaroo Beach S3</title>
-    <desc lang="zh">Get ready for more sun-soaked fun in Season 3 of Kangaroo Beach! Pounce, Gemma, Neville, and Frizzy are back for another high-energy summer, training as junior lifeguard cadets. This season, they’re joined by Spyke, a daring echidna from the bush who's ready to shake things up as the newest recruit. From beachside rescues to mountain adventures and expeditions into the wilderness, it’s a non-stop thrill ride at the stunning Kangaroo Beach!</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126092500 +0000" stop="20261126094000 +0000">
-    <title lang="zh">Dylan's Playtime Adventures</title>
-    <desc lang="zh">Dylan’s Playtime Adventures follows Dylan, a stripey dog who lives in a stripey lighthouse in Buttercup Meadow. In every episode, Dylan takes on a new career - Doctor, Pizza Chef, Hair Stylist, Sea Captain - and invites his friends Ozzy, Daisy, Bitsy, and the viewers at home to play along with him. Ready with a regular household object, his trusty wagon, and his signature imagination, Dylan and his glowing stripes transform the meadow into anything from a hotel to a space station! Who wants to play? Everyone!</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126094000 +0000" stop="20261126100000 +0000">
-    <title lang="zh">ViuTV News</title>
-    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126100000 +0000" stop="20261126130000 +0000">
-    <title lang="zh">MLP Asia 2026</title>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126130000 +0000" stop="20261126150000 +0000">
-    <title lang="zh">Marley &amp; Me</title>
-    <desc lang="zh">Jennifer Aniston and Owen Wilson unleash huge laughs as John and Jenny Grogan, a young couple contemplating the decision to start a family. Then can Marley...an adorable Labrador pup who flunks obedience school and quickly turns his new home into a disaster area. But with a heart as big as his appetite for trouble, Marley sees the Grogans through the ups and downs of life and love, and they ultimately realize that 'the world's worst dog' truly brings out the best in them.</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126150000 +0000" stop="20261126151500 +0000">
-    <title lang="zh">ViuTV News</title>
-    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126151500 +0000" stop="20261126161500 +0000">
-    <title lang="zh">Location Location Location S27</title>
-    <desc lang="zh">Location Location Location is back with a brand-new series, featuring all new househunters battling an ever-changing market. In the past few years, we’ve seen the post-lockdown boom set the market racing, then interest rate hikes slow it down, as all of us feel the cost-of-living pinch. For would-be buyers, it feels all the more important to make the right moves.</desc>
-    <date>2026-11-26</date>
-  </programme>
-  <programme channel="96" start="20261126161500 +0000" stop="20261126171000 +0000">
-    <title lang="zh">The UnXplained with William Shatner S4</title>
-    <desc lang="zh">Most disappearances can be explained by either foul play or bad luck. However, there are some cases that defy conventional wisdom. How can a modern jetliner simply drop off radar screens? And why do so many people go missing in the state of Alaska? What really happened to a famous explorer who disappeared deep in the jungles of the Amazon? Could there be strange forces behind these vanishings?</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261126171000 +0000" stop="20261126181000 +0000">
-    <title lang="zh">My Kitchen Rules Australia S13</title>
-    <desc lang="zh">Our cooking teams will take turns each episode to transform an ordinary home into an instant restaurant for one pressure-cooker night. They'll be serving up a three-course menu designed to impress not only their fellow contestants, but also our series judges.</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261126181000 +0000" stop="20261127010000 +0000">
-    <title lang="zh">ViuTVsix Station Closing Slate</title>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127010000 +0000" stop="20261127011500 +0000">
-    <title lang="zh">Stan &amp; Gran</title>
-    <desc lang="zh">Stan &amp; Gran is a funny and heart-warming CG animated series following the mystery-busting adventures of 7-year-old Stan and his 71-year-old Gran, as together they investigate the mysterious goings-on in the fictional coastal town of Porthole.</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127011500 +0000" stop="20261127013000 +0000">
-    <title lang="zh">Stan &amp; Gran</title>
-    <desc lang="zh">Stan &amp; Gran is a funny and heart-warming CG animated series following the mystery-busting adventures of 7-year-old Stan and his 71-year-old Gran, as together they investigate the mysterious goings-on in the fictional coastal town of Porthole.</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127013000 +0000" stop="20261127014500 +0000">
-    <title lang="zh">Kangaroo Beach S3</title>
-    <desc lang="zh">Get ready for more sun-soaked fun in Season 3 of Kangaroo Beach! Pounce, Gemma, Neville, and Frizzy are back for another high-energy summer, training as junior lifeguard cadets. This season, they’re joined by Spyke, a daring echidna from the bush who's ready to shake things up as the newest recruit. From beachside rescues to mountain adventures and expeditions into the wilderness, it’s a non-stop thrill ride at the stunning Kangaroo Beach!</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127014500 +0000" stop="20261127020000 +0000">
-    <title lang="zh">Kangaroo Beach S3</title>
-    <desc lang="zh">Get ready for more sun-soaked fun in Season 3 of Kangaroo Beach! Pounce, Gemma, Neville, and Frizzy are back for another high-energy summer, training as junior lifeguard cadets. This season, they’re joined by Spyke, a daring echidna from the bush who's ready to shake things up as the newest recruit. From beachside rescues to mountain adventures and expeditions into the wilderness, it’s a non-stop thrill ride at the stunning Kangaroo Beach!</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127020000 +0000" stop="20261127030000 +0000">
-    <title lang="zh">Location Location Location S27</title>
-    <desc lang="zh">Location Location Location is back with a brand-new series, featuring all new househunters battling an ever-changing market. In the past few years, we’ve seen the post-lockdown boom set the market racing, then interest rate hikes slow it down, as all of us feel the cost-of-living pinch. For would-be buyers, it feels all the more important to make the right moves.</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127030000 +0000" stop="20261127040000 +0000">
-    <title lang="zh">The Life and Murder of Nicole Brown Simpson</title>
-    <desc lang="zh">Nicole Brown Simpson's sisters and closest friends break their silence about her murder and O.J. Simpson's controversial trial, aiming to shed light on the truth.</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127040000 +0000" stop="20261127043000 +0000">
-    <title lang="zh">PL Stories 26/27</title>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127043000 +0000" stop="20261127050000 +0000">
-    <title lang="zh">ATP Tour: This Week 2026</title>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127050000 +0000" stop="20261127053000 +0000">
-    <title lang="zh">NHK Newsline</title>
-    <desc lang="zh">NHK NEWSLINE delivers the latest from Japan, Asia, and the rest of the world. While covering wide network of correspondents breaking news and developing stories, offering a perspective from this corner of the globe, a team of trusted anchors ties it all together to give you a picture of what's happening now, and what's ahead.</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127053000 +0000" stop="20261127060000 +0000">
-    <title lang="zh">Jamie Oliver: Cooking for Less</title>
-    <desc lang="zh">In Jamie Oliver: Cooking for Less, Jamie will share recipe ideas that can all be made for less than £1 a portion, alongside practical tips that viewers can adapt to suit whatever ingredients are available or whatever their circumstances.</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127060000 +0000" stop="20261127070000 +0000">
-    <title lang="zh">History's Greatest Mysteries S4</title>
-    <desc lang="zh">In 1587, a group of settlers land off the coast of North Carolina on Roanoke Island to establish the first English Colony in America. But only a few years later, the 115 men, women and children seemingly vanish without a trace, leaving only cryptic clues. The search to find out their fate has endured for over 400 years. Can new technology finally tell us what happened to the Lost Colony of Roanoke?</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127070000 +0000" stop="20261127073000 +0000">
-    <title lang="zh">Al Jazeera News Live</title>
-    <desc lang="zh">Latest news headlines, current events, photos, and exclusive stories from eyewitnesses in Asia, Middle East, and Africa.</desc>
-    <date>2026-11-27</date>
-  </programme>
-  <programme channel="96" start="20261127073000 +0000" stop="20261127080000 +0000">
-    <title lang="zh">Showers of Blessing 2026</title>
-    <date>2026-11-27</date>
-  </programme>
   <programme channel="96" start="20261127080000 +0000" stop="20261127083000 +0000">
     <title lang="zh">DW News</title>
     <desc lang="zh">Latest news headlines, current events, photos, and exclusive stories from eyewitnesses in Asia, Middle East, and Africa.</desc>
@@ -10507,6 +10412,141 @@
     <title lang="zh">Hell's Kitchen S23</title>
     <desc lang="zh">In Season 23 of Hell’s Kitchen,18 head chefs travel to Connecticut to compete for the chance to work for Chef Gordon Ramsay.</desc>
     <date>2026-11-28</date>
+  </programme>
+  <programme channel="96" start="20261128140000 +0000" stop="20261128150000 +0000">
+    <title lang="zh">Love Island USA S6</title>
+    <desc lang="zh">A real-time dating competition featuring a group of sexy singles living in a tropical villa who must try to win the $100K prize by coupling up.</desc>
+    <date>2026-11-28</date>
+  </programme>
+  <programme channel="96" start="20261128150000 +0000" stop="20261128151500 +0000">
+    <title lang="zh">ViuTV News</title>
+    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
+    <date>2026-11-28</date>
+  </programme>
+  <programme channel="96" start="20261128151500 +0000" stop="20261128160000 +0000">
+    <title lang="zh">Dream Home Australia</title>
+    <desc lang="zh">Dream Home is set to take the renovation genre to new heights as six pairs of everyday Aussies battle it out room by room, transforming tired suburban family homes into astonishing new dream homes.</desc>
+    <date>2026-11-28</date>
+  </programme>
+  <programme channel="96" start="20261128160000 +0000" stop="20261128161500 +0000">
+    <title lang="zh">Entertainment Express</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261128161500 +0000" stop="20261128171000 +0000">
+    <title lang="zh">History's Greatest Mysteries S4</title>
+    <desc lang="zh">Awe-inspiring and mysterious, the pyramids of Egypt are among the most significant wonders of the ancient world. More than 4,000 years old, they are among the most celebrated architectural marvels in the world. But no one fully understands how they were built, or why. Can we ever decipher the true purpose of Egypt's astonishing pyramids?</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261128171000 +0000" stop="20261128174000 +0000">
+    <title lang="zh">Weekendpedia: Wild Coastal Canada</title>
+    <desc lang="zh">Wild Coastal Canada is a show that sweeps the viewer deep into the rich natural world of our last great forests, stunning coastal treasures and rare species habitats exploring the secrets of each unique ecosystem thriving in Atlantic Canada in Nova Scotia.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261128174000 +0000" stop="20261128175500 +0000">
+    <title lang="zh">Weekendpedia: Burps, Butts and Bones</title>
+    <desc lang="zh">Meet Bones — a wisecracking medical skeleton who’s finally getting his big break as host of Burps, Butts &amp; Bones, the laugh-out-loud “bod-cast” where no body part is off limits! With help from his curious B Squad and real-life experts, he dives deep into the weirdest, wildest wonders of the human body.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261128175500 +0000" stop="20261128181000 +0000">
+    <title lang="zh">Weekendpedia: Burps, Butts and Bones</title>
+    <desc lang="zh">Meet Bones — a wisecracking medical skeleton who’s finally getting his big break as host of Burps, Butts &amp; Bones, the laugh-out-loud “bod-cast” where no body part is off limits! With help from his curious B Squad and real-life experts, he dives deep into the weirdest, wildest wonders of the human body.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261128181000 +0000" stop="20261129010000 +0000">
+    <title lang="zh">ViuTVsix Station Closing Slate</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129010000 +0000" stop="20261129013000 +0000">
+    <title lang="zh">Jamie Oliver: Cooking for Less</title>
+    <desc lang="zh">In Jamie Oliver: Cooking for Less, Jamie will share recipe ideas that can all be made for less than £1 a portion, alongside practical tips that viewers can adapt to suit whatever ingredients are available or whatever their circumstances.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129013000 +0000" stop="20261129020000 +0000">
+    <title lang="zh">Marcus Wareing's Tales from a Kitchen Garden S1</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129020000 +0000" stop="20261129030000 +0000">
+    <title lang="zh">The Finish Line</title>
+    <desc lang="zh">This is a quiz show in which 5 players race against each other by answering general knowledge questions. The challenge is to stay in the race by answering questions as quickly as possible. The last one standing could win thousands of pounds.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129030000 +0000" stop="20261129040000 +0000">
+    <title lang="zh">Hell's Kitchen S23</title>
+    <desc lang="zh">In Season 23 of Hell’s Kitchen,18 head chefs travel to Connecticut to compete for the chance to work for Chef Gordon Ramsay.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129040000 +0000" stop="20261129050000 +0000">
+    <title lang="zh">Kill or Be Killed</title>
+    <desc lang="zh">'Kill or Be Killed' is the gripping exploration of self-defense murder cases, where law enforcement, prosecutors and defense attorneys unravel every detail, from the harrowing stories, forensics, interrogations and witness statements that led to the gruesome event in order to find answers. Through the investigation and sparring of dynamic legal teams, every episode provides an immersive journey, exploring both sides of the story, building to confounding verdicts of guilt or innocence in the eyes of the law. The series also exposes the suspenseful journey that loved ones of both the slain and the perpetrators take as they navigate the twists and turns of the investigation, forcing them to grapple with the truth.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129050000 +0000" stop="20261129053000 +0000">
+    <title lang="zh">Weekly Re-Viu</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129053000 +0000" stop="20261129060000 +0000">
+    <title lang="zh">NBA Action 26/27</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129060000 +0000" stop="20261129070000 +0000">
+    <title lang="zh">ATP 26 H/Ls</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129070000 +0000" stop="20261129080000 +0000">
+    <title lang="zh">SailGP Season 6 Highlights</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129080000 +0000" stop="20261129081500 +0000">
+    <title lang="zh">Underdog and the Canine Defenders</title>
+    <desc lang="zh">In the wonderful city of Capitol City, there are surprisingly more villains than in any other city in the world. Fortunately, Underdog and the Defenders will use all their superpowers to prevent the city from falling into the hands of these very nasty villains.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129081500 +0000" stop="20261129083000 +0000">
+    <title lang="zh">Underdog and the Canine Defenders</title>
+    <desc lang="zh">In the wonderful city of Capitol City, there are surprisingly more villains than in any other city in the world. Fortunately, Underdog and the Defenders will use all their superpowers to prevent the city from falling into the hands of these very nasty villains.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129083000 +0000" stop="20261129084500 +0000">
+    <title lang="zh">Miffy and Friends</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129084500 +0000" stop="20261129090000 +0000">
+    <title lang="zh">Miffy and Friends</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129090000 +0000" stop="20261129093000 +0000">
+    <title lang="zh">The Game Catchers S2</title>
+    <desc lang="zh">The Game Catchers are a team of five friends on an interstellar journey to explore fantastic planets, with the aim of learning about and playing new games. The discovered games are collected into a database to make sure they are never lost.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129093000 +0000" stop="20261129100000 +0000">
+    <title lang="zh">Gabby's Dollhouse S5</title>
+    <desc lang="zh">With a little magic and a daily dollhouse delivery, explore the fantastical dollhouse with Gabby and all her kitty friends. Gabby is a positive and determined 11-year-old girl who embraces imperfection and turns mistakes into growth. Her best friend Pandy Paws is always by her side, ready for any adventure with a snack and a smile. Come along with them and the other Gabby Cats on quirky adventures, and play, craft, dance and discover new things every day!</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129100000 +0000" stop="20261129110000 +0000">
+    <title lang="zh">The Big Bake S4</title>
+    <desc lang="zh">The Big Bake is a larger-than-life baking competition series with themed episodes. In each episode, three professional baking teams have five hours to design, bake and decorate a grand-scale cake creation based on a particular theme. These bakers need to think big and bold, blowing up their designs to gigantic proportions and thinking outside the (bakery) box. In the end, the most ambitious, eye-popping and delicious cake will go home with a $10,000 prize.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129110000 +0000" stop="20261129111500 +0000">
+    <title lang="zh">ViuTV News</title>
+    <desc lang="zh">Get up to speed on critical news and events in Hong Kong and around the rest of the world. We give our viewers insight on the stories that matter the most, ranging from business to breaking news, key events, as well as all the latest sporting action, twice daily.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129111500 +0000" stop="20261129113000 +0000">
+    <title lang="zh">Entertainment Express</title>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129113000 +0000" stop="20261129120000 +0000">
+    <title lang="zh">A New Zealand Food Story S4</title>
+    <desc lang="zh">In Series 4 of A New Zealand Food Story with Ben Bayly, Ben travels across the country uncovering unique local ingredients, sustainable farming practices, and inspiring food producers — from wild kaimoana on the Tora Coast to fig orchards in Hawke’s Bay and electric cherry farms in Central Otago. Each episode celebrates the deep connections between land, people, and food, showcasing New Zealand’s rich culinary landscape.</desc>
+    <date>2026-11-29</date>
+  </programme>
+  <programme channel="96" start="20261129120000 +0000" stop="20261129130000 +0000">
+    <title lang="zh">Great Continental Railway Journeys S9</title>
+    <desc lang="zh">Michael Portillo embarks on a spectacular new railway journey through Uzbekistan, a country steeped in Silk Road history. Travelling on high-speed trains, bustling metro systems and bone-shaking suburban lines, he explores Uzbekistan’s diverse landscapes—from fertile plains to vast deserts. Touring through Belgium and Hungary and the Mediterranean islands of Corsica and Sardinia, he discovers how history has left its mark on their landscapes, culture and people.</desc>
+    <date>2026-11-29</date>
   </programme>
   <channel id="370136">
     <display-name lang="Malaysia">TV1</display-name>
@@ -11530,6 +11570,11 @@
     <desc>Rancangan interaktif secara langsung ini bakal membincangkan soal jawab agama berkaitan feqah, akidah, munakahat, tasawuf, sirah, hadis dan tafsir Al-Quran.</desc>
     <date>2026-11-28</date>
   </programme>
+  <programme channel="369690" start="20261129000000 +0000" stop="20261130000000 +0000">
+    <title lang="zh">Wow Shop</title>
+    <desc>Rangkaian membeli-belah dari rumah yang inovatif, yang boleh diakses di platform televisyen, dalam talian dan aplikasi mudah alih, pengalaman visual, interaktif dan menyeluruh yang unik.</desc>
+    <date>2026-11-29</date>
+  </programme>
   <channel id="369635">
     <display-name lang="Malaysia">NTV7</display-name>
     <icon src="" />
@@ -11808,6 +11853,11 @@
     <title lang="zh">Badan Beruniform</title>
     <desc>Program ini memberi pengetahuan dan kemahiran asas kepada murid mengenai konsep kegiatan kokurikulum Badan Beruniform.</desc>
     <date>2026-11-28</date>
+  </programme>
+  <programme channel="369635" start="20261129000000 +0000" stop="20261130000000 +0000">
+    <title lang="zh">Sukses</title>
+    <desc>Episod ini menyediakan perkongsian teknik menjawab bagi kertas Manahij al-Ulum al- Islamiyah membabitkan soalan Bahagian B bagi peperiksaan Sijil Pelajaran Malaysia (SPM) 2021.</desc>
+    <date>2026-11-29</date>
   </programme>
   <channel id="369693">
     <display-name lang="Malaysia">TV9</display-name>
@@ -17520,6 +17570,11 @@
     <title lang="zh">The Amazing World of Gumball</title>
     <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure.</desc>
     <date>2026-11-28</date>
+  </programme>
+  <programme channel="486843" start="20261129000000 +0000" stop="20261130000000 +0000">
+    <title lang="zh">The Amazing World of Gumball</title>
+    <desc>Meet the Wattersons: Mum, Dad, Anais, Darwin and of course Gumball, the 12-year-old cat with a flair for misadventure.</desc>
+    <date>2026-11-29</date>
   </programme>
   <channel id="3403">
     <display-name lang="Malaysia">Cartoon Network HD</display-name>
